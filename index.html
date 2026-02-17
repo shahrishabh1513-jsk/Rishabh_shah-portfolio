@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rishabh Shah · portfolio</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Theme Toggle Button -->
+  <button class="theme-toggle" id="themeToggle">
+    <i class="fas fa-moon"></i>
+  </button>
+
+  <div class="navbar-fixed-wrapper">
+    <nav class="folting-nav">
+      <a href="#home" class="nav-link active">HOME</a>
+      <a href="#about" class="nav-link">ABOUT</a>
+      <a href="#projects" class="nav-link">PROJECTS</a>
+      <a href="#skills" class="nav-link">SKILLS</a>
+      <a href="#qualifications" class="nav-link">QUALIFICATION</a>
+      <a href="#certificates" class="nav-link">ACHIEVEMENTS</a>
+      <a href="#contact" class="nav-link">CONTACT</a>
+    </nav>
+  </div>
+
+  <main>
+    <section id="home" style="padding:2rem 0 0;">
+      <div class="container hero">
+        <div class="hero-content" data-aos="fade-right">
+          <h1>Hello, I'm Rishabh Shah.</h1>
+          <p class="hero-desc">I'm an aspiring full-stack developer based in Gujarat, India. I enjoy building websites and applications using HTML, CSS, JavaScript, Python, and modern development tools, while exploring AI/ML and real-world software projects.</p>
+          <div class="hero-buttons">
+            <a href="#" class="btn btn-primary" id="contactMeHome"><i class="fas fa-paper-plane"></i> Contact me here</a>
+            <a href="./Shah Rishabh Resume.pdf" class="btn btn-outline" id="downloadCvHome" download><i class="fas fa-download"></i> Download CV</a>
+          </div>
+          <div class="home-social-links">
+            <a href="https://github.com/shahrishabh1513-jsk" target="_blank" class="home-social-icon"><i class="fab fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/rishabh-alpeshabhai-shah-91b9072a6/" target="_blank" class="home-social-icon"><i class="fab fa-linkedin-in"></i></a>
+          </div>
+        </div>
+        <div class="hero-image" data-aos="fade-left">
+          <img src="./Rishabh.jpeg" alt="Rishabh">
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="about-section">
+      <div class="container">
+        <h2 class="section-title" data-aos="fade-up">About me</h2>
+        <div class="about-grid">
+          <div class="about-text-col" data-aos="fade-left">
+            <p style="font-size:2.5rem; font-weight:500;">My Introduction</p>
+            <p>I'm currently pursuing a BSc in Information Technology and building my path toward full-stack development. My core skills include HTML, CSS, JavaScript, and Python, along with working knowledge of SQL and MongoDB. I enjoy problem solving, creating real-world web applications, and continuously improving my development skills through academic and personal projects.</p>
+            <p style="margin-top:1.5rem;">Always eager to learn, grow, and contribute to meaningful tech solutions.</p>
+            <a href="#" class="btn btn-outline" style="margin-top:2rem;" id="learnMoreAbout"><i class="fas fa-arrow-right"></i> More about me</a>
+          </div>
+          <div class="about-img-col" data-aos="fade-right">
+            <img src="./Rishabh_1.jpeg" alt="Rishabh about">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" style="padding:5rem 0;">
+      <div class="container">
+        <h2 class="section-title" data-aos="fade-up">My projects</h2>
+        <div class="projects-grid-modern" id="projectsModernContainer"></div>
+      </div>
+    </section>
+
+    <section id="skills" class="skills-section">
+      <div class="container">
+        <h2 class="section-title" data-aos="fade-up">Technical skills</h2>
+        <div class="skills-chip-grid" id="skillsChipContainer"></div>
+      </div>
+    </section>
+
+    <section id="qualifications" style="padding:5rem 0;">
+      <div class="container">
+        <h2 class="section-title" data-aos="fade-up">My Qualifications</h2>
+        <div class="qual-row">
+          <div class="qual-card-detailed" data-aos="zoom-in">
+            <h3>P. P. SAVANI UNIVERSITY</h3>
+            <div class="qual-sub">CGPA: 8.00 · Surat, Gujarat</div>
+            <p>I am currently pursuing a B.Sc. (Hons.) in Information Technology with a strong passion for programming and technology, continuously building my skills through coursework and projects.</p>
+            <span class="qual-date">2023 - Present</span>
+          </div>
+          <div class="qual-card-detailed" data-aos="zoom-in" data-aos-delay="100">
+            <h3>Mehsana Urban Vidhyalaya (12th)</h3>
+            <div class="qual-sub">Mehsana, Gujarat</div>
+            <p>Having completed my schooling with a strong academic foundation, I developed keen analytical thinking and effective problem-solving abilities.</p>
+            <span class="qual-date">2021 - 2023</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="certificates" class="certificates-section">
+      <div class="container">
+        <h2 class="section-title" data-aos="fade-up">My Certificates</h2>
+        <p class="section-subhead">Some of my recent achievements</p>
+        <div class="cert-scroll-wrapper">
+          <button class="scroll-btn scroll-left" id="certScrollLeft"><i class="fas fa-chevron-left"></i></button>
+          <div class="cert-scroll-container" id="certScrollContainer"></div>
+          <button class="scroll-btn scroll-right" id="certScrollRight"><i class="fas fa-chevron-right"></i></button>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" style="padding:4rem 0 2rem;">
+      <div class="container">
+        <h2 class="section-title">Get in touch</h2>
+        <div class="contact-sleek" data-aos="flip-up">
+          <div class="contact-flex">
+            <div class="contact-info">
+              <div class="contact-detail-row">
+                <div class="contact-icon"><i class="fas fa-phone"></i></div> 
+                <span>+91 78619 76128</span>
+              </div>
+              <div class="contact-detail-row">
+                <div class="contact-icon"><i class="fab fa-whatsapp"></i></div> 
+                <span>+91 78619 76128</span>
+              </div>
+              <div class="contact-detail-row">
+                <div class="contact-icon"><i class="fas fa-envelope"></i></div> 
+                <span>shahrishu1515@gmail.com</span>
+              </div>
+            </div>
+            <div class="contact-form-fields">
+              <form id="emailSendForm">
+                <input type="text" id="senderName" placeholder="Your name" required>
+                <input type="email" id="senderEmail" placeholder="Your email" required>
+                <input type="text" id="emailSubject" placeholder="Subject" required>
+                <textarea id="emailMessage" rows="4" placeholder="Your message" required></textarea>
+                <button type="submit" class="send-email-btn"><i class="fas fa-envelope"></i> Send Email</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer-modern">
+      <div class="container footer-flex">
+        <p>© 2025 Rishabh Shah. All rights reserved.</p>
+        <div class="social-links">
+          <a href="https://github.com/shahrishabh1513-jsk" target="_blank"><i class="fab fa-github"></i></a>
+          <a href="https://www.linkedin.com/in/rishabh-alpeshabhai-shah-91b9072a6/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+        </div>
+      </div>
+    </footer>
+  </main>
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
