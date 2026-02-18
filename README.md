@@ -15,7 +15,7 @@ This project represents my skills, creativity, and passion for building modern w
 ## 🌐 Live Demo
 
 🔗 **View Portfolio:**  
-https://yourusername.github.io/Rishabh_shah-portfolio/
+https://shahrishabh1513-jsk.github.io/Rishabh_shah-portfolio/
 
 ---
 
@@ -73,7 +73,7 @@ This website was created to:
 
 ## 📸 Screenshots
 
-<img width="1862" height="885" alt="RPRO1" src="https://github.com/user-attachments/assets/b7ca9396-a8b4-49b5-b322-8ef47eb30d44" /><img width="1829" height="641" alt="RPRO2" src="https://github.com/user-attachments/assets/f991643e-bf28-4166-bfe3-fe258b0f1846" /><img width="1858" height="651" alt="RPRO3" src="https://github.com/user-attachments/assets/650171ec-e52f-48c6-aa5a-6fd7f82d0552" /><img width="1839" height="720" alt="RPRO5" src="https://github.com/user-attachments/assets/08d1dde1-324c-4bf0-97d1-e863a7e88adf" />
+<img width="1862" height="885" alt="RPRO1" src="https://github.com/user-attachments/assets/b7ca9396-a8b4-49b5-b322-8ef47eb30d44" />
 
 ---
 
@@ -98,4 +98,5 @@ Passionate about crafting modern, responsive, and interactive digital experience
 <p align="center">
   ⭐ If you like this project, consider giving it a star!
 </p>
+
 
