@@ -210,6 +210,14 @@ const certs = [
     org: 'University of Michigan', 
     link: './pdf/(c1) Programming for Everybody (Getting Started with.pdf',
     image: './img/8.jpg'
+  },
+  { 
+  issuer: 'AWS', 
+  title: 'AWS Cloud Security Foundations', 
+  date: 'Feb 2026', 
+  org: 'Amazon Web Services', 
+  link: './pdf/AWS Cloud Security Foundation.pdf',
+  image: './img/AWS Cloud Security Foundation_page-0001.jpg'
   }
 ];
 
