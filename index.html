@@ -2,161 +2,317 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Rishabh Shah · portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+  <title>Rishabh Shah · Aspiring Full-Stack Developer</title>
+  <!-- Font Awesome -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <!-- AOS Library -->
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <!-- Custom CSS -->
   <link rel="stylesheet" href="style.css">
 </head>
-<body>
-  <!-- Theme Toggle Button -->
-  <button class="theme-toggle" id="themeToggle">
-    <i class="fas fa-moon"></i>
-  </button>
-
-  <div class="navbar-fixed-wrapper">
-    <nav class="folting-nav">
-      <a href="#home" class="nav-link active">HOME</a>
-      <a href="#about" class="nav-link">ABOUT</a>
-      <a href="#projects" class="nav-link">PROJECTS</a>
-      <a href="#skills" class="nav-link">SKILLS</a>
-      <a href="#qualifications" class="nav-link">QUALIFICATION</a>
-      <a href="#certificates" class="nav-link">ACHIEVEMENTS</a>
-      <a href="#contact" class="nav-link">CONTACT</a>
-    </nav>
-  </div>
+<body class="dark-mode">
+  <!-- Navigation -->
+  <nav class="navbar">
+    <div class="nav-container">
+      <div class="logo">RISHABH SHAH</div>
+      <div class="nav-menu" id="navMenu">
+        <a href="#home" class="nav-link active">Home</a>
+        <a href="#about" class="nav-link">About</a>
+        <a href="#projects" class="nav-link">Projects</a>
+        <a href="#skills" class="nav-link">Skills</a>
+        <a href="#qualifications" class="nav-link">Qualification</a>
+        <a href="#certificates" class="nav-link">Achievements</a>
+        <a href="#contact" class="nav-link">Contact</a>
+      </div>
+      <div class="nav-right">
+        <a href="./Shah Rishabh Resume.pdf" class="nav-download-btn" id="downloadNavCv" download>
+          <i class="fas fa-download"></i> Download CV
+        </a>
+        <button class="mobile-menu-btn" id="mobileMenuBtn">
+          <i class="fas fa-bars"></i>
+        </button>
+      </div>
+    </div>
+  </nav>
 
   <main>
-    <section id="home" style="padding:2rem 0 0;">
-      <div class="container hero">
-        <div class="hero-content" data-aos="fade-right">
-          <h1>Hello, I'm Rishabh Shah.</h1>
-          <p class="hero-desc">I'm an aspiring full-stack developer based in Gujarat, India. I enjoy building websites and applications using HTML, CSS, JavaScript, Python, and modern development tools, while exploring AI/ML and real-world software projects.</p>
-          <div class="hero-buttons">
-            <a href="#" class="btn btn-primary" id="contactMeHome"><i class="fas fa-paper-plane"></i> Contact me here</a>
-            <a href="./Shah Rishabh Resume.pdf" class="btn btn-outline" id="downloadCvHome" download><i class="fas fa-download"></i> Download CV</a>
+    <!-- Home Section -->
+    <section id="home" class="section hero-section">
+      <div class="animated-bg"></div>
+      <div class="container">
+        <div class="hero-wrapper">
+          <div class="hero-content">
+            <div class="hero-greeting-wrapper">
+              <span class="hero-greeting">👋 HELLO, I'M</span>
+            </div>
+            <h1 class="hero-name">Rishabh Shah</h1>
+            <p class="hero-title">Aspiring Full-Stack Developer based in Gujarat, India</p>
+            <p class="hero-desc">I enjoy building websites and applications using HTML, CSS, JavaScript, Python, and modern development tools, while exploring AI/ML and real-world software projects.</p>
+            
+            <div class="hero-cta">
+              <a href="#contact" class="btn btn-primary" id="contactHomeBtn">Let's Connect <i class="fas fa-arrow-right"></i></a>
+              <a href="#projects" class="btn btn-outline">View My Work <i class="fas fa-code"></i></a>
+            </div>
+
+            <div class="hero-social-icons">
+              <a href="https://github.com/shahrishabh1513-jsk" target="_blank" class="social-icon-hero"><i class="fab fa-github"></i></a>
+              <a href="https://www.linkedin.com/in/rishabh-alpeshabhai-shah-91b9072a6/" target="_blank" class="social-icon-hero"><i class="fab fa-linkedin-in"></i></a>
+            </div>
           </div>
-          <div class="home-social-links">
-            <a href="https://github.com/shahrishabh1513-jsk" target="_blank" class="home-social-icon"><i class="fab fa-github"></i></a>
-            <a href="https://www.linkedin.com/in/rishabh-alpeshabhai-shah-91b9072a6/" target="_blank" class="home-social-icon"><i class="fab fa-linkedin-in"></i></a>
-          </div>
-        </div>
-        <div class="hero-image" data-aos="fade-left">
-          <img src="./Rishabh.jpeg" alt="Rishabh">
         </div>
       </div>
     </section>
 
-    <section id="about" class="about-section">
+    <!-- About Section -->
+    <section id="about" class="section about-section">
       <div class="container">
-        <h2 class="section-title" data-aos="fade-up">About me</h2>
         <div class="about-grid">
-          <div class="about-text-col" data-aos="fade-left">
-            <p style="font-size:2.5rem; font-weight:500;">My Introduction</p>
-            <p>I'm currently pursuing a BSc in Information Technology and building my path toward full-stack development. My core skills include HTML, CSS, JavaScript, and Python, along with working knowledge of SQL and MongoDB. I enjoy problem solving, creating real-world web applications, and continuously improving my development skills through academic and personal projects.</p>
-            <p style="margin-top:1.5rem;">Always eager to learn, grow, and contribute to meaningful tech solutions.</p>
-            <a href="#" class="btn btn-outline" style="margin-top:2rem;" id="learnMoreAbout"><i class="fas fa-arrow-right"></i> More about me</a>
-          </div>
-          <div class="about-img-col" data-aos="fade-right">
-            <img src="./Rishabh_1.jpeg" alt="Rishabh about">
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section id="projects" style="padding:5rem 0;">
-      <div class="container">
-        <h2 class="section-title" data-aos="fade-up">My projects</h2>
-        <div class="projects-grid-modern" id="projectsModernContainer"></div>
-      </div>
-    </section>
-
-    <section id="skills" class="skills-section">
-      <div class="container">
-        <h2 class="section-title" data-aos="fade-up">Technical skills</h2>
-        <div class="skills-chip-grid" id="skillsChipContainer"></div>
-      </div>
-    </section>
-
-    <section id="qualifications" style="padding:5rem 0;">
-      <div class="container">
-        <h2 class="section-title" data-aos="fade-up">My Qualifications</h2>
-        <div class="qual-row">
-          <div class="qual-card-detailed" data-aos="zoom-in">
-            <h3>P. P. SAVANI UNIVERSITY</h3>
-            <div class="qual-sub">CGPA: 8.00 · Surat, Gujarat</div>
-            <p>I am currently pursuing a B.Sc. (Hons.) in Information Technology with a strong passion for programming and technology, continuously building my skills through coursework and projects.</p>
-            <span class="qual-date">2023 - Present</span>
-          </div>
-          <div class="qual-card-detailed" data-aos="zoom-in" data-aos-delay="100">
-            <h3>Mehsana Urban Vidhyalaya (12th)</h3>
-            <div class="qual-sub">Mehsana, Gujarat</div>
-            <p>Having completed my schooling with a strong academic foundation, I developed keen analytical thinking and effective problem-solving abilities.</p>
-            <span class="qual-date">2021 - 2023</span>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section id="certificates" class="certificates-section">
-      <div class="container">
-        <h2 class="section-title" data-aos="fade-up">My Certificates</h2>
-        <p class="section-subhead">Some of my recent achievements</p>
-        <div class="cert-scroll-wrapper">
-          <button class="scroll-btn scroll-left" id="certScrollLeft"><i class="fas fa-chevron-left"></i></button>
-          <div class="cert-scroll-container" id="certScrollContainer"></div>
-          <button class="scroll-btn scroll-right" id="certScrollRight"><i class="fas fa-chevron-right"></i></button>
-        </div>
-      </div>
-    </section>
-
-    <section id="contact" style="padding:4rem 0 2rem;">
-      <div class="container">
-        <h2 class="section-title">Get in touch</h2>
-        <div class="contact-sleek" data-aos="flip-up">
-          <div class="contact-flex">
-            <div class="contact-info">
-              <div class="contact-detail-row">
-                <div class="contact-icon"><i class="fas fa-phone"></i></div> 
-                <span>+91 78619 76128</span>
+          <div class="about-content" data-aos="fade-right" data-aos-duration="1000">
+            <div class="section-header-left">
+              <span class="section-tag">ABOUT ME</span>
+              <h2 class="section-title-small">My <span class="text-gradient">Introduction</span></h2>
+            </div>
+            
+            <div class="about-text-box">
+              <p class="about-text" data-aos="fade-up" data-aos-delay="200">I'm currently pursuing a BSc in Information Technology and building my path toward full-stack development. My core skills include HTML, CSS, JavaScript, and Python, along with working knowledge of SQL and MongoDB.</p>
+              <p class="about-text" data-aos="fade-up" data-aos-delay="300">I enjoy problem solving, creating real-world web applications, and continuously improving my development skills through academic and personal projects.</p>
+              <p class="about-text highlight" data-aos="fade-up" data-aos-delay="400">Always eager to learn, grow, and contribute to meaningful tech solutions.</p>
+            </div>
+            
+            <div class="about-stats-mini">
+              <div class="mini-stat" data-aos="zoom-in" data-aos-delay="500">
+                <span class="mini-stat-number">2+</span>
+                <span class="mini-stat-label">Years Learning</span>
               </div>
-              <div class="contact-detail-row">
-                <div class="contact-icon"><i class="fab fa-whatsapp"></i></div> 
-                <span>+91 78619 76128</span>
+              <div class="mini-stat" data-aos="zoom-in" data-aos-delay="600">
+                <span class="mini-stat-number">10+</span>
+                <span class="mini-stat-label">Projects</span>
               </div>
-              <div class="contact-detail-row">
-                <div class="contact-icon"><i class="fas fa-envelope"></i></div> 
-                <span>shahrishu1515@gmail.com</span>
+              <div class="mini-stat" data-aos="zoom-in" data-aos-delay="700">
+                <span class="mini-stat-number">∞</span>
+                <span class="mini-stat-label">Curiosity</span>
               </div>
             </div>
-            <div class="contact-form-fields">
-              <form id="emailSendForm">
-                <input type="text" id="senderName" placeholder="Your name" required>
-                <input type="email" id="senderEmail" placeholder="Your email" required>
-                <input type="text" id="emailSubject" placeholder="Subject" required>
-                <textarea id="emailMessage" rows="4" placeholder="Your message" required></textarea>
-                <button type="submit" class="send-email-btn"><i class="fas fa-envelope"></i> Send Email</button>
-              </form>
+
+            <a href="#contact" class="btn btn-primary about-btn" data-aos="fade-up" data-aos-delay="800">Let's Talk <i class="fas fa-paper-plane"></i></a>
+          </div>
+          <div class="about-image-wrapper" data-aos="fade-left" data-aos-duration="1000">
+            <div class="about-image">
+              <img src="./Rishabh_1.jpeg" alt="Rishabh Shah">
+              <div class="about-image-shape"></div>
+            </div>
+            <div class="about-exp-badge">
+              <span class="exp-number">2+</span>
+              <span class="exp-text">Years of<br>Learning</span>
             </div>
           </div>
         </div>
       </div>
     </section>
 
+    <!-- Featured Projects Section -->
+    <section id="projects" class="section projects-section">
+      <div class="container">
+        <div class="section-header" data-aos="fade-up">
+          <span class="section-tag">PORTFOLIO</span>
+          <h2 class="section-title">Featured <span class="text-gradient">Projects</span></h2>
+          <p class="section-subhead">Real projects, real code — each with a unique story</p>
+        </div>
+        
+        <div class="projects-showcase" id="projectsContainer"></div>
+        
+        <div class="section-cta" data-aos="fade-up">
+          <a href="https://github.com/shahrishabh1513-jsk" target="_blank" class="btn btn-outline">
+            <i class="fab fa-github"></i> Explore All Projects
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Technical Skills Section -->
+    <section id="skills" class="section skills-section">
+      <div class="container">
+        <div class="section-header" data-aos="fade-up">
+          <span class="section-tag">EXPERTISE</span>
+          <h2 class="section-title">Technical <span class="text-gradient">Skills</span></h2>
+          <p class="section-subhead">Tools & technologies I work with daily</p>
+        </div>
+        
+        <div class="skills-grid-center" id="skillsContainer"></div>
+      </div>
+    </section>
+
+    <!-- Qualifications Section -->
+    <section id="qualifications" class="section qualifications-section">
+      <div class="container">
+        <div class="section-header" data-aos="fade-up">
+          <span class="section-tag">JOURNEY</span>
+          <h2 class="section-title">My Learning <span class="text-gradient">Roadmap</span></h2>
+          <p class="section-subhead">Every step brings me closer to my goals</p>
+        </div>
+        
+        <div class="roadmap-container">
+          <div class="roadmap-line"></div>
+          
+          <div class="roadmap-item left" data-aos="fade-right" data-aos-duration="800">
+            <div class="roadmap-dot"></div>
+            <div class="roadmap-card">
+              <div class="roadmap-icon">
+                <i class="fas fa-school"></i>
+              </div>
+              <span class="roadmap-year">2021 - 2023</span>
+              <h3>Higher Secondary Education</h3>
+              <p class="roadmap-institution">Mehsana Urban Vidhyalaya</p>
+              <p class="roadmap-desc">Science stream with Computer Science. Built strong foundation in Mathematics and Problem Solving.</p>
+              <div class="roadmap-tags">
+                <span>Physics</span>
+                <span>Chemistry</span>
+                <span>Mathematics</span>
+                <span>Computer Science</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="roadmap-item right" data-aos="fade-left" data-aos-duration="800">
+            <div class="roadmap-dot"></div>
+            <div class="roadmap-card">
+              <div class="roadmap-icon">
+                <i class="fas fa-graduation-cap"></i>
+              </div>
+              <span class="roadmap-year">2023 - Present</span>
+              <h3>B.Sc. Information Technology</h3>
+              <p class="roadmap-institution">P. P. SAVANI UNIVERSITY</p>
+              <p class="roadmap-desc">Pursuing degree with focus on full-stack development. CGPA: 8.00</p>
+              <div class="roadmap-tags">
+                <span>Data Structures</span>
+                <span>Web Development</span>
+                <span>Python</span>
+                <span>DBMS</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Achievements & Certificates Section -->
+    <section id="certificates" class="section certificates-section">
+      <div class="container">
+        <div class="section-header" data-aos="fade-up">
+          <span class="section-tag">ACHIEVEMENTS</span>
+          <h2 class="section-title">Certificates & <span class="text-gradient">Awards</span></h2>
+          <p class="section-subhead">Continuous learning never stops — here's my journey</p>
+        </div>
+        
+        <div class="certificates-showcase">
+          <button class="cert-nav-btn cert-prev" id="certPrev"><i class="fas fa-chevron-left"></i></button>
+          <div class="certificates-grid" id="certificatesContainer"></div>
+          <button class="cert-nav-btn cert-next" id="certNext"><i class="fas fa-chevron-right"></i></button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section contact-section">
+      <div class="container">
+        <div class="section-header" data-aos="fade-up">
+          <span class="section-tag">CONNECT</span>
+          <h2 class="section-title">Get In <span class="text-gradient">Touch</span></h2>
+          <p class="section-subhead">Let's collaborate on your next project</p>
+        </div>
+        
+        <div class="contact-modern" data-aos="flip-up" data-aos-duration="1000">
+          <div class="contact-info-modern">
+            <h3>Let's create something amazing together</h3>
+            <p>Have a project in mind? I'm always excited to hear about new ideas and opportunities.</p>
+            
+            <div class="contact-details">
+              <div class="contact-detail-item" data-aos="fade-right" data-aos-delay="100">
+                <div class="detail-icon">
+                  <i class="fas fa-phone-alt"></i>
+                </div>
+                <div class="detail-text">
+                  <span>Phone</span>
+                  <a href="tel:+917861976128">+91 78619 76128</a>
+                </div>
+              </div>
+              
+              <div class="contact-detail-item" data-aos="fade-right" data-aos-delay="200">
+                <div class="detail-icon">
+                  <i class="fab fa-whatsapp"></i>
+                </div>
+                <div class="detail-text">
+                  <span>WhatsApp</span>
+                  <a href="https://wa.me/917861976128">+91 78619 76128</a>
+                </div>
+              </div>
+              
+              <div class="contact-detail-item" data-aos="fade-right" data-aos-delay="300">
+                <div class="detail-icon">
+                  <i class="fas fa-envelope"></i>
+                </div>
+                <div class="detail-text">
+                  <span>Email</span>
+                  <a href="mailto:shahrishu1515@gmail.com">shahrishu1515@gmail.com</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <div class="contact-form-modern" data-aos="fade-left" data-aos-delay="400">
+            <form id="contactForm">
+              <div class="form-group">
+                <input type="text" placeholder="Your Name" id="contactName" required>
+              </div>
+              <div class="form-group">
+                <input type="email" placeholder="Your Email" id="contactEmail" required>
+              </div>
+              <div class="form-group">
+                <input type="text" placeholder="Subject" id="contactSubject" required>
+              </div>
+              <div class="form-group">
+                <textarea rows="5" placeholder="Your Message" id="contactMessage" required></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary submit-btn">
+                Send Message <i class="fas fa-paper-plane"></i>
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
     <footer class="footer-modern">
-      <div class="container footer-flex">
-        <p>© 2025 Rishabh Shah. All rights reserved.</p>
-        <div class="social-links">
-          <a href="https://github.com/shahrishabh1513-jsk" target="_blank"><i class="fab fa-github"></i></a>
-          <a href="https://www.linkedin.com/in/rishabh-alpeshabhai-shah-91b9072a6/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+      <div class="container">
+        <div class="footer-main">
+          <div class="footer-brand" data-aos="fade-right">
+            <div class="footer-logo">RISHABH SHAH</div>
+            <p>Aspiring full-stack developer passionate about creating meaningful web experiences and solving real-world problems through code.</p>
+          </div>
+          
+          <div class="footer-social-right" data-aos="fade-left">
+            <a href="https://github.com/shahrishabh1513-jsk" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/rishabh-alpeshabhai-shah-91b9072a6/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-youtube"></i></a>
+          </div>
+        </div>
+        
+        <div class="footer-bottom">
+          <p>&copy; 2025 Rishabh Shah. All rights reserved.</p>
         </div>
       </div>
     </footer>
   </main>
 
+  <!-- Scripts -->
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   <script src="script.js"></script>
 </body>

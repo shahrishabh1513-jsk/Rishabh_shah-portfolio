@@ -1,279 +1,339 @@
-AOS.init({ 
-  duration: 900, 
-  once: false 
+// Initialize AOS with enhanced settings
+AOS.init({
+  duration: 1000,
+  once: false,
+  offset: 80,
+  easing: 'ease-in-out-quart',
+  mirror: true,
+  delay: 0,
+  disable: false,
+  startEvent: 'DOMContentLoaded',
+  initClassName: 'aos-init',
+  animatedClassName: 'aos-animate',
+  useClassNames: false,
+  throttleDelay: 99,
+  debounceDelay: 50
 });
 
+// Toast notification
 function showToast(msg) {
-  const t = document.createElement('div');
-  t.innerText = msg;
-  t.style.position = 'fixed'; 
-  t.style.bottom = '20px'; 
-  t.style.right = '20px';
-  t.style.background = '#0B2A4A'; 
-  t.style.color = 'white'; 
-  t.style.padding = '1rem 2rem';
-  t.style.borderRadius = '60px'; 
-  t.style.fontWeight = '500'; 
-  t.style.boxShadow = '0 12px 30px rgba(0,0,0,0.2)';
-  t.style.zIndex = '9999'; 
-  t.style.opacity = '0'; 
-  t.style.transition = 'opacity 0.2s';
-  document.body.appendChild(t);
+  const toast = document.createElement('div');
+  toast.innerText = msg;
+  toast.style.position = 'fixed';
+  toast.style.bottom = '80px';
+  toast.style.left = '30px';
+  toast.style.background = 'linear-gradient(135deg, #6EAC4D, #63B9DD)';
+  toast.style.color = 'white';
+  toast.style.padding = '1rem 2rem';
+  toast.style.borderRadius = '50px';
+  toast.style.fontWeight = '500';
+  toast.style.boxShadow = '0 10px 30px rgba(0,0,0,0.3)';
+  toast.style.zIndex = '9999';
+  toast.style.opacity = '0';
+  toast.style.transition = 'all 0.3s ease';
+  toast.style.fontSize = '0.95rem';
+  toast.style.transform = 'translateY(20px)';
+  document.body.appendChild(toast);
   
-  setTimeout(() => t.style.opacity = '1', 20);
-  setTimeout(() => { 
-    t.style.opacity = '0'; 
-    setTimeout(() => t.remove(), 300); 
-  }, 2500);
+  setTimeout(() => {
+    toast.style.opacity = '1';
+    toast.style.transform = 'translateY(0)';
+  }, 20);
+  
+  setTimeout(() => {
+    toast.style.opacity = '0';
+    toast.style.transform = 'translateY(20px)';
+    setTimeout(() => toast.remove(), 300);
+  }, 3000);
 }
 
-// Theme Toggle Functionality - FIXED: Starts with light theme
-const themeToggle = document.getElementById('themeToggle');
-const themeIcon = themeToggle.querySelector('i');
+// ===== MOBILE MENU =====
+const mobileMenuBtn = document.getElementById('mobileMenuBtn');
+const navMenu = document.getElementById('navMenu');
 
-// Check for saved theme preference
-const savedTheme = localStorage.getItem('theme');
-
-// Only apply dark mode if explicitly saved as dark
-if (savedTheme === 'dark') {
-  document.body.classList.add('dark-mode');
-  themeIcon.classList.remove('fa-moon');
-  themeIcon.classList.add('fa-sun');
-} else {
-  // Ensure light theme is default (remove dark-mode if somehow present)
-  document.body.classList.remove('dark-mode');
-  themeIcon.classList.remove('fa-sun');
-  themeIcon.classList.add('fa-moon');
-  // Save light theme as default preference
-  localStorage.setItem('theme', 'light');
+if (mobileMenuBtn) {
+  mobileMenuBtn.addEventListener('click', () => {
+    navMenu.classList.toggle('active');
+    const icon = mobileMenuBtn.querySelector('i');
+    icon.classList.toggle('fa-bars');
+    icon.classList.toggle('fa-times');
+  });
 }
 
-themeToggle.addEventListener('click', () => {
-  document.body.classList.toggle('dark-mode');
-  
-  // Update icon based on current mode
-  if (document.body.classList.contains('dark-mode')) {
-    themeIcon.classList.remove('fa-moon');
-    themeIcon.classList.add('fa-sun');
-    localStorage.setItem('theme', 'dark');
-    showToast('🌙 Dark mode enabled');
-  } else {
-    themeIcon.classList.remove('fa-sun');
-    themeIcon.classList.add('fa-moon');
-    localStorage.setItem('theme', 'light');
-    showToast('☀️ Light mode enabled');
-  }
+// Close mobile menu when clicking a link
+document.querySelectorAll('.nav-link').forEach(link => {
+  link.addEventListener('click', () => {
+    navMenu.classList.remove('active');
+    if (mobileMenuBtn) {
+      const icon = mobileMenuBtn.querySelector('i');
+      icon.classList.add('fa-bars');
+      icon.classList.remove('fa-times');
+    }
+  });
 });
 
+// ===== PROJECTS DATA =====
 const projectsData = [
-  { 
-    title: 'HyFun Foods', 
-    explanation: 'A full‑stack corporate website for HyFun Foods, featuring product listings, company info, and responsive design. Built with modern UI principles.',
-    tags: ['JavaScript', 'HTML/CSS', 'LocalStorage', 'Node.js'],
-    img: './img/1.png', 
-    repo: 'https://github.com/shahrishabh1513-jsk/hyfun-foods-corporate-website', 
-    demo: '#' 
+  {
+    title: 'HyFun Foods',
+    description: 'Full‑stack corporate website with product listings, company info, and responsive design.',
+    tags: ['JavaScript', 'HTML/CSS', 'Node.js', 'MongoDB'],
+    image: './img/1.png',
+    repo: 'https://github.com/shahrishabh1513-jsk/hyfun-foods-corporate-website',
+    demo: '#',
+    large: true
   },
-  { 
-    title: 'SecurePass Pro', 
-    explanation: 'Password generator with strength meter and copy‑to‑clipboard. Allows custom length and character types to help users create strong passwords.',
+  {
+    title: 'SecurePass Pro',
+    description: 'Password generator with strength meter and custom options for strong passwords.',
     tags: ['JavaScript', 'HTML/CSS', 'LocalStorage'],
-    img: './img/2.png', 
-    repo: 'https://github.com/shahrishabh1513-jsk/securepass-pro-password-generator', 
-    demo: '#' 
+    image: './img/2.png',
+    repo: 'https://github.com/shahrishabh1513-jsk/securepass-pro-password-generator',
+    demo: '#',
+    large: false
   },
-  { 
-    title: 'Student Attendance', 
-    explanation: 'Attendance tracking system with analytics dashboard, date‑wise records, and export functionality. Designed for classroom use.',
-    tags: ['Html/Css/Javascript', 'SMS', 'LocalStorage', 'PHP'],
-    img: './img/3.png', 
-    repo: 'https://github.com/shahrishabh1513-jsk/student-attendance-system-Description-', 
-    demo: '#' 
+  {
+    title: 'Student Attendance',
+    description: 'Attendance tracking with analytics dashboard and export functionality.',
+    tags: ['PHP', 'JavaScript', 'MySQL', 'Chart.js'],
+    image: './img/3.png',
+    repo: 'https://github.com/shahrishabh1513-jsk/student-attendance-system-Description-',
+    demo: '#',
+    large: false
   },
-  { 
-    title: 'HyFun Hub', 
-    explanation: 'Community dashboard for HyFun employees: announcements, event calendar, and internal communication.',
-    tags: ['Html/Css', 'JavaScript', 'Product'],
-    img: './img/4.png', 
-    repo: 'https://github.com/shahrishabh1513-jsk/HyFun-Hub', 
-    demo: '#' 
-  },
-  { 
-    title: 'Apple ScrollMotion', 
-    explanation: 'Recreation of Apple’s scroll‑driven animations using Framer Motion and Next.js. Smooth transitions and parallax effects.',
-    tags: ['Next.js', 'Framer Motion', 'GSAP'],
-    img: './img/5.png', 
-    repo: 'https://github.com/shahrishabh1513-jsk/Apple-ScrollMotion-Experience', 
-    demo: '#' 
-  },
-  { 
-    title: 'House Price Analysis', 
-    explanation: 'Data science project: predict house prices using regression models. Includes data cleaning, EDA, and feature importance.',
-    tags: ['Python', 'Pandas', 'Data Analysis'],
-    img: './img/6.png', 
-    repo: 'https://github.com/shahrishabh1513-jsk/house-price-prediction-ds', 
-    demo: '#' 
+  {
+    title: 'Apple ScrollMotion',
+    description: 'Recreation of Apple’s scroll‑driven animations using modern tools.',
+    tags: ['Next.js', 'Framer Motion', 'GSAP', 'Tailwind'],
+    image: './img/5.png',
+    repo: 'https://github.com/shahrishabh1513-jsk/Apple-ScrollMotion-Experience',
+    demo: '#',
+    large: false
   }
 ];
 
-const projCont = document.getElementById('projectsModernContainer');
-if(projCont) {
-  projectsData.forEach(p => {
-    const card = document.createElement('div'); 
-    card.className = 'project-card-ss';
-    const tagsHtml = p.tags.map(t => `<span class="tag">${t}</span>`).join('');
-    card.innerHTML = `
-      <img class="project-ss-img" src="${p.img}" alt="${p.title}">
-      <div class="project-ss-title">${p.title}</div>
-      <div class="project-explanation">${p.explanation}</div>
-      <div class="project-tags">${tagsHtml}</div>
-      <div class="project-actions">
-        <a href="${p.repo}" class="btn-small" target="_blank"><i class="fab fa-github"></i> View Code</a>
-        <a href="${p.demo}" class="btn-small btn-light" target="_blank"><i class="fas fa-external-link-alt"></i> Live Demo</a>
-      </div>`;
-    projCont.appendChild(card);
-  });
-}
+// ===== SKILLS DATA =====
+const skillsData = [
+  { name: 'Git', icon: 'fa-brands fa-git-alt', level: 85 },
+  { name: 'MongoDB', icon: 'fa-brands fa-envira', level: 75 },
+  { name: 'SQL', icon: 'fa-solid fa-database', level: 80 },
+  { name: 'Python', icon: 'fa-brands fa-python', level: 85 },
+  { name: 'Data Structures', icon: 'fa-solid fa-diagram-project', level: 80 },
+  { name: 'C++', icon: 'fa-solid fa-code', level: 75 },
+  { name: 'HTML5', icon: 'fa-brands fa-html5', level: 95 },
+  { name: 'CSS3', icon: 'fa-brands fa-css3-alt', level: 90 },
+  { name: 'JavaScript', icon: 'fa-brands fa-js', level: 88 },
+  { name: 'Node.js', icon: 'fa-brands fa-node', level: 82 },
+  { name: 'Pandas', icon: 'fa-solid fa-table', level: 70 },
+  { name: 'Google Tools', icon: 'fa-brands fa-google', level: 75 },
+  { name: 'UI/UX Basics', icon: 'fa-solid fa-paint-brush', level: 78 },
+  { name: 'PHP', icon: 'fa-brands fa-php', level: 72 },
+  { name: 'React', icon: 'fa-brands fa-react', level: 65 },
+  { name: 'Express.js', icon: 'fa-solid fa-server', level: 70 }
+];
 
-const skills = ["Git","MongoDB","SQL","Python","Data Structures","C++","HTML","CSS","JavaScript","Node.js","Pandas","Google Tools","UI/UX Basics","PHP"];
-const chipCont = document.getElementById('skillsChipContainer');
-if(chipCont) {
-  skills.forEach(s => { 
-    const sp = document.createElement('span'); 
-    sp.className='skill-chip'; 
-    sp.innerText=s; 
-    chipCont.appendChild(sp); 
-  });
-}
-
-const certs = [
-  { 
-    issuer: 'COURSERA', 
-    title: 'Android App Development', 
-    date: 'Feb 18, 2025', 
-    org: 'VANDERBILT UNIVERSITY', 
+// ===== CERTIFICATES DATA =====
+const certificatesData = [
+  {
+    issuer: 'COURSERA',
+    title: 'Android App Development',
+    org: 'VANDERBILT UNIVERSITY',
+    date: 'Feb 18, 2025',
     link: './pdf/(C6) Android App Development.pdf',
-    image: './img/7.jpg'
+    image: './img/7.jpg',
+    badge: 'coursera'
   },
-  { 
-    issuer: 'IBM', 
-    title: 'IBM Full Stack Software Developer', 
-    date: 'Jan 22, 2026', 
-    org: 'IBM', 
+  {
+    issuer: 'IBM',
+    title: 'IBM Full Stack Software Developer',
+    org: 'IBM',
+    date: 'Jan 22, 2026',
     link: './pdf/(C_Final) IBM Full Stack Software.pdf',
-    image: './img/1.jpg'
+    image: './img/1.jpg',
+    badge: 'ibm'
   },
-  { 
-    issuer: 'IBM', 
-    title: 'IBM Generative AI Engineering', 
-    date: 'Feb 13, 2026', 
-    org: 'IBM', 
+  {
+    issuer: 'IBM',
+    title: 'IBM Generative AI Engineering',
+    org: 'IBM',
+    date: 'Feb 13, 2026',
     link: './pdf/(Cfinal) IBM Generative AI Engineering.pdf',
-    image: './img/2.jpg'
+    image: './img/2.jpg',
+    badge: 'ibm'
   },
-  { 
-    issuer: 'SKILLSHARE', 
-    title: 'Canva Design Essentials', 
-    date: 'Jan 20, 2026', 
-    org: 'Skillshare', 
-    link: './pdf/(CFILNAL) Canva Design Essentials.pdf',
-    image: './img/5.jpg'
-  },
-  { 
-    issuer: 'GOOGLE', 
-    title: 'Google Data Analysis with Python', 
-    date: 'Feb 6, 2026', 
-    org: 'Google', 
-    link: './pdf/(Cfinal) Google Data Analysis with.pdf',
-    image: './img/6.jpg'
-  },
-  { 
-    issuer: 'GOOGLE', 
-    title: 'Google UX Design', 
-    date: 'Jan 30, 2026', 
-    org: 'Google', 
+  {
+    issuer: 'GOOGLE',
+    title: 'Google UX Design',
+    org: 'Google',
+    date: 'Jan 30, 2026',
     link: './pdf/(Cfinal) Google UX Design.pdf',
-    image: './img/4.jpg'
+    image: './img/4.jpg',
+    badge: 'google'
   },
-  { 
-    issuer: 'GOOGLE', 
-    title: 'Getting started with Google Workspace', 
-    date: 'Jan 18, 2026', 
-    org: 'Google', 
-    link: './pdf/(CFINAL) Getting started with.pdf',
-    image: './img/3.jpg'
-  },
-  { 
-    issuer: 'COURSERA', 
-    title: 'Python for Everybody', 
-    date: 'Dec 2025', 
-    org: 'University of Michigan', 
-    link: './pdf/(c1) Programming for Everybody (Getting Started with.pdf',
-    image: './img/8.jpg'
-  },
-  { 
-  issuer: 'AWS', 
-  title: 'AWS Cloud Security Foundations', 
-  date: 'Feb 2026', 
-  org: 'Amazon Web Services', 
-  link: './pdf/AWS Cloud Security Foundation.pdf',
-  image: './img/AWS Cloud Security Foundation_page-0001.jpg'
+  {
+    issuer: 'AWS',
+    title: 'AWS Cloud Security Foundations',
+    org: 'Amazon Web Services',
+    date: 'Feb 2026',
+    link: './pdf/AWS Cloud Security Foundation.pdf',
+    image: './img/AWS Cloud Security Foundation_page-0001.jpg',
+    badge: 'aws'
   }
 ];
 
-const certContainer = document.getElementById('certScrollContainer');
-if(certContainer) {
-  certs.forEach((c) => {
-    const cert = document.createElement('div'); 
-    cert.className = 'cert-card-ss';
-    cert.innerHTML = `
-      <div class="cert-img">
-        <img src="${c.image}" alt="${c.title}" loading="lazy">
+// ===== RENDER PROJECTS =====
+const projectsContainer = document.getElementById('projectsContainer');
+if (projectsContainer) {
+  projectsContainer.innerHTML = '';
+  projectsContainer.className = 'projects-showcase';
+  
+  projectsData.forEach((p, index) => {
+    const card = document.createElement('div');
+    card.className = `project-card-modern ${p.large ? 'large' : ''}`;
+    card.setAttribute('data-aos', 'fade-up');
+    card.setAttribute('data-aos-delay', index * 100);
+    card.setAttribute('data-aos-duration', '800');
+    
+    const tagsHtml = p.tags.map(t => `<span class="tech-tag">${t}</span>`).join('');
+    
+    card.innerHTML = `
+      <div class="project-media">
+        <img src="${p.image}" alt="${p.title}" loading="lazy">
+        <div class="project-overlay">
+          <a href="${p.repo}" target="_blank" title="View Code"><i class="fab fa-github"></i></a>
+          <a href="${p.demo}" target="_blank" title="Live Demo"><i class="fas fa-external-link-alt"></i></a>
+        </div>
       </div>
-      <div class="cert-issuer">${c.issuer}</div>
-      <div class="cert-title">${c.title}</div>
-      <div style="font-weight:500; color:#2b5876;">${c.org}</div>
-      <div class="cert-date">${c.date}</div>
-      <a href="${c.link}" class="cert-view-btn" target="_blank">View Certificate</a>`;
+      <div class="project-info">
+        <h3>${p.title}</h3>
+        <p>${p.description}</p>
+        <div class="project-tech">
+          ${tagsHtml}
+        </div>
+        <div class="project-links">
+          <a href="${p.repo}" target="_blank" class="project-link github"><i class="fab fa-github"></i> Code</a>
+          <a href="${p.demo}" target="_blank" class="project-link demo"><i class="fas fa-external-link-alt"></i> Demo</a>
+        </div>
+      </div>
+    `;
+    projectsContainer.appendChild(card);
+  });
+}
+
+// ===== RENDER SKILLS =====
+const skillsContainer = document.getElementById('skillsContainer');
+if (skillsContainer) {
+  skillsContainer.innerHTML = '';
+  skillsContainer.className = 'skills-grid-center';
+  
+  skillsData.forEach((skill, index) => {
+    const card = document.createElement('div');
+    card.className = 'skill-card';
+    card.setAttribute('data-aos', 'zoom-in');
+    card.setAttribute('data-aos-delay', index * 50);
+    card.setAttribute('data-aos-duration', '600');
+    
+    card.innerHTML = `
+      <div class="skill-icon">
+        <i class="${skill.icon}"></i>
+      </div>
+      <div class="skill-name">${skill.name}</div>
+      <div class="skill-level">
+        <div class="skill-progress" style="width: 0%"></div>
+      </div>
+    `;
+    skillsContainer.appendChild(card);
+  });
+  
+  // Animate skill bars after they're in view
+  setTimeout(() => {
+    document.querySelectorAll('.skill-card').forEach((card, index) => {
+      setTimeout(() => {
+        const progressBar = card.querySelector('.skill-progress');
+        const level = skillsData[index].level;
+        progressBar.style.width = level + '%';
+      }, index * 100);
+    });
+  }, 500);
+}
+
+// ===== RENDER CERTIFICATES =====
+const certContainer = document.getElementById('certificatesContainer');
+if (certContainer) {
+  certContainer.innerHTML = '';
+  certContainer.className = 'certificates-grid';
+  
+  certificatesData.forEach((c, index) => {
+    const cert = document.createElement('div');
+    cert.className = 'cert-card-modern';
+    cert.setAttribute('data-aos', 'fade-up');
+    cert.setAttribute('data-aos-delay', index * 100);
+    cert.setAttribute('data-aos-duration', '800');
+    
+    cert.innerHTML = `
+      <div class="cert-card-media">
+        <img src="${c.image}" alt="${c.title}" loading="lazy">
+        <span class="cert-card-badge ${c.badge}">${c.issuer}</span>
+      </div>
+      <div class="cert-card-content">
+        <h3 class="cert-card-title">${c.title}</h3>
+        <div class="cert-card-org">${c.org}</div>
+        <div class="cert-card-date">${c.date}</div>
+        <a href="${c.link}" class="cert-card-link" target="_blank">
+          View Certificate <i class="fas fa-arrow-right"></i>
+        </a>
+      </div>
+    `;
     certContainer.appendChild(cert);
   });
 }
 
-document.getElementById('certScrollLeft')?.addEventListener('click', () => {
-  document.getElementById('certScrollContainer').scrollBy({ left: -340, behavior: 'smooth' });
-});
+// ===== CERTIFICATE SCROLL BUTTONS =====
+const certPrev = document.getElementById('certPrev');
+const certNext = document.getElementById('certNext');
+const certGrid = document.getElementById('certificatesContainer');
 
-document.getElementById('certScrollRight')?.addEventListener('click', () => {
-  document.getElementById('certScrollContainer').scrollBy({ left: 340, behavior: 'smooth' });
-});
+if (certPrev && certNext && certGrid) {
+  certPrev.addEventListener('click', () => {
+    certGrid.scrollBy({ left: -350, behavior: 'smooth' });
+  });
 
-document.getElementById('emailSendForm')?.addEventListener('submit', function(e) {
+  certNext.addEventListener('click', () => {
+    certGrid.scrollBy({ left: 350, behavior: 'smooth' });
+  });
+}
+
+// ===== CONTACT FORM =====
+document.getElementById('contactForm')?.addEventListener('submit', function(e) {
   e.preventDefault();
   
-  const name = document.getElementById('senderName').value;
-  const senderEmail = document.getElementById('senderEmail').value;
-  const subject = document.getElementById('emailSubject').value;
-  const message = document.getElementById('emailMessage').value;
-  const yourEmail = 'shahrishu1515@gmail.com';
-  const emailBody = `Name: ${name}%0A%0AEmail: ${senderEmail}%0A%0AMessage:%0A${message}`;
-  const mailtoLink = `mailto:${yourEmail}?subject=${encodeURIComponent(subject)}&body=${emailBody}`;
+  const name = document.getElementById('contactName').value;
+  const email = document.getElementById('contactEmail').value;
+  const subject = document.getElementById('contactSubject').value;
+  const message = document.getElementById('contactMessage').value;
+  const recipient = 'shahrishu1515@gmail.com';
   
-  window.location.href = mailtoLink;
-  showToast('📨 Opening your email client...');
+  const body = `Name: ${name}%0A%0AEmail: ${email}%0A%0AMessage:%0A${message}`;
+  const mailto = `mailto:${recipient}?subject=${encodeURIComponent(subject)}&body=${body}`;
+  
+  window.location.href = mailto;
+  showToast('📨 Opening email client...');
   this.reset();
 });
 
+// ===== ACTIVE NAVIGATION ON SCROLL =====
+const sections = document.querySelectorAll('section[id]');
 const navLinks = document.querySelectorAll('.nav-link');
 
 function setActiveLink() {
-  const scrollPosition = window.scrollY + 150;
-
-  document.querySelectorAll('section').forEach(section => {
+  const scrollY = window.scrollY + 150;
+  
+  sections.forEach(section => {
     const sectionTop = section.offsetTop;
     const sectionBottom = sectionTop + section.offsetHeight;
     const sectionId = section.getAttribute('id');
-
-    if (scrollPosition >= sectionTop && scrollPosition < sectionBottom) {
+    
+    if (scrollY >= sectionTop && scrollY < sectionBottom) {
       navLinks.forEach(link => {
         link.classList.remove('active');
         if (link.getAttribute('href') === `#${sectionId}`) {
@@ -287,45 +347,80 @@ function setActiveLink() {
 window.addEventListener('scroll', setActiveLink);
 window.addEventListener('load', setActiveLink);
 
+// ===== SMOOTH SCROLL FOR NAVIGATION =====
 navLinks.forEach(link => {
   link.addEventListener('click', (e) => {
     e.preventDefault();
     const targetId = link.getAttribute('href').substring(1);
     const targetSection = document.getElementById(targetId);
     
-    if(targetSection) {
+    if (targetSection) {
       targetSection.scrollIntoView({ behavior: 'smooth' });
-      
-      navLinks.forEach(l => l.classList.remove('active'));
-      link.classList.add('active');
     }
   });
 });
 
-document.getElementById('contactMeHome')?.addEventListener('click', (e) => { 
-  e.preventDefault(); 
-  document.getElementById('contact').scrollIntoView({ behavior: 'smooth' }); 
+// ===== HOME CONTACT BUTTON =====
+document.getElementById('contactHomeBtn')?.addEventListener('click', (e) => {
+  e.preventDefault();
+  document.getElementById('contact').scrollIntoView({ behavior: 'smooth' });
 });
 
-// Fixed resume download functionality
-document.getElementById('downloadCvHome')?.addEventListener('click', function(e) {
-  // The 'download' attribute in HTML will handle the actual download
-  // This just shows the toast notification
+// ===== DOWNLOAD CV TOAST =====
+document.getElementById('downloadNavCv')?.addEventListener('click', () => {
   showToast('📄 Downloading CV...');
 });
 
-document.getElementById('learnMoreAbout')?.addEventListener('click', (e) => { 
-  e.preventDefault(); 
-  showToast('✨ Rishabh · full‑stack dev'); 
-});
-
-// Handle hash links smoothly
+// ===== HANDLE ALL HASH LINKS =====
 document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-  anchor.addEventListener('click', function (e) {
-    e.preventDefault();
-    const target = document.querySelector(this.getAttribute('href'));
-    if(target) {
-      target.scrollIntoView({ behavior: 'smooth' });
+  anchor.addEventListener('click', function(e) {
+    const href = this.getAttribute('href');
+    if (href !== '#') {
+      e.preventDefault();
+      const target = document.querySelector(href);
+      if (target) {
+        target.scrollIntoView({ behavior: 'smooth' });
+      }
     }
   });
+});
+
+// ===== PARALLAX EFFECT ON MOUSE MOVE =====
+document.addEventListener('mousemove', (e) => {
+  const moveX = (e.clientX - window.innerWidth / 2) * 0.01;
+  const moveY = (e.clientY - window.innerHeight / 2) * 0.01;
+  
+  const bgElements = document.querySelectorAll('.animated-bg::before, .animated-bg::after');
+  if (bgElements.length) {
+    // Apply subtle parallax effect
+    const heroSection = document.querySelector('.hero-section');
+    if (heroSection) {
+      heroSection.style.backgroundPosition = `${moveX}px ${moveY}px`;
+    }
+  }
+});
+
+// ===== LAZY LOAD IMAGES =====
+const images = document.querySelectorAll('img[data-src]');
+const imageObserver = new IntersectionObserver((entries) => {
+  entries.forEach(entry => {
+    if (entry.isIntersecting) {
+      const img = entry.target;
+      img.src = img.dataset.src;
+      img.classList.add('loaded');
+      observer.unobserve(img);
+    }
+  });
+}, { threshold: 0.1 });
+
+images.forEach(img => imageObserver.observe(img));
+
+// ===== SCROLL REVEAL ADDITIONAL EFFECTS =====
+window.addEventListener('scroll', () => {
+  const scrollPosition = window.scrollY;
+  const heroSection = document.querySelector('.hero-section');
+  
+  if (heroSection) {
+    heroSection.style.opacity = 1 - scrollPosition / 800;
+  }
 });
