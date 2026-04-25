@@ -62,7 +62,6 @@ Built completely from scratch using core web technologies, focusing on:
  ┣ 📁 assets
  ┃ ┣ 📁 images
  ┃ ┗ 📁 pdf
- ┣ 📁 screenshots
  ┗ 📜 README.md
 ```
 
@@ -70,13 +69,12 @@ Built completely from scratch using core web technologies, focusing on:
 
 ## 📸 Preview
 
-<img src="https://github.com/user-attachments/assets/b7ca9396-a8b4-49b5-b322-8ef47eb30d44" width="100%" />
+<img width="1762" height="787" alt="Rishabh_Profile" src="https://github.com/user-attachments/assets/91d9f329-ac56-4918-9b24-735a85b4ea27" />
 
 ---
 
 ## 🚀 Future Improvements
 
-- 🌙 Dark / Light Mode toggle  
 - 📝 Blog section  
 - 🔍 Project filtering system  
 - 🎬 Advanced animations  
