@@ -1,6 +1,6 @@
 // Wait for DOM to be fully loaded
-document.addEventListener('DOMContentLoaded', function() {
-    
+document.addEventListener('DOMContentLoaded', function () {
+
     // ========== PROJECTS DATA ==========
     const projectsData = [
         {
@@ -56,16 +56,43 @@ document.addEventListener('DOMContentLoaded', function() {
             repo: 'https://github.com/shahrishabh1513-jsk/house-price-prediction-ds',
             demo: 'https://github.com/shahrishabh1513-jsk/house-price-prediction-ds',
             large: false
+        },
+        {
+            title: 'RT-RoyalBNB',
+            description: 'Luxury hotel and resort booking website featuring elegant UI, responsive design, and seamless user experience.',
+            tags: ['HTML', 'CSS', 'JavaScript'],
+            image: './img/13.jpg',
+            repo: 'https://github.com/shahrishabh1513-jsk/RT-RoyalBNB',
+            demo: 'https://shahrishabh1513-jsk.github.io/RT-RoyalBNB/',
+            large: false
+        },
+        {
+            title: 'RT-GroceryHub',
+            description: 'Modern grocery shopping website with product categories, responsive layout, and user-friendly navigation.',
+            tags: ['HTML', 'CSS', 'JavaScript'],
+            image: './img/14.jpg',
+            repo: 'https://github.com/shahrishabh1513-jsk/RT-Groceryhub',
+            demo: 'https://shahrishabh1513-jsk.github.io/RT-Groceryhub/',
+            large: false
+        },
+        {
+            title: 'Indian Used Car Price Predictor',
+            description: 'Machine learning project that predicts used car prices in India using data analysis, feature engineering, and predictive modeling.',
+            tags: ['Python', 'Pandas', 'NumPy', 'Scikit-learn', 'Machine Learning'],
+            image: './img/15.jpg',
+            repo: 'https://github.com/shahrishabh1513-jsk/Indian-Used-Car-Price-Prediction',
+            demo: 'https://github.com/shahrishabh1513-jsk/Indian-Used-Car-Price-Prediction',
+            large: false
         }
     ];
-    
+
     // ========== TECHNICAL SKILLS ==========
     const technicalSkills = [
         "Git", "HTML", "CSS", "JAVASCRIPT", "PYTHON", "GOOGLE TOOLS",
         "PHP", "SQL", "C++", "C", "DATA STRUCTURE", "MONGODB",
         "PANDAS", "UI/UX BASICS", "GRAPHIC DESIGN", "GITHUB"
     ];
-    
+
     // ========== CERTIFICATES DATA ==========
     const certificatesData = [
         {
@@ -123,12 +150,12 @@ document.addEventListener('DOMContentLoaded', function() {
             badge: 'google'
         }
     ];
-    
+
     // ========== RENDER PROJECTS ==========
     function renderProjects() {
         const projectsGrid = document.getElementById('projectsGrid');
         if (!projectsGrid) return;
-        
+
         projectsGrid.innerHTML = projectsData.map(project => `
             <div class="project-card ${project.large ? 'large' : ''}">
                 <img src="${project.image}" alt="${project.title}" class="project-image" onerror="this.src='https://placehold.co/600x400/EAEAEA/333?text=${encodeURIComponent(project.title)}'">
@@ -146,22 +173,22 @@ document.addEventListener('DOMContentLoaded', function() {
             </div>
         `).join('');
     }
-    
+
     // ========== RENDER SKILLS ==========
     function renderSkills() {
         const skillsCloud = document.getElementById('skillsCloud');
         if (!skillsCloud) return;
-        
+
         skillsCloud.innerHTML = technicalSkills.map(skill => `
             <span class="skill-cloud-item">${skill}</span>
         `).join('');
     }
-    
+
     // ========== RENDER CERTIFICATES ==========
     function renderCertificates() {
         const certificatesGrid = document.getElementById('certificatesGrid');
         if (!certificatesGrid) return;
-        
+
         certificatesGrid.innerHTML = certificatesData.map(cert => `
             <div class="certificate-card" data-link="${cert.link}">
                 <img src="${cert.image}" alt="${cert.title}" class="certificate-image" onerror="this.src='https://placehold.co/400x250/EAEAEA/333?text=${encodeURIComponent(cert.title)}'">
@@ -173,10 +200,10 @@ document.addEventListener('DOMContentLoaded', function() {
                 </div>
             </div>
         `).join('');
-        
+
         // Add click event to certificate cards
         document.querySelectorAll('.certificate-card').forEach(card => {
-            card.addEventListener('click', function() {
+            card.addEventListener('click', function () {
                 const link = this.getAttribute('data-link');
                 if (link && link !== '#') {
                     window.open(link, '_blank');
@@ -186,12 +213,12 @@ document.addEventListener('DOMContentLoaded', function() {
             });
         });
     }
-    
+
     // ========== FLOATING MESSAGE FUNCTION ==========
     function showFloatingMessage(message, isSuccess = false) {
         const existingToast = document.querySelector('.floating-toast');
-        if(existingToast) existingToast.remove();
-        
+        if (existingToast) existingToast.remove();
+
         const toast = document.createElement('div');
         toast.className = 'floating-toast';
         toast.innerHTML = `
@@ -222,15 +249,15 @@ document.addEventListener('DOMContentLoaded', function() {
             pointer-events: auto;
         `;
         document.body.appendChild(toast);
-        
+
         const closeBtn = toast.querySelector('.toast-close');
         closeBtn.addEventListener('click', () => toast.remove());
-        
+
         setTimeout(() => {
-            if(toast && toast.parentNode) toast.remove();
+            if (toast && toast.parentNode) toast.remove();
         }, 4000);
     }
-    
+
     // Add animation style
     const styleSheet = document.createElement('style');
     styleSheet.textContent = `
@@ -241,58 +268,58 @@ document.addEventListener('DOMContentLoaded', function() {
         .floating-toast button:hover { opacity: 0.7; }
     `;
     document.head.appendChild(styleSheet);
-    
+
     // ========== RESUME BUTTON - WORKING DOWNLOAD ==========
     const resumeBtn = document.getElementById('resumeBtn');
-    if(resumeBtn) {
-        resumeBtn.addEventListener('click', function(e) {
+    if (resumeBtn) {
+        resumeBtn.addEventListener('click', function (e) {
             e.preventDefault();
-            
+
             // Create a temporary anchor element to trigger download
             const downloadLink = document.createElement('a');
             downloadLink.href = './pdf/Rishabh Shah Resume.pdf';
             downloadLink.download = './pdf/Rishabh Shah Resume.pdf';
             downloadLink.style.display = 'none';
             document.body.appendChild(downloadLink);
-            
+
             // Trigger download
             downloadLink.click();
-            
+
             // Show success message
             showFloatingMessage('📄 Resume download started!', true);
-            
+
             // Clean up
             setTimeout(() => {
                 document.body.removeChild(downloadLink);
             }, 100);
         });
     }
-    
+
     // ========== SMOOTH SCROLL ==========
     const signatureLink = document.getElementById('signatureLink');
-    if(signatureLink) {
-        signatureLink.addEventListener('click', function(e) {
+    if (signatureLink) {
+        signatureLink.addEventListener('click', function (e) {
             e.preventDefault();
             const aboutSection = document.getElementById('about');
-            if(aboutSection) aboutSection.scrollIntoView({ behavior: 'smooth', block: 'start' });
+            if (aboutSection) aboutSection.scrollIntoView({ behavior: 'smooth', block: 'start' });
         });
     }
-    
+
     const circleArrow = document.getElementById('circleArrow');
-    if(circleArrow) {
-        circleArrow.addEventListener('click', function() {
+    if (circleArrow) {
+        circleArrow.addEventListener('click', function () {
             const aboutSection = document.getElementById('about');
-            if(aboutSection) aboutSection.scrollIntoView({ behavior: 'smooth' });
+            if (aboutSection) aboutSection.scrollIntoView({ behavior: 'smooth' });
         });
     }
-    
+
     // ========== SCROLL REVEAL FOR GIANT NUMBERS ==========
     function handleScrollNumbers() {
         const numbers = document.querySelectorAll('.giant-number');
         numbers.forEach(num => {
             const rect = num.getBoundingClientRect();
             const windowHeight = window.innerHeight;
-            if(rect.top < windowHeight - 100 && rect.bottom > 0) {
+            if (rect.top < windowHeight - 100 && rect.bottom > 0) {
                 num.style.opacity = '0.06';
                 num.style.transition = 'opacity 0.5s';
             } else {
@@ -300,46 +327,46 @@ document.addEventListener('DOMContentLoaded', function() {
             }
         });
     }
-    
+
     document.querySelectorAll('.giant-number').forEach(num => {
         num.style.transition = 'opacity 0.3s';
         num.style.opacity = '0.02';
     });
-    
+
     window.addEventListener('scroll', handleScrollNumbers);
     handleScrollNumbers();
-    
+
     // ========== HOVER EFFECT ON HERO IMAGE ==========
     const heroImg = document.querySelector('.hero-img');
-    if(heroImg) {
+    if (heroImg) {
         heroImg.addEventListener('mouseenter', () => heroImg.style.filter = 'grayscale(0%)');
         heroImg.addEventListener('mouseleave', () => heroImg.style.filter = 'grayscale(100%)');
     }
-    
+
     // ========== ADD CLICK HANDLERS FOR CONTACT CARDS ==========
     const contactItems = document.querySelectorAll('.contact-horizontal-item');
     contactItems.forEach(item => {
         const link = item.querySelector('a');
-        if(link) {
+        if (link) {
             item.addEventListener('click', (e) => {
-                if(e.target.tagName !== 'A') {
+                if (e.target.tagName !== 'A') {
                     window.open(link.href, '_blank');
                 }
             });
         }
     });
-    
+
     // ========== INITIALIZE ALL RENDERS ==========
     renderProjects();
     renderSkills();
     renderCertificates();
-    
+
     // Page load animation
     document.body.style.opacity = '0';
     document.body.style.transition = 'opacity 0.6s ease';
     window.addEventListener('load', () => {
         document.body.style.opacity = '1';
     });
-    
+
     console.log('Rishabh Shah Portfolio — Fully loaded with working features!');
 });
