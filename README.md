@@ -69,7 +69,8 @@ Built completely from scratch using core web technologies, focusing on:
 
 ## 📸 Preview
 
-<img width="1762" height="787" alt="Rishabh_Profile" src="https://github.com/user-attachments/assets/91d9f329-ac56-4918-9b24-735a85b4ea27" />
+<img width="800" height="1912" alt="Rishabh Por" src="https://github.com/user-attachments/assets/7da9e780-36ed-4adf-8580-650bad837197" />
+
 
 ---
 
