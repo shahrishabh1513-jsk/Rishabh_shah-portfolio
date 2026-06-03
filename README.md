@@ -69,7 +69,19 @@ Built completely from scratch using core web technologies, focusing on:
 
 ## 📸 Preview
 
-<img width="800" height="1912" alt="Rishabh Por" src="https://github.com/user-attachments/assets/7da9e780-36ed-4adf-8580-650bad837197" />
+<img width="1867" height="879" alt="Screenshot 2026-06-03 210634" src="https://github.com/user-attachments/assets/051e6f2e-c0be-4b84-a88c-1572c9b7ae5d" />
+<img width="1723" height="859" alt="Screenshot 2026-06-03 205043" src="https://github.com/user-attachments/assets/23a013cb-3818-4b82-87ef-275dbd737142" />
+<img width="1785" height="764" alt="Screenshot 2026-06-03 205242" src="https://github.com/user-attachments/assets/9470cd38-9c2d-49ac-9136-8d34a0f209b3" />
+<img width="1779" height="644" alt="Screenshot 2026-06-03 205557" src="https://github.com/user-attachments/assets/0bf74b92-8ce3-44d9-a895-0128f4594bf6" />
+<img width="1721" height="579" alt="Screenshot 2026-06-03 210802" src="https://github.com/user-attachments/assets/43b37cd2-7de3-4d81-a0c1-08cc18bc1853" />
+<img width="1867" height="691" alt="Screenshot 2026-06-03 205739" src="https://github.com/user-attachments/assets/659d435b-6f7e-4e2f-a907-17fb6616776a" />
+<img width="1871" height="699" alt="Screenshot 2026-06-03 210857" src="https://github.com/user-attachments/assets/89bd10fc-d412-4ed0-8e2e-fd695281dcdd" />
+
+
+
+
+
+
 
 
 ---
