@@ -1,7 +1,7 @@
 // Wait for DOM to be fully loaded
 document.addEventListener('DOMContentLoaded', function () {
 
-    // ========== PROJECTS DATA ==========
+    //  PROJECTS DATA 
     const projectsData = [
         {
             title: 'HyFun Foods',
@@ -86,14 +86,14 @@ document.addEventListener('DOMContentLoaded', function () {
         }
     ];
 
-    // ========== TECHNICAL SKILLS ==========
+    //  TECHNICAL SKILLS 
     const technicalSkills = [
         "Git", "HTML", "CSS", "JAVASCRIPT", "PYTHON", "GOOGLE TOOLS",
         "PHP", "SQL", "C++", "C", "DATA STRUCTURE", "MONGODB",
         "PANDAS", "UI/UX BASICS", "GRAPHIC DESIGN", "GITHUB"
     ];
 
-    // ========== CERTIFICATES DATA ==========
+    //  CERTIFICATES DATA 
     const certificatesData = [
         {
             issuer: 'COURSERA',
@@ -151,7 +151,7 @@ document.addEventListener('DOMContentLoaded', function () {
         }
     ];
 
-    // ========== RENDER PROJECTS ==========
+    //  RENDER PROJECTS 
     function renderProjects() {
         const projectsGrid = document.getElementById('projectsGrid');
         if (!projectsGrid) return;
@@ -174,7 +174,7 @@ document.addEventListener('DOMContentLoaded', function () {
         `).join('');
     }
 
-    // ========== RENDER SKILLS ==========
+    //  RENDER SKILLS 
     function renderSkills() {
         const skillsCloud = document.getElementById('skillsCloud');
         if (!skillsCloud) return;
@@ -184,7 +184,7 @@ document.addEventListener('DOMContentLoaded', function () {
         `).join('');
     }
 
-    // ========== RENDER CERTIFICATES ==========
+    //  RENDER CERTIFICATES 
     function renderCertificates() {
         const certificatesGrid = document.getElementById('certificatesGrid');
         if (!certificatesGrid) return;
@@ -214,7 +214,7 @@ document.addEventListener('DOMContentLoaded', function () {
         });
     }
 
-    // ========== FLOATING MESSAGE FUNCTION ==========
+    //  FLOATING MESSAGE FUNCTION 
     function showFloatingMessage(message, isSuccess = false) {
         const existingToast = document.querySelector('.floating-toast');
         if (existingToast) existingToast.remove();
@@ -258,18 +258,21 @@ document.addEventListener('DOMContentLoaded', function () {
         }, 4000);
     }
 
-    // Add animation style
-    const styleSheet = document.createElement('style');
-    styleSheet.textContent = `
-        @keyframes slideInRight {
-            from { opacity: 0; transform: translateX(50px); }
-            to { opacity: 1; transform: translateX(0); }
-        }
-        .floating-toast button:hover { opacity: 0.7; }
-    `;
-    document.head.appendChild(styleSheet);
+    // Add animation style if not already present
+    if (!document.querySelector('#toast-keyframes')) {
+        const styleSheet = document.createElement('style');
+        styleSheet.id = 'toast-keyframes';
+        styleSheet.textContent = `
+            @keyframes slideInRight {
+                from { opacity: 0; transform: translateX(50px); }
+                to { opacity: 1; transform: translateX(0); }
+            }
+            .floating-toast button:hover { opacity: 0.7; }
+        `;
+        document.head.appendChild(styleSheet);
+    }
 
-    // ========== RESUME BUTTON - WORKING DOWNLOAD ==========
+    // RESUME BUTTON - WORKING DOWNLOAD 
     const resumeBtn = document.getElementById('resumeBtn');
     if (resumeBtn) {
         resumeBtn.addEventListener('click', function (e) {
@@ -295,7 +298,7 @@ document.addEventListener('DOMContentLoaded', function () {
         });
     }
 
-    // ========== SMOOTH SCROLL ==========
+    //  SMOOTH SCROLL 
     const signatureLink = document.getElementById('signatureLink');
     if (signatureLink) {
         signatureLink.addEventListener('click', function (e) {
@@ -313,7 +316,7 @@ document.addEventListener('DOMContentLoaded', function () {
         });
     }
 
-    // ========== SCROLL REVEAL FOR GIANT NUMBERS ==========
+    //  SCROLL REVEAL FOR GIANT NUMBERS 
     function handleScrollNumbers() {
         const numbers = document.querySelectorAll('.giant-number');
         numbers.forEach(num => {
@@ -336,14 +339,14 @@ document.addEventListener('DOMContentLoaded', function () {
     window.addEventListener('scroll', handleScrollNumbers);
     handleScrollNumbers();
 
-    // ========== HOVER EFFECT ON HERO IMAGE ==========
+    // HOVER EFFECT ON HERO IMAGE 
     const heroImg = document.querySelector('.hero-img');
     if (heroImg) {
-        heroImg.addEventListener('mouseenter', () => heroImg.style.filter = 'grayscale(0%)');
-        heroImg.addEventListener('mouseleave', () => heroImg.style.filter = 'grayscale(100%)');
+        heroImg.addEventListener('mouseenter', () => heroImg.style.transform = 'scale(1.02)');
+        heroImg.addEventListener('mouseleave', () => heroImg.style.transform = 'scale(1)');
     }
 
-    // ========== ADD CLICK HANDLERS FOR CONTACT CARDS ==========
+    //  ADD CLICK HANDLERS FOR CONTACT CARDS
     const contactItems = document.querySelectorAll('.contact-horizontal-item');
     contactItems.forEach(item => {
         const link = item.querySelector('a');
@@ -356,7 +359,7 @@ document.addEventListener('DOMContentLoaded', function () {
         }
     });
 
-    // ========== INITIALIZE ALL RENDERS ==========
+    // INITIALIZE ALL RENDERS 
     renderProjects();
     renderSkills();
     renderCertificates();
