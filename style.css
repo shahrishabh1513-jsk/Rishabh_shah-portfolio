@@ -281,6 +281,45 @@ body {
     color: var(--accent);
 }
 
+
+/* ===== MARQUEE STRIP ===== */
+.marquee-strip {
+    background: var(--text-dark);
+    padding: 0.9rem 0;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.marquee-track {
+    display: inline-block;
+    animation: marquee 25s linear infinite;
+}
+
+.marquee-track span {
+    font-family: var(--header-font);
+    font-size: 0.8rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #fff;
+    margin: 0 1.5rem;
+}
+
+.marquee-track .mx {
+    color: var(--accent);
+    margin: 0 0.5rem;
+}
+
+@keyframes marquee {
+    from {
+        transform: translateX(0);
+    }
+
+    to {
+        transform: translateX(-50%);
+    }
+}
+
 /* ========= ABOUT SECTION ========= */
 .about-section {
     background: #F9F9F9;
