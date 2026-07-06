@@ -84,7 +84,7 @@ body {
     user-select: none;
 }
 
-/* ========= HERO SECTION ========= */
+/*  HERO SECTION  */
 .hero {
     min-height: 100vh;
     display: flex;
@@ -282,7 +282,7 @@ body {
 }
 
 
-/* ===== MARQUEE STRIP ===== */
+/*  MARQUEE STRIP  */
 .marquee-strip {
     background: var(--text-dark);
     padding: 0.9rem 0;
@@ -320,7 +320,7 @@ body {
     }
 }
 
-/* ========= ABOUT SECTION ========= */
+/*  ABOUT SECTION  */
 .about-section {
     background: #F9F9F9;
     padding: 5rem 0;
@@ -521,7 +521,7 @@ body {
     color: var(--accent);
 }
 
-/* ========= PROJECTS SECTION ========= */
+/*  PROJECTS SECTION  */
 .projects-section {
     padding: 5rem 0;
     background: var(--primary-bg);
@@ -606,7 +606,7 @@ body {
     color: #e0a000;
 }
 
-/* ========= SKILLS SECTION ========= */
+/*  SKILLS SECTION  */
 .skills-section {
     padding: 5rem 0;
     background: #F9F9F9;
@@ -638,7 +638,7 @@ body {
     transform: scale(1.05);
 }
 
-/* ========= CERTIFICATES SECTION ========= */
+/*  CERTIFICATES SECTION  */
 .certificates-section {
     padding: 5rem 0;
     background: var(--primary-bg);
@@ -720,7 +720,7 @@ body {
     color: #999;
 }
 
-/* ========= CONTACT SECTION - HORIZONTAL ========= */
+/*  CONTACT SECTION - HORIZONTAL  */
 .contact-section {
     padding: 5rem 0;
     background: #F9F9F9;
@@ -796,7 +796,7 @@ body {
     color: white;
 }
 
-/* ========= FOOTER WITH THREE SECTIONS ========= */
+/*  FOOTER WITH THREE SECTIONS  */
 .footer {
     background: #1c1c1c;
     color: #ccc;
@@ -839,7 +839,7 @@ body {
     color: #aaa;
 }
 
-/* ========= RESPONSIVE ========= */
+/*  RESPONSIVE  */
 @media (max-width: 1000px) {
     .hero {
         flex-direction: column;
