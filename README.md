@@ -31,7 +31,16 @@
 
 <div align="center">
 
-[🔍 Preview](#-live-preview) • [📖 About](#-about-the-project) • [✨ Features](#-key-features) • [🧑‍💻 Sections](#-portfolio-sections) • [🛠️ Tech Stack](#️-tech-stack) • [📂 Structure](#-folder-structure) • [🚀 Setup](#-getting-started) • [🌟 Gallery](#-screenshots) • [🧭 Roadmap](#-roadmap) • [📬 Contact](#-contact)
+[![Preview](https://img.shields.io/badge/🔍_Preview-8E2DE2?style=for-the-badge)](#-live-preview)
+[![About](https://img.shields.io/badge/📖_About-7A1FD1?style=for-the-badge)](#-about-the-project)
+[![Features](https://img.shields.io/badge/✨_Features-6614C2?style=for-the-badge)](#-key-features)
+[![Sections](https://img.shields.io/badge/🧑‍💻_Sections-5209B3?style=for-the-badge)](#-portfolio-sections)
+[![Tech Stack](https://img.shields.io/badge/🛠️_Tech_Stack-4A00E0?style=for-the-badge)](#️-tech-stack)
+[![Structure](https://img.shields.io/badge/📂_Structure-5209B3?style=for-the-badge)](#-folder-structure)
+[![Setup](https://img.shields.io/badge/🚀_Setup-6614C2?style=for-the-badge)](#-getting-started)
+[![Gallery](https://img.shields.io/badge/🌟_Gallery-7A1FD1?style=for-the-badge)](#-screenshots)
+[![Roadmap](https://img.shields.io/badge/🧭_Roadmap-8E2DE2?style=for-the-badge)](#-roadmap)
+[![Contact](https://img.shields.io/badge/📬_Contact-9B2FE8?style=for-the-badge)](#-contact)
 
 </div>
 
@@ -141,19 +150,18 @@ This is my **personal developer portfolio** — a fully responsive, animated sin
 
 ## 🛠️ Tech Stack
 
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=html,css,js,python,mongodb,vscode,git,github,netlify" />
-</p>
-
 <div align="center">
 
-| Category | Technology |
-|:---:|:---:|
-| **Markup** | HTML5 (Semantic Elements) |
-| **Styling** | CSS3 (Flexbox, Grid, Animations, Media Queries) |
-| **Interactivity** | Vanilla JavaScript |
-| **Version Control** | Git & GitHub |
-| **Deployment** | Netlify (Continuous Deployment) |
+| 🧩 Category | 🚀 Technology | 📝 Purpose | 🏷️ Badge |
+|:---:|:---:|:---|:---:|
+| **Markup** | HTML5 | Semantic page structure & accessibility | ![HTML5](https://img.shields.io/badge/-E34F26?style=flat-square&logo=html5&logoColor=white) |
+| **Styling** | CSS3 | Flexbox, Grid, animations & media queries | ![CSS3](https://img.shields.io/badge/-1572B6?style=flat-square&logo=css3&logoColor=white) |
+| **Interactivity** | JavaScript | Scroll effects, interactions & logic | ![JavaScript](https://img.shields.io/badge/-F7DF1E?style=flat-square&logo=javascript&logoColor=black) |
+| **Backend Skill** | Python | Scripting & problem solving | ![Python](https://img.shields.io/badge/-3776AB?style=flat-square&logo=python&logoColor=white) |
+| **Database Skill** | MongoDB | NoSQL database familiarity | ![MongoDB](https://img.shields.io/badge/-47A248?style=flat-square&logo=mongodb&logoColor=white) |
+| **Editor** | VS Code | Development environment | ![VSCode](https://img.shields.io/badge/-007ACC?style=flat-square&logo=visualstudiocode&logoColor=white) |
+| **Version Control** | Git & GitHub | Source control & collaboration | ![Git](https://img.shields.io/badge/-F05032?style=flat-square&logo=git&logoColor=white) ![GitHub](https://img.shields.io/badge/-181717?style=flat-square&logo=github&logoColor=white) |
+| **Deployment** | Netlify | Continuous deployment & hosting | ![Netlify](https://img.shields.io/badge/-00C7B7?style=flat-square&logo=netlify&logoColor=white) |
 
 </div>
 
