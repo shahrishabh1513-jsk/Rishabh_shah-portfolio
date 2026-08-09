@@ -2,7 +2,7 @@
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:8E2DE2,100:4A00E0&height=220&section=header&text=Rishabh%20Shah&fontSize=55&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Full-Stack%20Developer%20Portfolio%20💼&descAlignY=58&descSize=20"/>
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=8E2DE2&center=true&vCenter=true&width=700&lines=💻+Full-Stack+Developer+Portfolio;⚛️+Built+with+Modern+Web+Technologies;🎨+Sleek%2C+Animated+%26+Fully+Responsive;🚀+Showcasing+Projects%2C+Skills+%26+Journey" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=8E2DE2&center=true&vCenter=true&width=700&lines=Full-Stack+Developer+Portfolio;Built+with+Modern+Web+Technologies;Sleek%2C+Animated+%26+Fully+Responsive;Showcasing+Projects%2C+Skills+%26+Journey" alt="Typing SVG" />
 
 <br/>
 
