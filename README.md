@@ -14,7 +14,7 @@
 [![Repository](https://img.shields.io/badge/📂_Repository-View_Code-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/shahrishabh1513-jsk/Rishabh_shah-portfolio)
 [![Star](https://img.shields.io/github/stars/shahrishabh1513-jsk/Rishabh_shah-portfolio?style=for-the-badge&color=4A00E0&label=⭐%20STARS)](https://github.com/shahrishabh1513-jsk/Rishabh_shah-portfolio/stargazers)
 
-<br/><br/>
+<br/>
 
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
