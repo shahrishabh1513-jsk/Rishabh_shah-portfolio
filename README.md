@@ -1,6 +1,14 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:8E2DE2,100:4A00E0&height=220&section=header&text=Rishabh%20Shah&fontSize=55&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Full-Stack%20Developer%20Portfolio%20💼&descAlignY=58&descSize=20"/>
+<a href="https://rishabh-shah-portfolio.netlify.app/">
+    <img src="https://raw.githubusercontent.com/shahrishabh1513-jsk/Rishabh_shah-portfolio/main/img/logo.png" 
+         alt="Rishabh Shah Logo" 
+         width="350" 
+         style="border-radius: 20px; box-shadow: 0 0 20px rgba(142, 45, 226, 0.4); transition: transform 0.3s ease, box-shadow 0.3s ease;" 
+         onmouseover="this.style.transform='scale(1.05)'; this.style.boxShadow='0 0 40px rgba(142, 45, 226, 0.7)';" 
+         onmouseout="this.style.transform='scale(1)'; this.style.boxShadow='0 0 20px rgba(142, 45, 226, 0.4)';"/>
+  </a>
+  <br/>
 
 <br/>
 
