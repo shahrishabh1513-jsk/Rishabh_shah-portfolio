@@ -14,85 +14,142 @@
 
 <body>
 
-    <div class="container" id="home">
-        <div class="giant-number" id="giantNumber1">01</div>
-        <!-- Hero Section -->
-        <section class="hero">
-            <div class="hero-content">
-                <div class="creative-badge">Full-Stack Developer</div>
-                <h1 class="porto-word">RISHABH</h1>
-                <h1 class="folio-word">SHAH</h1>
-                <div class="hero-icons">
-                    <i class="fa-solid fa-code"></i>
-                    <i class="fa-solid fa-laptop-code"></i>
-                    <i class="fa-solid fa-database"></i>
-                </div>
-                <div class="hero-buttons">
-                    <a href="./pdf/Rishabh Shah Resume.pdf" class="btn-resume" id="resumeBtn">
-                        <i class="fa-solid fa-download"></i> Download Resume
-                    </a>
-                </div>
-                <div class="hero-social">
-                    <a href="https://github.com/shahrishabh1513-jsk" target="_blank" class="social-icon"><i
-                            class="fab fa-github"></i></a>
-                    <a href="https://www.linkedin.com/in/rishabh-alpeshabhai-shah-91b9072a6/" target="_blank"
-                        class="social-icon"><i class="fab fa-linkedin-in"></i></a>
-                    <a href="https://wa.me/917861976128" target="_blank" class="social-icon"><i
-                            class="fab fa-whatsapp"></i></a>
-                    <a href="mailto:shahrishu1515@gmail.com" class="social-icon"><i
-                            class="fa-regular fa-envelope"></i></a>
-                </div>
-            </div>
-            <div class="hero-image-area">
-                <div class="orange-accent-block">
-                    <img src="./img/image-removebg-preview (3).png" class="hero-img" alt="Rishabh Shah">
-                    <div class="best-tag">Full-Stack<br>Developer 2026</div>
-                </div>
-            </div>
-            <div class="signature-cta">
-                <div class="circle-arrow" id="circleArrow">
-                    <i class="fa-solid fa-chevron-right"></i>
-                </div>
-                <a href="#about" id="signatureLink">Rishabh Shah</a>
-            </div>
-        </section>
-    </div>
+    <!-- FLOATING TOP NAV -->
+    <nav class="floating-nav" id="floatingNav">
+        <a href="#home" class="nav-logo">RS<span class="nav-logo-dot">.</span></a>
 
-    <!--  MARQUEE STRIP  -->
+        <ul class="nav-links" id="navLinks">
+            <li><a href="#home" class="nav-link active" data-section="home">Hero</a></li>
+            <li><a href="#about" class="nav-link" data-section="about">About</a></li>
+            <li><a href="#projects" class="nav-link" data-section="projects">Projects</a></li>
+            <li><a href="#skills" class="nav-link" data-section="skills">Skills</a></li>
+            <li><a href="#certificates" class="nav-link" data-section="certificates">Achievements</a></li>
+        </ul>
+
+        <a href="#contact" class="nav-cta">Contact</a>
+
+        <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">
+            <i class="fa-solid fa-bars"></i>
+        </button>
+    </nav>
+    <div class="nav-overlay" id="navOverlay"></div>
+
+    <!-- HERO SECTION (photo layered as readable background, no colored panel) -->
+    <section class="hero-centered" id="home">
+        <div class="giant-number giant-number-hero" id="giantNumber1">01</div>
+
+        <!-- Photo sits behind the text as an atmospheric background layer -->
+        <div class="hero-photo-layer" aria-hidden="true">
+            <img src="./img/image-removebg-preview (3).png" class="hero-img-main" alt=""
+                onerror="this.src='https://placehold.co/600x750/EAEAEA/1E1E1E?text=Rishabh+Shah'">
+        </div>
+        <!-- Soft glow so text stays crisp wherever it sits over the photo -->
+        <div class="hero-text-glow" aria-hidden="true"></div>
+
+        <div class="hero-inner">
+            <br><br>
+            <br><br>
+            <br><br>
+            <br><br>
+            <br><br>
+            <h1 class="hero-heading">Hi, I'm <span class="accent-text">RISHABH SHAH</span> </h1>
+            <p class="hero-sub">I design and build clean, functional, real-world web experiences —
+                from the first line of code to deployment.</p>
+        </div>
+
+        <div class="hero-action-row">
+            <a href="#contact" class="btn-hero-primary">Let's Work Together <i
+                    class="fa-solid fa-arrow-right"></i></a>
+
+            <div class="hero-social-dock">
+                <a href="https://github.com/shahrishabh1513-jsk" target="_blank" class="social-icon"
+                    title="GitHub"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/rishabh-alpeshabhai-shah-91b9072a6/" target="_blank"
+                    class="social-icon" title="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                <a href="https://wa.me/917861976128" target="_blank" class="social-icon" title="WhatsApp"><i
+                        class="fab fa-whatsapp"></i></a>
+                <a href="mailto:shahrishu1515@gmail.com" class="social-icon" title="Email"><i
+                        class="fa-regular fa-envelope"></i></a>
+                <a href="./pdf/Rishabh Shah Resume.pdf" class="btn-resume" id="resumeBtn">
+                    <i class="fa-solid fa-download"></i> Resume
+                </a>
+            </div>
+        </div>
+
+        <div class="hero-float hf-1">
+            <div class="hf-top">
+                <span>Projects shipped</span>
+                <i class="fa-solid fa-diagram-project"></i>
+            </div>
+            <strong>15+ builds</strong>
+            <div class="hf-bar"><span></span></div>
+        </div>
+
+        <div class="hero-float hf-2">
+            <div class="hf-chat-icon"><i class="fa-solid fa-graduation-cap"></i></div>
+            <div>
+                <strong>Certified Full-Stack Dev</strong>
+                <p>IBM · Google · AWS &amp; more</p>
+            </div>
+        </div>
+    </section>
+
+    <!--  MARQUEE STRIP (single row)  -->
     <div class="marquee-strip">
         <div class="marquee-track">
-            <span>Full-Stack Developer</span><span class="mx">✦</span>
-            <span>JavaScript</span><span class="mx">✦</span>
-            <span>Python</span><span class="mx">✦</span>
-            <span>MongoDB</span><span class="mx">✦</span>
-            <span>PHP</span><span class="mx">✦</span>
-            <span>UI / UX</span><span class="mx">✦</span>
-            <span>Machine Learning</span><span class="mx">✦</span>
-            <span>React</span><span class="mx">✦</span>
-            <span>Full-Stack Developer</span><span class="mx">✦</span>
-            <span>JavaScript</span><span class="mx">✦</span>
-            <span>Python</span><span class="mx">✦</span>
-            <span>MongoDB</span><span class="mx">✦</span>
-            <span>PHP</span><span class="mx">✦</span>
-            <span>UI / UX</span><span class="mx">✦</span>
-            <span>Machine Learning</span><span class="mx">✦</span>
-            <span>React</span><span class="mx">✦</span>
+            <span><i class="fa-solid fa-code"></i> Full-Stack Developer</span><span class="mx">✦</span>
+            <span><i class="fa-brands fa-js"></i> JavaScript</span><span class="mx">✦</span>
+            <span><i class="fa-brands fa-python"></i> Python</span><span class="mx">✦</span>
+            <span><i class="fa-solid fa-leaf"></i> MongoDB</span><span class="mx">✦</span>
+            <span><i class="fa-brands fa-php"></i> PHP</span><span class="mx">✦</span>
+            <span><i class="fa-solid fa-pen-ruler"></i> UI / UX</span><span class="mx">✦</span>
+            <span><i class="fa-solid fa-robot"></i> Machine Learning</span><span class="mx">✦</span>
+            <span><i class="fa-brands fa-react"></i> React</span><span class="mx">✦</span>
+            <span><i class="fa-brands fa-git-alt"></i> Git &amp; GitHub</span><span class="mx">✦</span>
+            <span><i class="fa-solid fa-database"></i> SQL</span><span class="mx">✦</span>
+            <span><i class="fa-solid fa-code"></i> Full-Stack Developer</span><span class="mx">✦</span>
+            <span><i class="fa-brands fa-js"></i> JavaScript</span><span class="mx">✦</span>
+            <span><i class="fa-brands fa-python"></i> Python</span><span class="mx">✦</span>
+            <span><i class="fa-solid fa-leaf"></i> MongoDB</span><span class="mx">✦</span>
+            <span><i class="fa-brands fa-php"></i> PHP</span><span class="mx">✦</span>
+            <span><i class="fa-solid fa-pen-ruler"></i> UI / UX</span><span class="mx">✦</span>
+            <span><i class="fa-solid fa-robot"></i> Machine Learning</span><span class="mx">✦</span>
+            <span><i class="fa-brands fa-react"></i> React</span><span class="mx">✦</span>
+            <span><i class="fa-brands fa-git-alt"></i> Git &amp; GitHub</span><span class="mx">✦</span>
+            <span><i class="fa-solid fa-database"></i> SQL</span><span class="mx">✦</span>
         </div>
     </div>
 
-    <!-- About Section with Work Experience -->
+    <!-- About Section — Bento redesign -->
     <section class="about-section" id="about">
         <div class="container about-container">
             <div class="giant-number" id="giantNumber2">02</div>
-            <div class="about-grid">
-                <div class="about-image-col">
-                    <div class="orange-frame">
-                        <img src="./img/Rishabh_A.png" class="about-img" alt="Rishabh Shah">
+            <div class="section-header-center reveal-up">
+                <div class="section-label">About me</div>
+                <h2 class="section-title">Get to <span>Know Me</span></h2>
+            </div>
+
+            <div class="about-bento">
+                <!-- Photo card -->
+                <div class="bento-card bento-photo reveal-left" id="aboutPhotoCard">
+                    <div class="about-logo-badge" aria-hidden="true">
+                        <svg viewBox="0 0 120 120" class="rotating-logo">
+                            <defs>
+                                <path id="circlePath" d="M 60,60 m -46,0 a 46,46 0 1,1 92,0 a 46,46 0 1,1 -92,0" />
+                            </defs>
+                            <circle cx="60" cy="60" r="58" class="logo-ring" />
+                            <text font-size="10.3" letter-spacing="2.5" class="logo-text">
+                                <textPath href="#circlePath" startOffset="0%">
+                                    • RISHABH SHAH • FULL-STACK DEV • BUILD • LEARN •
+                                </textPath>
+                            </text>
+                        </svg>
+                        <div class="logo-badge-center"><i class="fa-solid fa-code"></i></div>
                     </div>
+                    <img src="./img/Rishabh_A.png" class="about-img" alt="Rishabh Shah"
+                        onerror="this.src='https://placehold.co/500x600/F8B400/1E1E1E?text=Rishabh+Shah'">
                     <div class="work-card">
-                        <div class="qr-sim">
-                            <i class="fa-solid fa-user-astronaut"></i>
-                        </div>
+                        <div class="qr-sim"><i class="fa-solid fa-user-astronaut"></i></div>
                         <div>
                             <h4>Let's Work Together :</h4>
                             <p>✉ shahrishu1515@gmail.com</p>
@@ -100,99 +157,151 @@
                         </div>
                     </div>
                 </div>
-                <div class="about-text-col">
-                    <div class="section-label">About me</div>
-                    <div class="hello-block">
-                        <i class="fa-solid fa-quote-left quote-icon"></i>
-                        <div class="hello-large">Hello.</div>
-                    </div>
+
+                <!-- Intro / hello card -->
+                <div class="bento-card bento-intro reveal-up" style="--delay:0.05s;">
+                    <i class="fa-solid fa-quote-left quote-icon"></i>
+                    <div class="hello-large">Hello.</div>
                     <p class="bio-text">
                         I'm <strong>Rishabh Shah</strong>, currently pursuing a BSc in Information Technology and
-                        building my path toward full-stack development.
-                        My core skills include HTML, CSS, JavaScript, and Python, along with working knowledge of SQL
-                        and MongoDB.<br><br>
+                        building my path toward full-stack development. My core skills include HTML, CSS,
+                        JavaScript, and Python, along with working knowledge of SQL and MongoDB.<br><br>
                         I enjoy problem solving, creating real-world web applications, and continuously improving my
                         development skills through academic and personal projects.
-                        Always eager to learn, grow, and contribute to meaningful tech solutions.
                     </p>
-                    <div class="stats-row">
-                        <div class="stat-item">
-                            <span class="stat-number">2+</span>
-                            <span class="stat-label">Years Learning</span>
-                        </div>
-                        <div class="stat-item">
-                            <span class="stat-number">15+</span>
-                            <span class="stat-label">Projects</span>
-                        </div>
-                        <div class="stat-item">
-                            <span class="stat-number">∞</span>
-                            <span class="stat-label">Curiosity</span>
-                        </div>
-                    </div>
-                    <div class="info-two-columns">
-                        <div class="info-block">
-                            <h4>Education</h4>
-                            <div class="edu-item">
-                                <p>Higher Secondary Education</p>
-                                <p class="meta">Mehsana Urban Vidhyalaya</p>
-                                <span class="meta" style="font-size:0.75rem;">2021 - 2023</span>
-                            </div>
-                            <div class="edu-item">
-                                <p>B.Sc. Information Technology</p>
-                                <p class="meta">P. P. SAVANI UNIVERSITY</p>
-                                <span class="meta">2023 - Present · CGPA: 8.00</span>
-                            </div>
+                </div>
 
-                            <h4 style="margin-top: 1.5rem;">Work Experience</h4>
-                            <div class="exp-item">
-                                <p>Web Development Intern</p>
-                                <p class="meta">Rainbow IT Services, Bharuch, Gujarat</p>
-                                <span class="meta">Dec 2025 – Jun 2026</span>
-                            </div>
-                        </div>
-                        <div class="info-block">
-                            <h4>Core Skills</h4>
-                            <div class="skill-icons">
-                                <span class="skill-badge">HTML5</span>
-                                <span class="skill-badge">CSS3</span>
-                                <span class="skill-badge">JavaScript</span>
-                                <span class="skill-badge">PHP</span>
-                                <span class="skill-badge">Python</span>
-                                <span class="skill-badge">SQL</span>
-                                <span class="skill-badge">C++</span>
-                                <span class="skill-badge">MongoDB</span>
-                            </div>
-                            <h4 style="margin-top: 1.5rem;">Contact</h4>
-                            <div class="contact-small">
-                                <p><i class="fa-regular fa-envelope"></i> shahrishu1515@gmail.com</p>
-                                <p><i class="fa-solid fa-phone"></i> +91 78619 76128</p>
-                                <p><i class="fa-brands fa-github"></i> @shahrishabh1513-jsk</p>
-                                <p><i class="fa-brands fa-linkedin"></i> Rishabh Shah</p>
-                            </div>
-                        </div>
+                <!-- Stats card -->
+                <div class="bento-card bento-stats reveal-up" style="--delay:0.1s;">
+                    <div class="stat-item">
+                        <span class="stat-number" data-count="2" data-suffix="+">0</span>
+                        <span class="stat-label">Years Learning</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number" data-count="15" data-suffix="+">0</span>
+                        <span class="stat-label">Projects</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number stat-infinity">∞</span>
+                        <span class="stat-label">Curiosity</span>
+                    </div>
+                </div>
+
+                <!-- Education card -->
+                <div class="bento-card bento-edu reveal-up" style="--delay:0.15s;">
+                    <h4><i class="fa-solid fa-graduation-cap"></i> Education</h4>
+                    <div class="edu-item">
+                        <p>Higher Secondary Education</p>
+                        <p class="meta">Mehsana Urban Vidhyalaya</p>
+                        <span class="meta" style="font-size:0.75rem;">2021 - 2023</span>
+                    </div>
+                    <div class="edu-item">
+                        <p>B.Sc. Information Technology</p>
+                        <p class="meta">P. P. SAVANI UNIVERSITY</p>
+                        <span class="meta">2023 - Present · CGPA: 8.00</span>
+                    </div>
+                </div>
+
+                <!-- Experience card -->
+                <div class="bento-card bento-exp reveal-up" style="--delay:0.2s;">
+                    <h4><i class="fa-solid fa-briefcase"></i> Work Experience</h4>
+                    <div class="exp-item">
+                        <p>Web Development Intern</p>
+                        <p class="meta">Rainbow IT Services, Bharuch, Gujarat</p>
+                        <span class="meta">Dec 2025 – Jun 2026</span>
+                    </div>
+                </div>
+
+                <!-- Core skills card -->
+                <div class="bento-card bento-skills reveal-up" style="--delay:0.25s;">
+                    <h4><i class="fa-solid fa-layer-group"></i> Core Skills</h4>
+                    <div class="skill-icons">
+                        <span class="skill-badge">HTML5</span>
+                        <span class="skill-badge">CSS3</span>
+                        <span class="skill-badge">JavaScript</span>
+                        <span class="skill-badge">PHP</span>
+                        <span class="skill-badge">Python</span>
+                        <span class="skill-badge">SQL</span>
+                        <span class="skill-badge">C++</span>
+                        <span class="skill-badge">MongoDB</span>
+                    </div>
+                </div>
+
+                <!-- Contact card -->
+                <div class="bento-card bento-contact reveal-up" style="--delay:0.3s;">
+                    <h4><i class="fa-solid fa-address-card"></i> Contact</h4>
+                    <div class="contact-small">
+                        <p><i class="fa-regular fa-envelope"></i> shahrishu1515@gmail.com</p>
+                        <p><i class="fa-solid fa-phone"></i> +91 78619 76128</p>
+                        <p><i class="fa-brands fa-github"></i> @shahrishabh1513-jsk</p>
+                        <p><i class="fa-brands fa-linkedin"></i> Rishabh Shah</p>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Featured Projects Section -->
+     <!-- Featured Projects Section — Mac Finder window -->
     <section class="projects-section" id="projects">
         <div class="container projects-container">
             <div class="giant-number" id="giantNumberProjects">03</div>
-            <div class="section-header-center">
+            <div class="section-header-center reveal-up">
                 <div class="section-label">My Work</div>
                 <h2 class="section-title">Featured <span>Projects</span></h2>
+                <p class="section-subtitle">Double-click a folder to open the project 📁</p>
             </div>
-            <div class="projects-grid" id="projectsGrid"></div>
+
+            <div class="finder-window reveal-up">
+                <div class="finder-titlebar">
+                    <div class="mac-dots">
+                        <span class="dot dot-red"></span>
+                        <span class="dot dot-yellow"></span>
+                        <span class="dot dot-green"></span>
+                    </div>
+                    <span class="finder-title"><i class="fa-solid fa-folder-open"></i> Projects — Finder</span>
+                    <span class="finder-count" id="finderProjectCount"></span>
+                </div>
+                <div class="finder-body">
+                    <aside class="finder-sidebar">
+                        <p class="finder-sidebar-label">Favorites</p>
+                        <div class="finder-sidebar-item active"><i class="fa-solid fa-folder"></i> Projects</div>
+                        <div class="finder-sidebar-item"><i class="fa-solid fa-laptop-code"></i> Rishabh's Mac</div>
+                        <div class="finder-sidebar-item"><i class="fa-brands fa-github"></i> GitHub</div>
+                        <p class="finder-sidebar-label">Tags</p>
+                        <div class="finder-sidebar-item"><span class="tag-dot tag-dot-js"></span> JavaScript</div>
+                        <div class="finder-sidebar-item"><span class="tag-dot tag-dot-py"></span> Python</div>
+                    </aside>
+                    <div class="finder-grid" id="projectsGrid"></div>
+                </div>
+            </div>
         </div>
     </section>
 
-    <!-- Technical Skills Section -->
+
+    <!-- PROJECT MODAL (Mac window style, functional close/minimize/maximize) -->
+    <div class="modal-overlay" id="projectModalOverlay">
+        <div class="mac-modal" id="projectModal">
+            <div class="mac-titlebar">
+                <div class="mac-dots">
+                    <span class="dot dot-red" id="projectModalClose" title="Close"></span>
+                    <span class="dot dot-yellow" id="projectModalMinimize" title="Minimize"></span>
+                    <span class="dot dot-green" id="projectModalMaximize" title="Maximize"></span>
+                </div>
+                <div class="mac-addressbar"><i class="fa-solid fa-lock"></i> <span
+                        id="modalAddressBar">yourproject.dev</span></div>
+                <div class="mac-titlebar-spacer"></div>
+            </div>
+            <div class="mac-modal-body" id="projectModalBody">
+                <!-- injected by JS -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Technical Skills Section — compact / sleek -->
     <section class="skills-section" id="skills">
         <div class="container skills-container">
             <div class="giant-number" id="giantNumberSkills">04</div>
-            <div class="section-header-center">
+            <div class="section-header-center reveal-up">
                 <div class="section-label">Expertise</div>
                 <h2 class="section-title">Technical <span>Skills</span></h2>
             </div>
@@ -200,27 +309,71 @@
         </div>
     </section>
 
-    <!-- Certificates & Awards Section -->
+    <!-- Certificates & Awards Section — Mac Finder window -->
     <section class="certificates-section" id="certificates">
         <div class="container certificates-container">
             <div class="giant-number" id="giantNumberCerts">05</div>
-            <div class="section-header-center">
+            <div class="section-header-center reveal-up">
                 <div class="section-label">Achievements</div>
                 <h2 class="section-title">Certificates & <span>Awards</span></h2>
+                <p class="section-subtitle">Open a file to view the certificate 🏅</p>
             </div>
-            <div class="certificates-grid" id="certificatesGrid"></div>
+
+            <div class="finder-window reveal-up">
+                <div class="finder-titlebar">
+                    <div class="mac-dots">
+                        <span class="dot dot-red"></span>
+                        <span class="dot dot-yellow"></span>
+                        <span class="dot dot-green"></span>
+                    </div>
+                    <span class="finder-title"><i class="fa-solid fa-folder-open"></i> Achievements — Finder</span>
+                    <span class="finder-count" id="finderCertCount"></span>
+                </div>
+                <div class="finder-body">
+                    <aside class="finder-sidebar">
+                        <p class="finder-sidebar-label">Favorites</p>
+                        <div class="finder-sidebar-item active"><i class="fa-solid fa-folder"></i> Certificates
+                        </div>
+                        <div class="finder-sidebar-item"><i class="fa-solid fa-award"></i> Achievements</div>
+                        <p class="finder-sidebar-label">Issuers</p>
+                        <div class="finder-sidebar-item"><span class="tag-dot tag-dot-ibm"></span> IBM</div>
+                        <div class="finder-sidebar-item"><span class="tag-dot tag-dot-google"></span> Google</div>
+                        <div class="finder-sidebar-item"><span class="tag-dot tag-dot-aws"></span> AWS</div>
+                    </aside>
+                    <div class="finder-grid" id="certificatesGrid"></div>
+                </div>
+            </div>
         </div>
     </section>
 
-    <!-- Get In Touch Section - Horizontal Line -->
+    <!-- CERTIFICATE MODAL (Mac window style, functional close/minimize/maximize) -->
+    <div class="modal-overlay" id="certModalOverlay">
+        <div class="mac-modal mac-modal-cert" id="certModal">
+            <div class="mac-titlebar">
+                <div class="mac-dots">
+                    <span class="dot dot-red" id="certModalClose" title="Close"></span>
+                    <span class="dot dot-yellow" id="certModalMinimize" title="Minimize"></span>
+                    <span class="dot dot-green" id="certModalMaximize" title="Maximize"></span>
+                </div>
+                <div class="mac-addressbar"><i class="fa-solid fa-lock"></i> <span
+                        id="certModalAddressBar">certificate.pdf</span></div>
+                <div class="mac-titlebar-spacer"></div>
+            </div>
+            <div class="mac-modal-body" id="certModalBody">
+                <!-- injected by JS -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Get In Touch Section -->
     <section class="contact-section" id="contact">
         <div class="container contact-container">
             <div class="giant-number" id="giantNumberContact">06</div>
-            <div class="section-header-center">
+            <div class="section-header-center reveal-up">
                 <div class="section-label">Get In Touch</div>
                 <h2 class="section-title">Let's <span>Connect</span></h2>
             </div>
-            <div class="contact-horizontal">
+            <div class="contact-horizontal reveal-up">
                 <div class="contact-horizontal-item">
                     <i class="fab fa-whatsapp"></i>
                     <div class="contact-horizontal-info">
