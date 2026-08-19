@@ -311,7 +311,7 @@ body {
     top: 46%;
     left: 50%;
     transform: translate(-50%, -46%);
-    width: clamp(300px, 34vw, 460px);
+    width: clamp(500px, 34vw, 460px);
     z-index: 0;
     pointer-events: none;
     -webkit-mask-image: linear-gradient(to bottom, black 60%, transparent 97%);
@@ -1204,6 +1204,19 @@ body {
 .tag-dot-py {
     background: #4b8bbe;
 }
+
+.tag-dot-html {
+    background: #00ff99;
+}
+
+.tag-dot-Pandas {
+    background: #eb0551;
+}
+
+.tag-dot-mysql {
+    background: #2808de;
+}
+
 
 .tag-dot-ibm {
     background: #052FAD;
