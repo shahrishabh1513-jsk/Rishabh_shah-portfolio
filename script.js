@@ -11,7 +11,8 @@ document.addEventListener('DOMContentLoaded', function () {
             image: './img/1.png',
             screenshots: ['./img/1.png', './img/1b.png', './img/1c.png'],
             repo: 'https://github.com/shahrishabh1513-jsk/hyfun-foods-corporate-website',
-            demo: 'https://shahrishabh1513-jsk.github.io/hyfun-foods-corporate-website/'
+            demo: 'https://shahrishabh1513-jsk.github.io/hyfun-foods-corporate-website/',
+            report: './pdf/hyfun-foods-report.pdf'
         },
         {
             title: 'Student Attendance',
@@ -21,7 +22,8 @@ document.addEventListener('DOMContentLoaded', function () {
             image: './img/2.png',
             screenshots: ['./img/2.png', './img/2b.png', './img/2c.png'],
             repo: 'https://github.com/shahrishabh1513-jsk/student-attendance-system-Description-',
-            demo: 'https://shahrishabh1513-jsk.github.io/student-attendance-system-Description-/'
+            demo: 'https://shahrishabh1513-jsk.github.io/student-attendance-system-Description-/',
+            report: './pdf/student-attendance-report.pdf'
         },
         {
             title: 'HR Fashion',
@@ -31,7 +33,8 @@ document.addEventListener('DOMContentLoaded', function () {
             image: './img/3.png',
             screenshots: ['./img/3.png', './img/3b.png', './img/3c.png'],
             repo: 'https://github.com/shahrishabh1513-jsk/HR-Atelier',
-            demo: 'https://shahrishabh1513-jsk.github.io/HR-Atelier/'
+            demo: 'https://shahrishabh1513-jsk.github.io/HR-Atelier/',
+            report: './pdf/hr-fashion-report.pdf'
         },
         {
             title: 'Invoice Generator',
@@ -41,7 +44,8 @@ document.addEventListener('DOMContentLoaded', function () {
             image: './img/4.png',
             screenshots: ['./img/4.png', './img/4b.png', './img/4c.png'],
             repo: 'https://github.com/shahrishabh1513-jsk/nova-invoice-generator',
-            demo: 'https://shahrishabh1513-jsk.github.io/nova-invoice-generator/'
+            demo: 'https://shahrishabh1513-jsk.github.io/nova-invoice-generator/',
+            report: './pdf/invoice-generator-report.pdf'
         },
         {
             title: 'Caria',
@@ -51,7 +55,8 @@ document.addEventListener('DOMContentLoaded', function () {
             image: './img/5.png',
             screenshots: ['./img/5.png', './img/5b.png', './img/5c.png'],
             repo: 'https://github.com/shahrishabh1513-jsk/Caria',
-            demo: 'https://shahrishabh1513-jsk.github.io/Caria/'
+            demo: 'https://shahrishabh1513-jsk.github.io/Caria/',
+            report: './pdf/caria-report.pdf'
         },
         {
             title: 'House Price Prediction',
@@ -61,7 +66,8 @@ document.addEventListener('DOMContentLoaded', function () {
             image: './img/12.png',
             screenshots: ['./img/12.png', './img/12b.png', './img/12c.png'],
             repo: 'https://github.com/shahrishabh1513-jsk/house-price-prediction-ds',
-            demo: 'https://github.com/shahrishabh1513-jsk/house-price-prediction-ds'
+            demo: 'https://github.com/shahrishabh1513-jsk/house-price-prediction-ds',
+            report: './pdf/house-price-prediction-report.pdf'
         },
         {
             title: 'RT-RoyalBNB',
@@ -71,7 +77,8 @@ document.addEventListener('DOMContentLoaded', function () {
             image: './img/13.jpg',
             screenshots: ['./img/13.jpg', './img/13b.jpg', './img/13c.jpg'],
             repo: 'https://github.com/shahrishabh1513-jsk/RT-RoyalBNB',
-            demo: 'https://shahrishabh1513-jsk.github.io/RT-RoyalBNB/'
+            demo: 'https://shahrishabh1513-jsk.github.io/RT-RoyalBNB/',
+            report: './pdf/rt-royalbnb-report.pdf'
         },
         {
             title: 'RT-GroceryHub',
@@ -81,7 +88,8 @@ document.addEventListener('DOMContentLoaded', function () {
             image: './img/14.jpg',
             screenshots: ['./img/14.jpg', './img/14b.jpg', './img/14c.jpg'],
             repo: 'https://github.com/shahrishabh1513-jsk/RT-Groceryhub',
-            demo: 'https://shahrishabh1513-jsk.github.io/RT-Groceryhub/'
+            demo: 'https://shahrishabh1513-jsk.github.io/RT-Groceryhub/',
+            report: './pdf/rt-groceryhub-report.pdf'
         },
         {
             title: 'Indian Used Car Price Predictor',
@@ -91,7 +99,8 @@ document.addEventListener('DOMContentLoaded', function () {
             image: './img/15.jpg',
             screenshots: ['./img/15.jpg', './img/15b.jpg', './img/15c.jpg'],
             repo: 'https://github.com/shahrishabh1513-jsk/Indian-Used-Car-Price-Prediction',
-            demo: 'https://github.com/shahrishabh1513-jsk/Indian-Used-Car-Price-Prediction'
+            demo: 'https://github.com/shahrishabh1513-jsk/Indian-Used-Car-Price-Prediction',
+            report: './pdf/indian-used-car-price-predictor-report.pdf'
         }
     ];
 
@@ -250,6 +259,7 @@ document.addEventListener('DOMContentLoaded', function () {
             <div class="modal-btn-row">
                 <a href="${project.demo}" target="_blank" class="modal-btn modal-btn-live"><i class="fa-solid fa-arrow-up-right-from-square"></i> Live Project</a>
                 <a href="${project.repo}" target="_blank" class="modal-btn modal-btn-code"><i class="fab fa-github"></i> Project Code</a>
+                ${project.report ? `<a href="${project.report}" target="_blank" class="modal-btn modal-btn-report"><i class="fa-solid fa-file-pdf"></i> View Project Report</a>` : ''}
             </div>
             <div class="modal-screens-label">Screenshots</div>
             <div class="modal-screens">

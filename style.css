@@ -311,7 +311,7 @@ body {
     top: 46%;
     left: 50%;
     transform: translate(-50%, -46%);
-    width: clamp(500px, 34vw, 460px);
+    width: clamp(400px, 34vw, 460px);
     z-index: 0;
     pointer-events: none;
     -webkit-mask-image: linear-gradient(to bottom, black 60%, transparent 97%);
@@ -733,8 +733,7 @@ body {
     grid-template-areas:
         "photo intro intro"
         "photo stats stats"
-        "photo edu exp"
-        "photo skills contact";
+        "photo edu exp";
     gap: 1.5rem;
 }
 
@@ -754,25 +753,43 @@ body {
 
 .bento-photo {
     grid-area: photo;
-    padding: 1.4rem 1.4rem 2.6rem;
+    padding: 1.2rem;
     position: relative;
-    background: var(--accent);
     display: flex;
-    align-items: flex-end;
-    justify-content: center;
-    overflow: visible;
+    flex-direction: column;
+    gap: 1.4rem;
+    overflow: hidden;
 }
 
-.bento-photo:hover {
-    transform: none;
-}
-
-.about-img {
+.bento-logo-frame {
     width: 100%;
-    filter: grayscale(0%);
+    aspect-ratio: 16 / 9;
     border-radius: 16px;
-    border: 4px solid white;
+    overflow: hidden;
+    background: var(--text-dark);
+    flex-shrink: 0;
+}
+
+.bento-logo-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
     transition: transform 0.4s ease;
+}
+
+.bento-photo:hover .bento-logo-img {
+    transform: scale(1.04);
+}
+
+.bento-photo-info {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.bento-photo-contact-heading {
+    margin-top: 1.4rem;
 }
 
 .about-logo-badge {
@@ -1021,8 +1038,7 @@ body {
             "photo photo"
             "intro intro"
             "stats stats"
-            "edu exp"
-            "skills contact";
+            "edu exp";
     }
 }
 
@@ -1034,28 +1050,7 @@ body {
             "intro"
             "stats"
             "edu"
-            "exp"
-            "skills"
-            "contact";
-    }
-
-    .bento-photo {
-        padding-bottom: 3rem;
-    }
-
-    .work-card {
-        position: relative;
-        left: 0;
-        right: 0;
-        bottom: 0;
-        margin-top: 1.5rem;
-    }
-
-    .about-logo-badge {
-        top: -18px;
-        right: 6px;
-        width: 78px;
-        height: 78px;
+            "exp";
     }
 }
 
@@ -1473,6 +1468,18 @@ body {
 
 .modal-btn-code:hover {
     background: #000;
+    transform: translateY(-3px);
+}
+
+.modal-btn-report {
+    background: white;
+    color: var(--text-dark);
+    border: 2px solid var(--text-dark);
+}
+
+.modal-btn-report:hover {
+    background: var(--text-dark);
+    color: white;
     transform: translateY(-3px);
 }
 
