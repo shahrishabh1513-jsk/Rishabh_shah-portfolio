@@ -185,6 +185,16 @@ document.addEventListener('DOMContentLoaded', function () {
             image: './img/11.png',
             badge: 'google',
             fileIcon: 'fa-regular fa-file-lines'
+        },
+        {
+            issuer: 'Canva',
+            title: 'Canva Design Essentials',
+            org: 'SKILL SHARE.',
+            date: 'JAN 2026',
+            link: './pdf/AWS Cloud Security Foundation.pdf',
+            image: './img/10.png',
+            badge: 'Canva',
+            fileIcon: 'fa-regular fa-file-lines'
         }
     ];
 

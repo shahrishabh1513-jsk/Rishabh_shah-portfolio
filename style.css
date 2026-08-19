@@ -1225,6 +1225,10 @@ body {
     background: #FF9900;
 }
 
+.tag-dot-Canva {
+    background: #f20684;
+}
+
 .finder-grid {
     flex: 1;
     padding: 1.8rem;
