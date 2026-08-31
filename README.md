@@ -210,8 +210,8 @@ cd Rishabh_shah-portfolio
 ## 🌟 Screenshots
 
 <div align="center">
-<img src="https://github.com/user-attachments/assets/bc770447-1e8b-4bda-a5f9-6dbe0bf19f72" width="45%" style="border-radius:10px;"/>
-<img src="https://github.com/user-attachments/assets/0510d722-19bc-42d3-b2ab-c9992c0f29c8" width="45%" style="border-radius:10px;"/>
+<img src="https://github.com/user-attachments/assets/bc770447-1e8b-4bda-a5f9-6dbe0bf19f72" hight="45%" width="45%" style="border-radius:10px;"/>
+<img src="https://github.com/user-attachments/assets/0510d722-19bc-42d3-b2ab-c9992c0f29c8" hight="55%" width="45%" style="border-radius:10px;"/>
 
 </div>
 
