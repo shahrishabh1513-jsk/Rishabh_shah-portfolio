@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', function () {
             longDescription: 'A complete corporate website built for HyFun Foods, featuring dynamic product listings, company information pages, and a fully responsive layout that works seamlessly across devices. Focused on clean navigation and a professional presentation of the brand.',
             tags: ['JavaScript', 'HTML/CSS', 'Node.js', 'MongoDB'],
             image: './img/1.png',
-            screenshots: ['./img/1.png', './img/1b.png', './img/1c.png'],
+            screenshots: ['./img/PP1/1.png', './img/PP1/2.png', './img/PP1/3.png', './img/PP1/4.png'],
             repo: 'https://github.com/shahrishabh1513-jsk/hyfun-foods-corporate-website',
             demo: 'https://shahrishabh1513-jsk.github.io/hyfun-foods-corporate-website/',
             report: './pdf/hyfun-foods-report.pdf'
@@ -19,7 +19,7 @@ document.addEventListener('DOMContentLoaded', function () {
             longDescription: 'An attendance tracking system built for educational use, with a live analytics dashboard, attendance history, and one-click export functionality. Designed to make daily attendance management fast and error-free for teachers.',
             tags: ['PHP', 'JavaScript', 'MySQL', 'Chart.js'],
             image: './img/2.png',
-            screenshots: ['./img/2.png', './img/2b.png', './img/2c.png'],
+            screenshots: ['./img/PP2/1.png', './img/PP2/2.png', './img/PP2/3.png', './img/PP2/4.png'],
             repo: 'https://github.com/shahrishabh1513-jsk/student-attendance-system-Description-',
             demo: 'https://shahrishabh1513-jsk.github.io/student-attendance-system-Description-/',
             report: './pdf/student-attendance-report.pdf'
@@ -30,7 +30,7 @@ document.addEventListener('DOMContentLoaded', function () {
             longDescription: 'A modern fashion brand website with a bold visual identity, animated product showcase sections, and a shopping-friendly layout built entirely with vanilla HTML, CSS and JavaScript.',
             tags: ['HTML', 'CSS', 'JavaScript'],
             image: './img/3.png',
-            screenshots: ['./img/3.png', './img/3b.png', './img/3c.png'],
+            screenshots: ['./img/PP3/1.png', './img/PP3/2.png', './img/PP3/3.png', './img/PP3/4.png'],
             repo: 'https://github.com/shahrishabh1513-jsk/HR-Atelier',
             demo: 'https://shahrishabh1513-jsk.github.io/HR-Atelier/',
             report: './pdf/hr-fashion-report.pdf'
@@ -41,7 +41,7 @@ document.addEventListener('DOMContentLoaded', function () {
             longDescription: 'A dynamic invoice generation tool that lets users create, preview, and export professional invoices in just a few clicks, with a clean and user-friendly interface built for speed.',
             tags: ['JavaScript', 'HTML/CSS'],
             image: './img/4.png',
-            screenshots: ['./img/4.png', './img/4b.png', './img/4c.png'],
+            screenshots: ['./img/PP4/1.png', './img/PP4/2.png', './img/PP4/3.png', './img/PP4/4.png'],
             repo: 'https://github.com/shahrishabh1513-jsk/nova-invoice-generator',
             demo: 'https://shahrishabh1513-jsk.github.io/nova-invoice-generator/',
             report: './pdf/invoice-generator-report.pdf'
@@ -52,7 +52,7 @@ document.addEventListener('DOMContentLoaded', function () {
             longDescription: 'A modern, responsive web project exploring interactive UI components, smooth transitions, and a component-driven approach to front-end development.',
             tags: ['JavaScript', 'HTML/CSS'],
             image: './img/5.png',
-            screenshots: ['./img/5.png', './img/5b.png', './img/5c.png'],
+            screenshots: ['./img/PP5/1.png', './img/PP5/2.png', './img/PP5/3.png','./img/PP5/4.png', './img/PP5/5.png'],
             repo: 'https://github.com/shahrishabh1513-jsk/Caria',
             demo: 'https://shahrishabh1513-jsk.github.io/Caria/',
             report: './pdf/caria-report.pdf'
@@ -63,7 +63,7 @@ document.addEventListener('DOMContentLoaded', function () {
             longDescription: 'A data science project focused on predicting housing prices using regression models trained on real-world datasets. Involved data cleaning, feature engineering, and model evaluation using Pandas, NumPy, and Scikit-learn.',
             tags: ['Python', 'Pandas', 'NumPy', 'Scikit-learn'],
             image: './img/12.png',
-            screenshots: ['./img/12.png', './img/12b.png', './img/12c.png'],
+            screenshots: ['./img/PP6/1.png'],
             repo: 'https://github.com/shahrishabh1513-jsk/house-price-prediction-ds',
             demo: 'https://github.com/shahrishabh1513-jsk/house-price-prediction-ds',
             report: './pdf/house-price-prediction-report.pdf'
@@ -74,7 +74,7 @@ document.addEventListener('DOMContentLoaded', function () {
             longDescription: 'A luxury hotel and resort booking experience with an elegant visual language, smooth booking flow, and fully responsive design tailored for hospitality brands.',
             tags: ['HTML', 'CSS', 'JavaScript'],
             image: './img/13.jpg',
-            screenshots: ['./img/13.jpg', './img/13b.jpg', './img/13c.jpg'],
+            screenshots: ['img/PP7/1.jpg', './img/PP7/2.png', './img/PP7/3.png','./img/PP7/4.png'],
             repo: 'https://github.com/shahrishabh1513-jsk/RT-RoyalBNB',
             demo: 'https://shahrishabh1513-jsk.github.io/RT-RoyalBNB/',
             report: './pdf/rt-royalbnb-report.pdf'
