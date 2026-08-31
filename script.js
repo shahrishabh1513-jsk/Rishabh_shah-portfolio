@@ -85,7 +85,7 @@ document.addEventListener('DOMContentLoaded', function () {
             longDescription: 'A modern online grocery shopping experience with organized product categories, a responsive layout, and intuitive navigation designed for quick and easy browsing.',
             tags: ['HTML', 'CSS', 'JavaScript'],
             image: './img/14.jpg',
-            screenshots: ['./img/14.jpg', './img/14b.jpg', './img/14c.jpg'],
+            screenshots: ['img/PP8/1.jpg', './img/PP8/2.png', './img/PP8/3.png','./img/PP8/4.png'],
             repo: 'https://github.com/shahrishabh1513-jsk/RT-Groceryhub',
             demo: 'https://shahrishabh1513-jsk.github.io/RT-Groceryhub/',
             report: './pdf/rt-groceryhub-report.pdf'
@@ -96,7 +96,7 @@ document.addEventListener('DOMContentLoaded', function () {
             longDescription: 'A machine learning project that predicts the resale value of used cars in the Indian market, combining exploratory data analysis, feature engineering, and predictive modeling for reliable price estimates.',
             tags: ['Python', 'Pandas', 'NumPy', 'Scikit-learn', 'Machine Learning'],
             image: './img/15.jpg',
-            screenshots: ['./img/15.jpg', './img/15b.jpg', './img/15c.jpg'],
+            screenshots: ['img/PP9/1.jpg'],
             repo: 'https://github.com/shahrishabh1513-jsk/Indian-Used-Car-Price-Prediction',
             demo: 'https://github.com/shahrishabh1513-jsk/Indian-Used-Car-Price-Prediction',
             report: './pdf/indian-used-car-price-predictor-report.pdf'
@@ -131,7 +131,7 @@ document.addEventListener('DOMContentLoaded', function () {
             org: 'VANDERBILT UNIVERSITY',
             date: 'Feb 18, 2025',
             link: './pdf/(C6) Android App Development.pdf',
-            image: './img/6.png',
+            image: 'img/CA1/(C6) Android App Development.jpg',
             badge: 'coursera',
             fileIcon: 'fa-regular fa-file-lines'
         },
