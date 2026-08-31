@@ -55,7 +55,7 @@
 <div align="center">
 
 <a href="https://rishabh-shah-portfolio.netlify.app/" target="_blank">
-  <img src="https://api.microlink.io/?url=https%3A%2F%2Frishabh-shah-portfolio.netlify.app%2F&screenshot=true&meta=false&embed=screenshot.url&waitFor=2000" alt="Portfolio Website Preview" width="90%" style="border-radius:12px; box-shadow: 0 8px 24px rgba(0,0,0,0.25);"/>
+  <img src="https://github.com/user-attachments/assets/ef1d22d9-94f8-4060-a1f8-91917a7ddba3" alt="Portfolio Website Preview" width="90%" style="border-radius:12px; box-shadow: 0 8px 24px rgba(0,0,0,0.25);"/>
 </a>
 
 <sub>👆 Click the preview to explore the live portfolio</sub>
