@@ -141,7 +141,7 @@ document.addEventListener('DOMContentLoaded', function () {
             org: 'IBM',
             date: 'Jan 22, 2026',
             link: './pdf/(C_Final) IBM Full Stack Software.pdf',
-            image: './img/7.png',
+            image: 'img/CA2/(C_Final) IBM Full Stack Software.jpg',
             badge: 'ibm',
             fileIcon: 'fa-regular fa-file-lines'
         },
@@ -151,7 +151,7 @@ document.addEventListener('DOMContentLoaded', function () {
             org: 'IBM',
             date: 'Feb 13, 2026',
             link: './pdf/(Cfinal) IBM Generative AI Engineering.pdf',
-            image: './img/8.png',
+            image: 'img/CA3/(Cfinal) IBM Generative AI Engineering.jpg',
             badge: 'ibm',
             fileIcon: 'fa-regular fa-file-lines'
         },
@@ -161,7 +161,7 @@ document.addEventListener('DOMContentLoaded', function () {
             org: 'Google',
             date: 'Jan 30, 2026',
             link: './pdf/(Cfinal) Google UX Design.pdf',
-            image: './img/9.png',
+            image: 'img/CA4/(Cfinal) Google UX Design.jpg',
             badge: 'google',
             fileIcon: 'fa-regular fa-file-lines'
         },
@@ -171,7 +171,7 @@ document.addEventListener('DOMContentLoaded', function () {
             org: 'Amazon Web Services',
             date: 'Feb 2026',
             link: './pdf/AWS Cloud Security Foundation.pdf',
-            image: './img/10.png',
+            image: 'img/CA5/AWS Cloud Security Foundation.jpg',
             badge: 'aws',
             fileIcon: 'fa-regular fa-file-lines'
         },
@@ -179,10 +179,20 @@ document.addEventListener('DOMContentLoaded', function () {
             issuer: 'GOOGLE',
             title: 'Google Workspace',
             org: 'Google',
-            date: '2026',
+            date: 'Jan 2026',
             link: './pdf/(CFINAL) Getting started with.pdf',
-            image: './img/11.png',
+            image: 'img/CA6/(CFINAL) Getting started with.jpg',
             badge: 'google',
+            fileIcon: 'fa-regular fa-file-lines'
+        },
+        {
+            issuer: 'CANVA',
+            title: 'Canva Design Essentials',
+            org: 'Skillshares',
+            date: 'Jan 2026',
+            link: './pdf/AWS Cloud Security Foundation.pdf',
+            image: 'img/CA5/AWS Cloud Security Foundation.jpg',
+            badge: 'canva',
             fileIcon: 'fa-regular fa-file-lines'
         }
     ];
@@ -191,7 +201,8 @@ document.addEventListener('DOMContentLoaded', function () {
         coursera: '#2A73FF',
         ibm: '#052FAD',
         google: '#0F9D58',
-        aws: '#FF9900'
+        aws: '#FF9900',
+        canva: '#ff0073'
     };
 
     //  RENDER PROJECTS (Finder folder tiles) 
