@@ -579,7 +579,7 @@ document.addEventListener('DOMContentLoaded', function () {
         }
     });
 
-    // INITIALIZE ALL RENDERS 
+    
     renderProjects();
     renderSkills();
     renderCertificates();
