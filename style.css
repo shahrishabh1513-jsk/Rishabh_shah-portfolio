@@ -732,8 +732,8 @@ body {
     grid-template-rows: auto auto auto;
     grid-template-areas:
         "photo intro intro"
-        "photo stats stats"
-        "photo edu exp";
+        "photo edu exp"
+        "photo stats stats";
     gap: 1.5rem;
 }
 
@@ -921,24 +921,72 @@ body {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    background: var(--text-dark);
+    padding: 1.8rem 1.5rem;
+    position: relative;
+    overflow: hidden;
+}
+
+.bento-stats:before {
+    content: '';
+    position: absolute;
+    top: -40%;
+    right: -10%;
+    width: 220px;
+    height: 220px;
+    background: radial-gradient(circle, rgba(248, 180, 0, 0.18), transparent 70%);
+    pointer-events: none;
 }
 
 .stat-item {
     text-align: center;
     flex: 1;
+    position: relative;
+    z-index: 1;
+    transition: transform 0.3s ease;
+}
+
+.stat-item:hover {
+    transform: translateY(-4px);
+}
+
+.stat-item:not(:last-child):after {
+    content: '';
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 1px;
+    height: 60%;
+    background: rgba(255, 255, 255, 0.12);
+}
+
+.stat-icon {
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    background: rgba(248, 180, 0, 0.14);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 0.6rem;
+    color: var(--accent);
+    font-size: 0.95rem;
 }
 
 .stat-number {
     font-family: var(--header-font);
-    font-size: 2rem;
+    font-size: 2.1rem;
     font-weight: 800;
     color: var(--accent);
     display: block;
 }
 
 .stat-label {
-    font-size: 0.78rem;
-    color: var(--text-muted);
+    font-size: 0.75rem;
+    color: rgba(255, 255, 255, 0.7);
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
 }
 
 .bento-edu {
@@ -1037,8 +1085,8 @@ body {
         grid-template-areas:
             "photo photo"
             "intro intro"
-            "stats stats"
-            "edu exp";
+            "edu exp"
+            "stats stats";
     }
 }
 
@@ -1048,9 +1096,9 @@ body {
         grid-template-areas:
             "photo"
             "intro"
-            "stats"
             "edu"
-            "exp";
+            "exp"
+            "stats";
     }
 }
 
@@ -1194,22 +1242,23 @@ body {
 
 .tag-dot-js {
     background: #f0db4f;
+    box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.08) inset;
 }
 
 .tag-dot-py {
-    background: #4b8bbe;
+    background: #3776ab;
 }
 
 .tag-dot-html {
-    background: #00ff99;
+    background: #e34f26;
 }
 
 .tag-dot-Pandas {
-    background: #eb0551;
+    background: #150458;
 }
 
 .tag-dot-mysql {
-    background: #2808de;
+    background: #00758f;
 }
 
 
@@ -1433,6 +1482,102 @@ body {
     border-radius: 20px;
     font-size: 0.78rem;
     font-weight: 600;
+    color: var(--text-dark);
+    border: 1px solid transparent;
+    transition: transform 0.2s ease;
+}
+
+.modal-tag:hover {
+    transform: translateY(-2px);
+}
+
+/* Color-coded per technology */
+.tag-js {
+    background: rgba(240, 219, 79, 0.18);
+    color: #8a6d00;
+    border-color: rgba(191, 161, 0, 0.4);
+}
+
+.tag-html {
+    background: rgba(227, 76, 38, 0.12);
+    color: #c8431f;
+    border-color: rgba(227, 76, 38, 0.35);
+}
+
+.tag-css {
+    background: rgba(21, 114, 182, 0.12);
+    color: #1572b6;
+    border-color: rgba(21, 114, 182, 0.35);
+}
+
+.tag-python {
+    background: rgba(55, 118, 171, 0.12);
+    color: #3776ab;
+    border-color: rgba(55, 118, 171, 0.35);
+}
+
+.tag-node {
+    background: rgba(83, 166, 58, 0.12);
+    color: #3c873a;
+    border-color: rgba(83, 166, 58, 0.35);
+}
+
+.tag-mongo {
+    background: rgba(71, 162, 72, 0.12);
+    color: #2f8b3a;
+    border-color: rgba(71, 162, 72, 0.35);
+}
+
+.tag-php {
+    background: rgba(119, 123, 180, 0.16);
+    color: #5b5fa8;
+    border-color: rgba(119, 123, 180, 0.4);
+}
+
+.tag-mysql {
+    background: rgba(0, 117, 143, 0.12);
+    color: #00758f;
+    border-color: rgba(0, 117, 143, 0.35);
+}
+
+.tag-chartjs {
+    background: rgba(255, 99, 132, 0.15);
+    color: #e34a68;
+    border-color: rgba(255, 99, 132, 0.4);
+}
+
+.tag-pandas {
+    background: rgba(21, 4, 88, 0.1);
+    color: #150458;
+    border-color: rgba(21, 4, 88, 0.3);
+}
+
+.tag-numpy {
+    background: rgba(77, 171, 247, 0.15);
+    color: #2f8fd6;
+    border-color: rgba(77, 171, 247, 0.4);
+}
+
+.tag-sklearn {
+    background: rgba(249, 115, 22, 0.15);
+    color: #e0670e;
+    border-color: rgba(249, 115, 22, 0.4);
+}
+
+.tag-ml {
+    background: rgba(147, 51, 234, 0.12);
+    color: #9333ea;
+    border-color: rgba(147, 51, 234, 0.35);
+}
+
+.tag-storage {
+    background: rgba(107, 114, 128, 0.15);
+    color: #4b5563;
+    border-color: rgba(107, 114, 128, 0.4);
+}
+
+.tag-default {
+    background: #f0f0f0;
     color: var(--text-dark);
 }
 
