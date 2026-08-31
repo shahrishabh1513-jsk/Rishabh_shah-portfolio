@@ -210,9 +210,8 @@ cd Rishabh_shah-portfolio
 ## 🌟 Screenshots
 
 <div align="center">
-
-<img src="https://api.microlink.io/?url=https%3A%2F%2Frishabh-shah-portfolio.netlify.app%2F%23about&screenshot=true&meta=false&embed=screenshot.url&waitFor=2000" width="45%" style="border-radius:10px;"/>
-<img src="https://api.microlink.io/?url=https%3A%2F%2Frishabh-shah-portfolio.netlify.app%2F%23projects&screenshot=true&meta=false&embed=screenshot.url&waitFor=2000" width="45%" style="border-radius:10px;"/>
+<img src="https://github.com/user-attachments/assets/bc770447-1e8b-4bda-a5f9-6dbe0bf19f72" width="45%" style="border-radius:10px;"/>
+<img src="https://github.com/user-attachments/assets/0510d722-19bc-42d3-b2ab-c9992c0f29c8" width="45%" style="border-radius:10px;"/>
 
 </div>
 
