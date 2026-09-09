@@ -1,5 +1,7 @@
 <div align="center">
 
+<img align="right" src="https://github.com/user-attachments/assets/41de0edc-f0a3-474a-9156-d8b3d10d41ba" width="140" alt="Shah Rishabh badge logo"/>
+
 <a href="https://rishabh-shah-portfolio.netlify.app/">
     <img src="https://github.com/user-attachments/assets/99854d9a-254f-4f65-a722-d6a176608fc2" 
          alt="Rishabh Shah Logo" 
