@@ -1,6 +1,15 @@
 <div align="center">
 
 <img align="right" src="https://github.com/user-attachments/assets/41de0edc-f0a3-474a-9156-d8b3d10d41ba" width="140" alt="Shah Rishabh badge logo"/>
+ 
+  <a href="https://rishabh-shah-portfolio.netlify.app/">
+    <img src="https://github.com/user-attachments/assets/99854d9a-254f-4f65-a722-d6a176608fc2" 
+         alt="Rishabh Shah Logo" 
+         width="200" 
+         style="border-radius: 20px; box-shadow: 0 0 20px rgba(142, 45, 226, 0.4); transition: transform 0.3s ease, box-shadow 0.3s ease;" 
+         onmouseover="this.style.transform='scale(1.05)'; this.style.boxShadow='0 0 40px rgba(142, 45, 226, 0.7)';" 
+         onmouseout="this.style.transform='scale(1)'; this.style.boxShadow='0 0 20px rgba(142, 45, 226, 0.4)';"/>
+  </a>
   <br/>
 
 [![Live Demo](https://img.shields.io/badge/🔴_LIVE_DEMO-View_Portfolio-8E2DE2?style=for-the-badge)](https://rishabh-shah-portfolio.netlify.app/)
