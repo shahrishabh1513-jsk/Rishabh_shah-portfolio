@@ -1,7 +1,7 @@
 <div align="center">
 
 <img align="right" src="https://github.com/user-attachments/assets/41de0edc-f0a3-474a-9156-d8b3d10d41ba" width="140" alt="Shah Rishabh badge logo"/>
-<img align="left" src="https://github.com/user-attachments/assets/b70a76a6-ed71-41ad-bd9d-91da69eb4628" width="300" alt="Shah Rishabh badge logo"/>
+<img align="left" src="https://github.com/user-attachments/assets/90c19f97-8b0b-4df1-96c4-a288d337503c" width="140" alt="Shah Rishabh badge logo"/>
 
 [![Live Demo](https://img.shields.io/badge/🔴_LIVE_DEMO-View_Portfolio-8E2DE2?style=for-the-badge)](https://rishabh-shah-portfolio.netlify.app/)
 [![Repository](https://img.shields.io/badge/📂_Repository-View_Code-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/shahrishabh1513-jsk/Rishabh_shah-portfolio)
