@@ -5,7 +5,7 @@
 
 [![Live Demo](https://img.shields.io/badge/🔴_LIVE_DEMO-View_Portfolio-8E2DE2?style=for-the-badge)](https://rishabh-shah-portfolio.netlify.app/)
 [![Repository](https://img.shields.io/badge/📂_Repository-View_Code-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/shahrishabh1513-jsk/Rishabh_shah-portfolio)
-[![Star](https://img.shields.io/github/stars/shahrishabh1513-jsk/Rishabh_shah-portfolio?style=for-the-badge&color=4A00E0&label=⭐%20STARS)](https://github.com/shahrishabh1513-jsk/Rishabh_shah-portfolio/stargazers)
+(https://github.com/shahrishabh1513-jsk/Rishabh_shah-portfolio/stargazers)
 
 <br/>
 
