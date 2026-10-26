@@ -3,48 +3,46 @@ document.addEventListener('DOMContentLoaded', function () {
     //  PROJECTS DATA 
     const projectsData = [
         {
-            title: 'HyFun Foods',
-            description: 'Full-stack corporate website with product listings, company info, and responsive design.',
-            longDescription: 'A complete corporate website built for HyFun Foods, featuring dynamic product listings, company information pages, and a fully responsive layout that works seamlessly across devices. Focused on clean navigation and a professional presentation of the brand.',
-            tags: ['JavaScript', 'HTML/CSS', 'Node.js', 'MongoDB'],
-            image: './img/1.png',
-            screenshots: ['./img/PP1/1.png', './img/PP1/2.png', './img/PP1/3.png', './img/PP1/4.png'],
-            repo: 'https://github.com/shahrishabh1513-jsk/hyfun-foods-corporate-website',
-            demo: 'https://shahrishabh1513-jsk.github.io/hyfun-foods-corporate-website/',
-            report: './pdf/hyfun-foods-report.pdf'
+            title: 'RT Food – Frozen Snacks & French Fries',
+            description: 'Frozen snacks and French fries brand website with product showcase and responsive design.',
+            longDescription: 'A complete brand website for RT Food, showcasing frozen snacks and French fries with a clean product presentation, company information, and a fully responsive layout. Documented with a detailed project report.',
+            tags: ['HTML', 'CSS', 'JavaScript'],
+            image: './img/PP10/1.png',
+            screenshots: ['./img/PP10/1.png', './img/PP10/2.png', './img/PP10/3.png', './img/PP10/4.png'],
+            repo: 'https://github.com/shahrishabh1513-jsk/RT-Food-Frozen-Snacks',
+            demo: 'https://shahrishabh1513-jsk.github.io/RT-Food-Frozen-Snacks/',
+            report: 'https://github.com/shahrishabh1513-jsk/RT-Food-Frozen-Snacks/blob/main/RT_FOOD_Project_Report.pdf'
         },
         {
-            title: 'Student Attendance',
-            description: 'Attendance tracking system with analytics dashboard and export functionality.',
-            longDescription: 'An attendance tracking system built for educational use, with a live analytics dashboard, attendance history, and one-click export functionality. Designed to make daily attendance management fast and error-free for teachers.',
-            tags: ['PHP', 'JavaScript', 'MySQL', 'Chart.js'],
-            image: './img/2.png',
-            screenshots: ['./img/PP2/1.png', './img/PP2/2.png', './img/PP2/3.png', './img/PP2/4.png'],
-            repo: 'https://github.com/shahrishabh1513-jsk/student-attendance-system-Description-',
-            demo: 'https://shahrishabh1513-jsk.github.io/student-attendance-system-Description-/',
-            report: './pdf/student-attendance-report.pdf'
+            title: 'RT SMS – Student Management System',
+            description: 'Student management system for handling student records with a clean, user-friendly interface.',
+            longDescription: 'RT SMS is a Student Management System designed to organize and manage student records through a clean, intuitive interface. Documented with a detailed project report.',
+            tags: ['HTML', 'CSS', 'JavaScript'],
+            image: './img/PP11/1.png',
+            screenshots: ['./img/PP11/1.png', './img/PP11/2.png', './img/PP11/3.png', './img/PP11/4.png'],
+            repo: 'https://github.com/shahrishabh1513-jsk/RT-SMS-Student-Manegment-System',
+            demo: 'https://shahrishabh1513-jsk.github.io/RT-SMS-Student-Manegment-System/',
+            report: 'https://github.com/shahrishabh1513-jsk/RT-SMS-Student-Manegment-System/blob/main/RT_SMS_Project_Report.pdf'
         },
         {
-            title: 'HR Fashion',
+            title: 'RT Fashion World',
             description: 'Fashion brand website with modern UI and product showcase.',
             longDescription: 'A modern fashion brand website with a bold visual identity, animated product showcase sections, and a shopping-friendly layout built entirely with vanilla HTML, CSS and JavaScript.',
             tags: ['HTML', 'CSS', 'JavaScript'],
             image: './img/3.png',
             screenshots: ['./img/PP3/1.png', './img/PP3/2.png', './img/PP3/3.png', './img/PP3/4.png'],
-            repo: 'https://github.com/shahrishabh1513-jsk/HR-Atelier',
-            demo: 'https://shahrishabh1513-jsk.github.io/HR-Atelier/',
-            report: './pdf/hr-fashion-report.pdf'
+            repo: 'https://github.com/shahrishabh1513-jsk/RT_Fashion-World',
+            demo: 'https://shahrishabh1513-jsk.github.io/RT_Fashion-World/'
         },
         {
-            title: 'Invoice Generator',
-            description: 'Dynamic invoice generator with export and user-friendly interface.',
-            longDescription: 'A dynamic invoice generation tool that lets users create, preview, and export professional invoices in just a few clicks, with a clean and user-friendly interface built for speed.',
-            tags: ['JavaScript', 'HTML/CSS'],
-            image: './img/4.png',
-            screenshots: ['./img/PP4/1.png', './img/PP4/2.png', './img/PP4/3.png', './img/PP4/4.png'],
-            repo: 'https://github.com/shahrishabh1513-jsk/nova-invoice-generator',
-            demo: 'https://shahrishabh1513-jsk.github.io/nova-invoice-generator/',
-            report: './pdf/invoice-generator-report.pdf'
+            title: 'Vehicle Number Plate Detection',
+            description: 'Computer vision project that detects and reads vehicle number plates from images.',
+            longDescription: 'A computer vision project that detects vehicle number plates from images and extracts the plate text using image processing techniques. Documented with a detailed project report.',
+            tags: ['Python', 'OpenCV', 'Computer Vision'],
+            image: './img/PP12/1.png',
+            screenshots: ['./img/PP12/1.png', './img/PP12/2.png', './img/PP12/3.png'],
+            repo: 'https://github.com/shahrishabh1513-jsk/vehicle-number-plate-detection',
+            report: 'https://github.com/shahrishabh1513-jsk/vehicle-number-plate-detection/blob/main/Vehicle_Number_Plate_Detection_Project_Report.pdf'
         },
         {
             title: 'Caria',
@@ -52,10 +50,29 @@ document.addEventListener('DOMContentLoaded', function () {
             longDescription: 'A modern, responsive web project exploring interactive UI components, smooth transitions, and a component-driven approach to front-end development.',
             tags: ['JavaScript', 'HTML/CSS'],
             image: './img/5.png',
-            screenshots: ['./img/PP5/1.png', './img/PP5/2.png', './img/PP5/3.png','./img/PP5/4.png', './img/PP5/5.png'],
+            screenshots: ['./img/PP5/1.png', './img/PP5/2.png', './img/PP5/3.png', './img/PP5/4.png', './img/PP5/5.png'],
             repo: 'https://github.com/shahrishabh1513-jsk/Caria',
-            demo: 'https://shahrishabh1513-jsk.github.io/Caria/',
-            report: './pdf/caria-report.pdf'
+            demo: 'https://shahrishabh1513-jsk.github.io/Caria/'
+        },
+        {
+            title: 'Indian Used Car Price Prediction',
+            description: 'Machine learning project that predicts used car prices in India using data analysis, feature engineering, and predictive modeling.',
+            longDescription: 'A machine learning project that predicts the resale value of used cars in the Indian market, combining exploratory data analysis, feature engineering, and predictive modeling for reliable price estimates.',
+            tags: ['Python', 'Pandas', 'NumPy', 'Scikit-learn', 'Machine Learning'],
+            image: './img/15.jpg',
+            screenshots: ['img/PP9/1.jpg'],
+            repo: 'https://github.com/shahrishabh1513-jsk/Indian-Used-Car-Price-Prediction',
+            report: 'https://github.com/shahrishabh1513-jsk/Indian-Used-Car-Price-Prediction/blob/main/Indian_Used_Car_Price_Prediction.pdf'
+        },
+        {
+            title: 'RT Invoice Generator',
+            description: 'Dynamic invoice generator with export and user-friendly interface.',
+            longDescription: 'A dynamic invoice generation tool that lets users create, preview, and export professional invoices in just a few clicks, with a clean and user-friendly interface built for speed.',
+            tags: ['JavaScript', 'HTML/CSS'],
+            image: './img/4.png',
+            screenshots: ['./img/PP4/1.png', './img/PP4/2.png', './img/PP4/3.png', './img/PP4/4.png'],
+            repo: 'https://github.com/shahrishabh1513-jsk/RT-invoice-generator',
+            demo: 'https://shahrishabh1513-jsk.github.io/RT-invoice-generator/'
         },
         {
             title: 'House Price Prediction',
@@ -65,41 +82,37 @@ document.addEventListener('DOMContentLoaded', function () {
             image: './img/12.png',
             screenshots: ['./img/PP6/1.png'],
             repo: 'https://github.com/shahrishabh1513-jsk/house-price-prediction-ds',
-            demo: 'https://github.com/shahrishabh1513-jsk/house-price-prediction-ds',
-            report: './pdf/house-price-prediction-report.pdf'
+            report: 'https://github.com/shahrishabh1513-jsk/house-price-prediction-ds/blob/main/RISHABH_SHAH_MINI_PROJECT_IT181_DS.pdf'
         },
         {
-            title: 'RT-RoyalBNB',
-            description: 'Luxury hotel and resort booking website featuring elegant UI, responsive design, and seamless user experience.',
-            longDescription: 'A luxury hotel and resort booking experience with an elegant visual language, smooth booking flow, and fully responsive design tailored for hospitality brands.',
-            tags: ['HTML', 'CSS', 'JavaScript'],
-            image: './img/13.jpg',
-            screenshots: ['img/PP7/1.jpg', './img/PP7/2.png', './img/PP7/3.png','./img/PP7/4.png'],
-            repo: 'https://github.com/shahrishabh1513-jsk/RT-RoyalBNB',
-            demo: 'https://shahrishabh1513-jsk.github.io/RT-RoyalBNB/',
-            report: './pdf/rt-royalbnb-report.pdf'
-        },
-        {
-            title: 'RT-GroceryHub',
+            title: 'RT GroceryHub',
             description: 'Modern grocery shopping website with product categories, responsive layout, and user-friendly navigation.',
             longDescription: 'A modern online grocery shopping experience with organized product categories, a responsive layout, and intuitive navigation designed for quick and easy browsing.',
             tags: ['HTML', 'CSS', 'JavaScript'],
             image: './img/14.jpg',
-            screenshots: ['img/PP8/1.jpg', './img/PP8/2.png', './img/PP8/3.png','./img/PP8/4.png'],
+            screenshots: ['img/PP8/1.jpg', './img/PP8/2.png', './img/PP8/3.png', './img/PP8/4.png'],
             repo: 'https://github.com/shahrishabh1513-jsk/RT-Groceryhub',
-            demo: 'https://shahrishabh1513-jsk.github.io/RT-Groceryhub/',
-            report: './pdf/rt-groceryhub-report.pdf'
+            demo: 'https://shahrishabh1513-jsk.github.io/RT-Groceryhub/'
         },
         {
-            title: 'Indian Used Car Price Predictor',
-            description: 'Machine learning project that predicts used car prices in India using data analysis, feature engineering, and predictive modeling.',
-            longDescription: 'A machine learning project that predicts the resale value of used cars in the Indian market, combining exploratory data analysis, feature engineering, and predictive modeling for reliable price estimates.',
-            tags: ['Python', 'Pandas', 'NumPy', 'Scikit-learn', 'Machine Learning'],
-            image: './img/15.jpg',
-            screenshots: ['img/PP9/1.jpg'],
-            repo: 'https://github.com/shahrishabh1513-jsk/Indian-Used-Car-Price-Prediction',
-            demo: 'https://github.com/shahrishabh1513-jsk/Indian-Used-Car-Price-Prediction',
-            report: './pdf/indian-used-car-price-predictor-report.pdf'
+            title: 'RT RoyalBNB',
+            description: 'Luxury hotel and resort booking website featuring elegant UI, responsive design, and seamless user experience.',
+            longDescription: 'A luxury hotel and resort booking experience with an elegant visual language, smooth booking flow, and fully responsive design tailored for hospitality brands.',
+            tags: ['HTML', 'CSS', 'JavaScript'],
+            image: './img/13.jpg',
+            screenshots: ['img/PP7/1.jpg', './img/PP7/2.png', './img/PP7/3.png', './img/PP7/4.png'],
+            repo: 'https://github.com/shahrishabh1513-jsk/RT-RoyalBNB',
+            demo: 'https://shahrishabh1513-jsk.github.io/RT-RoyalBNB/'
+        },
+        {
+            title: 'Student Management System',
+            description: 'Attendance tracking system with analytics dashboard and export functionality.',
+            longDescription: 'An attendance tracking system built for educational use, with a live analytics dashboard, attendance history, and one-click export functionality. Designed to make daily attendance management fast and error-free for teachers.',
+            tags: ['PHP', 'JavaScript', 'MySQL', 'Chart.js'],
+            image: './img/2.png',
+            screenshots: ['./img/PP2/1.png', './img/PP2/2.png', './img/PP2/3.png', './img/PP2/4.png'],
+            repo: 'https://github.com/shahrishabh1513-jsk/student-attendance-system-Description-',
+            demo: 'https://bscit-attendance.netlify.app/'
         }
     ];
 
@@ -267,7 +280,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 ${project.tags.map(tag => `<span class="modal-tag">${tag}</span>`).join('')}
             </div>
             <div class="modal-btn-row">
-                <a href="${project.demo}" target="_blank" class="modal-btn modal-btn-live"><i class="fa-solid fa-arrow-up-right-from-square"></i> Live Project</a>
+                ${project.demo ? `<a href="${project.demo}" target="_blank" class="modal-btn modal-btn-live"><i class="fa-solid fa-arrow-up-right-from-square"></i> Live Project</a>` : ''}
                 <a href="${project.repo}" target="_blank" class="modal-btn modal-btn-code"><i class="fab fa-github"></i> Project Code</a>
                 ${project.report ? `<a href="${project.report}" target="_blank" class="modal-btn modal-btn-report"><i class="fa-solid fa-file-pdf"></i> View Project Report</a>` : ''}
             </div>
