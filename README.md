@@ -1,14 +1,7 @@
 <div align="center">
 
-<a href="https://rishabh-shah-portfolio.netlify.app/">
-    <img src="https://github.com/user-attachments/assets/99854d9a-254f-4f65-a722-d6a176608fc2" 
-         alt="Rishabh Shah Logo" 
-         width="750" 
-         style="border-radius: 20px; box-shadow: 0 0 20px rgba(142, 45, 226, 0.4); transition: transform 0.3s ease, box-shadow 0.3s ease;" 
-         onmouseover="this.style.transform='scale(1.05)'; this.style.boxShadow='0 0 40px rgba(142, 45, 226, 0.7)';" 
-         onmouseout="this.style.transform='scale(1)'; this.style.boxShadow='0 0 20px rgba(142, 45, 226, 0.4)';"/>
-  </a>
-  <br/>
+<img align="right" src="https://github.com/user-attachments/assets/41de0edc-f0a3-474a-9156-d8b3d10d41ba" width="140" alt="Shah Rishabh badge logo"/>
+<img align="left" src="https://github.com/user-attachments/assets/90c19f97-8b0b-4df1-96c4-a288d337503c" width="140" alt="Shah Rishabh badge logo"/>
 
 [![Live Demo](https://img.shields.io/badge/🔴_LIVE_DEMO-View_Portfolio-8E2DE2?style=for-the-badge)](https://rishabh-shah-portfolio.netlify.app/)
 [![Repository](https://img.shields.io/badge/📂_Repository-View_Code-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/shahrishabh1513-jsk/Rishabh_shah-portfolio)
@@ -55,7 +48,7 @@
 <div align="center">
 
 <a href="https://rishabh-shah-portfolio.netlify.app/" target="_blank">
-  <img src="https://api.microlink.io/?url=https%3A%2F%2Frishabh-shah-portfolio.netlify.app%2F&screenshot=true&meta=false&embed=screenshot.url&waitFor=2000" alt="Portfolio Website Preview" width="90%" style="border-radius:12px; box-shadow: 0 8px 24px rgba(0,0,0,0.25);"/>
+  <img src="https://github.com/user-attachments/assets/ef1d22d9-94f8-4060-a1f8-91917a7ddba3" alt="Portfolio Website Preview" width="90%" style="border-radius:12px; box-shadow: 0 8px 24px rgba(0,0,0,0.25);"/>
 </a>
 
 <sub>👆 Click the preview to explore the live portfolio</sub>
@@ -210,9 +203,8 @@ cd Rishabh_shah-portfolio
 ## 🌟 Screenshots
 
 <div align="center">
-
-<img src="https://api.microlink.io/?url=https%3A%2F%2Frishabh-shah-portfolio.netlify.app%2F%23about&screenshot=true&meta=false&embed=screenshot.url&waitFor=2000" width="45%" style="border-radius:10px;"/>
-<img src="https://api.microlink.io/?url=https%3A%2F%2Frishabh-shah-portfolio.netlify.app%2F%23projects&screenshot=true&meta=false&embed=screenshot.url&waitFor=2000" width="45%" style="border-radius:10px;"/>
+<img src="https://github.com/user-attachments/assets/bc770447-1e8b-4bda-a5f9-6dbe0bf19f72" hight="45%" width="45%" style="border-radius:10px;"/>
+<img src="https://github.com/user-attachments/assets/0510d722-19bc-42d3-b2ab-c9992c0f29c8" hight="55%" width="45%" style="border-radius:10px;"/>
 
 </div>
 
