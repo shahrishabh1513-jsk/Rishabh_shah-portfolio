@@ -26,7 +26,6 @@
 
 <br clear="both"/>
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:14B8A6,100:3B82F6&height=3&section=header" width="100%" alt=""/
 
 <div align="center">
 
