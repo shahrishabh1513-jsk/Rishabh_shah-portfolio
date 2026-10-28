@@ -26,9 +26,7 @@
 
 <br clear="both"/>
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:14B8A6,100:3B82F6&height=3&section=header" width="100%" alt=""/>
-
-<!-- ───────────── TABLE OF CONTENTS ───────────── -->
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:14B8A6,100:3B82F6&height=3&section=header" width="100%" alt=""/
 
 <div align="center">
 
@@ -49,8 +47,6 @@
 </div>
 
 <img src="https://capsule-render.vercel.app/api?type=rect&color=0:3B82F6,100:14B8A6&height=3&section=header" width="100%" alt=""/>
-
-<!-- ───────────── LIVE PREVIEW ───────────── -->
 
 <a id="live-preview"></a>
 
@@ -73,8 +69,6 @@
 
 <img src="https://capsule-render.vercel.app/api?type=rect&color=0:14B8A6,100:3B82F6&height=3&section=header" width="100%" alt=""/>
 
-<!-- ───────────── ABOUT ───────────── -->
-
 <a id="about"></a>
 
 ## 📖 About The Project
@@ -96,8 +90,6 @@ This is my **personal developer portfolio** — a fully responsive, animated sin
 
 <img src="https://capsule-render.vercel.app/api?type=rect&color=0:3B82F6,100:14B8A6&height=3&section=header" width="100%" alt=""/>
 
-<!-- ───────────── FEATURES ───────────── -->
-
 <a id="features"></a>
 
 ## ✨ Key Features
@@ -111,8 +103,6 @@ This is my **personal developer portfolio** — a fully responsive, animated sin
 | 🎓 **Education** timeline<br/>💼 **Work experience** highlights<br/>🛠️ **Technical skills** breakdown<br/>🚀 **Featured projects** (JavaScript, Python, HTML, Pandas, MySQL)<br/>🏆 **Certificates** from IBM, Google, AWS & Canva | 🧱 Clean, modular **file structure**<br/>⚡ Lightweight & **fast-loading**<br/>🌐 Cross-browser compatible<br/>🚫 **Zero dependencies** — pure HTML, CSS & JS<br/>🚀 Hosted on **Netlify** |
 
 <img src="https://capsule-render.vercel.app/api?type=rect&color=0:14B8A6,100:3B82F6&height=3&section=header" width="100%" alt=""/>
-
-<!-- ───────────── PORTFOLIO SECTIONS ───────────── -->
 
 <a id="sections"></a>
 
@@ -163,7 +153,6 @@ Rishabh_shah-portfolio/
 
 <img src="https://capsule-render.vercel.app/api?type=rect&color=0:3B82F6,100:14B8A6&height=3&section=header" width="100%" alt=""/>
 
-<!-- ───────────── GETTING STARTED ───────────── -->
 
 <a id="getting-started"></a>
 
@@ -198,8 +187,6 @@ python -m http.server 5500      # then visit http://localhost:5500
 
 <img src="https://capsule-render.vercel.app/api?type=rect&color=0:14B8A6,100:3B82F6&height=3&section=header" width="100%" alt=""/>
 
-<!-- ───────────── SCREENSHOTS ───────────── -->
-
 <a id="screenshots"></a>
 
 ## 🌟 Screenshots
@@ -212,8 +199,6 @@ python -m http.server 5500      # then visit http://localhost:5500
 </div>
 
 <img src="https://capsule-render.vercel.app/api?type=rect&color=0:3B82F6,100:14B8A6&height=3&section=header" width="100%" alt=""/>
-
-<!-- ───────────── DEPLOYMENT ───────────── -->
 
 <a id="deployment"></a>
 
@@ -230,8 +215,6 @@ This site is a static project, so deploying is simple:
 
 <img src="https://capsule-render.vercel.app/api?type=rect&color=0:14B8A6,100:3B82F6&height=3&section=header" width="100%" alt=""/>
 
-<!-- ───────────── ROADMAP ───────────── -->
-
 <a id="roadmap"></a>
 
 ## 🧭 Roadmap
@@ -246,8 +229,6 @@ This site is a static project, so deploying is simple:
 
 <img src="https://capsule-render.vercel.app/api?type=rect&color=0:3B82F6,100:14B8A6&height=3&section=header" width="100%" alt=""/>
 
-<!-- ───────────── CONTRIBUTING ───────────── -->
-
 ## 🤝 Contributing
 
 This is a personal portfolio, but suggestions and feedback are always welcome!
@@ -260,7 +241,6 @@ This is a personal portfolio, but suggestions and feedback are always welcome!
 
 <img src="https://capsule-render.vercel.app/api?type=rect&color=0:14B8A6,100:3B82F6&height=3&section=header" width="100%" alt=""/>
 
-<!-- ───────────── CONTACT ───────────── -->
 
 <a id="contact"></a>
 
