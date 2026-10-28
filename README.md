@@ -1,8 +1,3 @@
-
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:14B8A6,100:3B82F6&height=130&section=header" width="100%" alt="Header wave"/>
-
-<!-- ───────────── TOP SECTION: logos left & right, content centered between ───────────── -->
 <img align="right" src="https://github.com/user-attachments/assets/41de0edc-f0a3-474a-9156-d8b3d10d41ba" width="140" alt="Shah Rishabh badge logo"/>
 <img align="left" src="https://github.com/user-attachments/assets/90c19f97-8b0b-4df1-96c4-a288d337503c" width="140" alt="Shah Rishabh badge logo"/>
 
@@ -134,7 +129,6 @@ This is my **personal developer portfolio** — a fully responsive, animated sin
 
 <img src="https://capsule-render.vercel.app/api?type=rect&color=0:3B82F6,100:14B8A6&height=3&section=header" width="100%" alt=""/>
 
-<!-- ───────────── TECH STACK ───────────── -->
 
 <a id="tech-stack"></a>
 
@@ -148,8 +142,6 @@ This is my **personal developer portfolio** — a fully responsive, animated sin
 | 🚀 **Hosting** | ![Netlify](https://img.shields.io/badge/Netlify-F59E0B?style=for-the-badge&logo=netlify&logoColor=0B1220) |
 
 <img src="https://capsule-render.vercel.app/api?type=rect&color=0:14B8A6,100:3B82F6&height=3&section=header" width="100%" alt=""/>
-
-<!-- ───────────── FOLDER STRUCTURE ───────────── -->
 
 <a id="structure"></a>
 
