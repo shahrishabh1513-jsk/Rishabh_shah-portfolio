@@ -7,8 +7,8 @@ document.addEventListener('DOMContentLoaded', function () {
             description: 'Frozen snacks and French fries brand website with product showcase and responsive design.',
             longDescription: 'A complete brand website for RT Food, showcasing frozen snacks and French fries with a clean product presentation, company information, and a fully responsive layout. Documented with a detailed project report.',
             tags: ['HTML', 'CSS', 'JavaScript'],
-            image: './img/PP10/1.png',
-            screenshots: ['./img/PP10/1.png', './img/PP10/2.png', './img/PP10/3.png', './img/PP10/4.png'],
+            image: './img/projects/rt-food/1.jpg',
+            screenshots: ['./img/projects/rt-food/1.jpg', './img/projects/rt-food/2.jpg', './img/projects/rt-food/3.jpg', './img/projects/rt-food/4.jpg', './img/projects/rt-food/5.jpg', './img/projects/rt-food/6.jpg'],
             repo: 'https://github.com/shahrishabh1513-jsk/RT-Food-Frozen-Snacks',
             demo: 'https://shahrishabh1513-jsk.github.io/RT-Food-Frozen-Snacks/',
             report: 'https://github.com/shahrishabh1513-jsk/RT-Food-Frozen-Snacks/blob/main/RT_FOOD_Project_Report.pdf'
@@ -18,8 +18,8 @@ document.addEventListener('DOMContentLoaded', function () {
             description: 'Student management system for handling student records with a clean, user-friendly interface.',
             longDescription: 'RT SMS is a Student Management System designed to organize and manage student records through a clean, intuitive interface. Documented with a detailed project report.',
             tags: ['HTML', 'CSS', 'JavaScript'],
-            image: './img/PP11/1.png',
-            screenshots: ['./img/PP11/1.png', './img/PP11/2.png', './img/PP11/3.png', './img/PP11/4.png'],
+            image: './img/projects/rt-sms/1.jpg',
+            screenshots: ['./img/projects/rt-sms/1.jpg', './img/projects/rt-sms/2.jpg', './img/projects/rt-sms/3.jpg', './img/projects/rt-sms/4.jpg', './img/projects/rt-sms/5.jpg', './img/projects/rt-sms/6.jpg'],
             repo: 'https://github.com/shahrishabh1513-jsk/RT-SMS-Student-Manegment-System',
             demo: 'https://shahrishabh1513-jsk.github.io/RT-SMS-Student-Manegment-System/',
             report: 'https://github.com/shahrishabh1513-jsk/RT-SMS-Student-Manegment-System/blob/main/RT_SMS_Project_Report.pdf'
@@ -30,7 +30,7 @@ document.addEventListener('DOMContentLoaded', function () {
             longDescription: 'A modern fashion brand website with a bold visual identity, animated product showcase sections, and a shopping-friendly layout built entirely with vanilla HTML, CSS and JavaScript.',
             tags: ['HTML', 'CSS', 'JavaScript'],
             image: './img/3.png',
-            screenshots: ['./img/PP3/1.png', './img/PP3/2.png', './img/PP3/3.png', './img/PP3/4.png'],
+            screenshots: ['./img/projects/rt-fashion-world/1.jpg', './img/projects/rt-fashion-world/2.jpg', './img/projects/rt-fashion-world/3.jpg', './img/projects/rt-fashion-world/4.jpg', './img/projects/rt-fashion-world/5.jpg', './img/projects/rt-fashion-world/6.jpg'],
             repo: 'https://github.com/shahrishabh1513-jsk/RT_Fashion-World',
             demo: 'https://shahrishabh1513-jsk.github.io/RT_Fashion-World/'
         },
@@ -39,8 +39,8 @@ document.addEventListener('DOMContentLoaded', function () {
             description: 'Computer vision project that detects and reads vehicle number plates from images.',
             longDescription: 'A computer vision project that detects vehicle number plates from images and extracts the plate text using image processing techniques. Documented with a detailed project report.',
             tags: ['Python', 'OpenCV', 'Computer Vision'],
-            image: './img/PP12/1.png',
-            screenshots: ['./img/PP12/1.png', './img/PP12/2.png', './img/PP12/3.png'],
+            image: './img/projects/vehicle-plate/1.jpg',
+            screenshots: ['./img/projects/vehicle-plate/1.jpg', './img/projects/vehicle-plate/2.jpg', './img/projects/vehicle-plate/3.jpg', './img/projects/vehicle-plate/4.jpg', './img/projects/vehicle-plate/5.jpg'],
             repo: 'https://github.com/shahrishabh1513-jsk/vehicle-number-plate-detection',
             report: 'https://github.com/shahrishabh1513-jsk/vehicle-number-plate-detection/blob/main/Vehicle_Number_Plate_Detection_Project_Report.pdf'
         },
@@ -50,7 +50,7 @@ document.addEventListener('DOMContentLoaded', function () {
             longDescription: 'A modern, responsive web project exploring interactive UI components, smooth transitions, and a component-driven approach to front-end development.',
             tags: ['JavaScript', 'HTML/CSS'],
             image: './img/5.png',
-            screenshots: ['./img/PP5/1.png', './img/PP5/2.png', './img/PP5/3.png', './img/PP5/4.png', './img/PP5/5.png'],
+            screenshots: ['./img/projects/caria/1.jpg', './img/projects/caria/2.jpg', './img/projects/caria/3.jpg', './img/projects/caria/4.jpg', './img/projects/caria/5.jpg', './img/projects/caria/6.jpg'],
             repo: 'https://github.com/shahrishabh1513-jsk/Caria',
             demo: 'https://shahrishabh1513-jsk.github.io/Caria/'
         },
@@ -60,7 +60,7 @@ document.addEventListener('DOMContentLoaded', function () {
             longDescription: 'A machine learning project that predicts the resale value of used cars in the Indian market, combining exploratory data analysis, feature engineering, and predictive modeling for reliable price estimates.',
             tags: ['Python', 'Pandas', 'NumPy', 'Scikit-learn', 'Machine Learning'],
             image: './img/15.jpg',
-            screenshots: ['img/PP9/1.jpg'],
+            screenshots: ['./img/projects/indian-used-car/1.jpg', './img/projects/indian-used-car/2.jpg', './img/projects/indian-used-car/3.jpg', './img/projects/indian-used-car/4.jpg', './img/projects/indian-used-car/5.jpg', './img/projects/indian-used-car/6.jpg'],
             repo: 'https://github.com/shahrishabh1513-jsk/Indian-Used-Car-Price-Prediction',
             report: 'https://github.com/shahrishabh1513-jsk/Indian-Used-Car-Price-Prediction/blob/main/Indian_Used_Car_Price_Prediction.pdf'
         },
@@ -70,7 +70,7 @@ document.addEventListener('DOMContentLoaded', function () {
             longDescription: 'A dynamic invoice generation tool that lets users create, preview, and export professional invoices in just a few clicks, with a clean and user-friendly interface built for speed.',
             tags: ['JavaScript', 'HTML/CSS'],
             image: './img/4.png',
-            screenshots: ['./img/PP4/1.png', './img/PP4/2.png', './img/PP4/3.png', './img/PP4/4.png'],
+            screenshots: ['./img/projects/rt-invoice-generator/1.jpg', './img/projects/rt-invoice-generator/2.jpg', './img/projects/rt-invoice-generator/3.jpg'],
             repo: 'https://github.com/shahrishabh1513-jsk/RT-invoice-generator',
             demo: 'https://shahrishabh1513-jsk.github.io/RT-invoice-generator/'
         },
@@ -80,7 +80,7 @@ document.addEventListener('DOMContentLoaded', function () {
             longDescription: 'A data science project focused on predicting housing prices using regression models trained on real-world datasets. Involved data cleaning, feature engineering, and model evaluation using Pandas, NumPy, and Scikit-learn.',
             tags: ['Python', 'Pandas', 'NumPy', 'Scikit-learn'],
             image: './img/12.png',
-            screenshots: ['./img/PP6/1.png'],
+            screenshots: ['./img/projects/house-price/1.jpg', './img/projects/house-price/2.jpg', './img/projects/house-price/3.jpg', './img/projects/house-price/4.jpg'],
             repo: 'https://github.com/shahrishabh1513-jsk/house-price-prediction-ds',
             report: 'https://github.com/shahrishabh1513-jsk/house-price-prediction-ds/blob/main/RISHABH_SHAH_MINI_PROJECT_IT181_DS.pdf'
         },
@@ -90,7 +90,7 @@ document.addEventListener('DOMContentLoaded', function () {
             longDescription: 'A modern online grocery shopping experience with organized product categories, a responsive layout, and intuitive navigation designed for quick and easy browsing.',
             tags: ['HTML', 'CSS', 'JavaScript'],
             image: './img/14.jpg',
-            screenshots: ['img/PP8/1.jpg', './img/PP8/2.png', './img/PP8/3.png', './img/PP8/4.png'],
+            screenshots: ['./img/projects/rt-groceryhub/1.jpg', './img/projects/rt-groceryhub/2.jpg', './img/projects/rt-groceryhub/3.jpg', './img/projects/rt-groceryhub/4.jpg', './img/projects/rt-groceryhub/5.jpg', './img/projects/rt-groceryhub/6.jpg'],
             repo: 'https://github.com/shahrishabh1513-jsk/RT-Groceryhub',
             demo: 'https://shahrishabh1513-jsk.github.io/RT-Groceryhub/'
         },
@@ -100,7 +100,7 @@ document.addEventListener('DOMContentLoaded', function () {
             longDescription: 'A luxury hotel and resort booking experience with an elegant visual language, smooth booking flow, and fully responsive design tailored for hospitality brands.',
             tags: ['HTML', 'CSS', 'JavaScript'],
             image: './img/13.jpg',
-            screenshots: ['img/PP7/1.jpg', './img/PP7/2.png', './img/PP7/3.png', './img/PP7/4.png'],
+            screenshots: ['./img/projects/rt-royalbnb/1.jpg', './img/projects/rt-royalbnb/2.jpg', './img/projects/rt-royalbnb/3.jpg', './img/projects/rt-royalbnb/4.jpg', './img/projects/rt-royalbnb/5.jpg', './img/projects/rt-royalbnb/6.jpg', './img/projects/rt-royalbnb/7.jpg'],
             repo: 'https://github.com/shahrishabh1513-jsk/RT-RoyalBNB',
             demo: 'https://shahrishabh1513-jsk.github.io/RT-RoyalBNB/'
         },
@@ -110,7 +110,7 @@ document.addEventListener('DOMContentLoaded', function () {
             longDescription: 'An attendance tracking system built for educational use, with a live analytics dashboard, attendance history, and one-click export functionality. Designed to make daily attendance management fast and error-free for teachers.',
             tags: ['PHP', 'JavaScript', 'MySQL', 'Chart.js'],
             image: './img/2.png',
-            screenshots: ['./img/PP2/1.png', './img/PP2/2.png', './img/PP2/3.png', './img/PP2/4.png'],
+            screenshots: ['./img/projects/student-management/1.jpg', './img/projects/student-management/2.jpg', './img/projects/student-management/3.jpg', './img/projects/student-management/4.jpg', './img/projects/student-management/5.jpg'],
             repo: 'https://github.com/shahrishabh1513-jsk/student-attendance-system-Description-',
             demo: 'https://bscit-attendance.netlify.app/'
         }
