@@ -1,226 +1,260 @@
-<div align="center">
 
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:14B8A6,100:3B82F6&height=130&section=header" width="100%" alt="Header wave"/>
+
+<!-- ───────────── TOP SECTION: logos left & right, content centered between ───────────── -->
 <img align="right" src="https://github.com/user-attachments/assets/41de0edc-f0a3-474a-9156-d8b3d10d41ba" width="140" alt="Shah Rishabh badge logo"/>
 <img align="left" src="https://github.com/user-attachments/assets/90c19f97-8b0b-4df1-96c4-a288d337503c" width="140" alt="Shah Rishabh badge logo"/>
 
-[![Live Demo](https://img.shields.io/badge/🔴_LIVE_DEMO-View_Portfolio-8E2DE2?style=for-the-badge)](https://rishabh-shah-portfolio.netlify.app/)
-[![Repository](https://img.shields.io/badge/📂_Repository-View_Code-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/shahrishabh1513-jsk/Rishabh_shah-portfolio)
-[![Star](https://img.shields.io/github/stars/shahrishabh1513-jsk/Rishabh_shah-portfolio?style=for-the-badge&color=4A00E0&label=⭐%20STARS)](https://github.com/shahrishabh1513-jsk/Rishabh_shah-portfolio/stargazers)
+<div align="center">
+
+<a href="https://rishabh-shah-portfolio.netlify.app/">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=34&duration=4000&pause=100&color=14B8A6&center=true&vCenter=true&repeat=false&width=500&height=55&lines=RISHABH+SHAH" alt="Rishabh Shah"/>
+</a>
+
+<a href="https://rishabh-shah-portfolio.netlify.app/">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=18&duration=2800&pause=1000&color=06B6D4&center=true&vCenter=true&width=500&height=35&lines=Full-Stack+Developer;HTML+%2F+CSS+%2F+JavaScript;Python+%2F+SQL+%2F+MongoDB;Designed+with+purpose+%26+passion" alt="Typing animation"/>
+</a>
 
 <br/>
 
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![Netlify](https://img.shields.io/badge/Deployed_on-Netlify-00C7B7?style=for-the-badge&logo=netlify&logoColor=white)
+[![Live Demo](https://img.shields.io/badge/LIVE_DEMO-View_Portfolio-F59E0B?style=for-the-badge&logo=netlify&logoColor=F59E0B&labelColor=0B1220)](https://rishabh-shah-portfolio.netlify.app/)
+[![Source Code](https://img.shields.io/badge/SOURCE-View_Code-14B8A6?style=for-the-badge&logo=github&logoColor=14B8A6&labelColor=0B1220)](https://github.com/shahrishabh1513-jsk/Rishabh_shah-portfolio)
+[![Stars](https://img.shields.io/github/stars/shahrishabh1513-jsk/Rishabh_shah-portfolio?style=for-the-badge&logo=github&logoColor=3B82F6&color=3B82F6&labelColor=0B1220)](https://github.com/shahrishabh1513-jsk/Rishabh_shah-portfolio/stargazers)
 
-<img src="https://img.shields.io/github/last-commit/shahrishabh1513-jsk/Rishabh_shah-portfolio?style=flat-square&color=8E2DE2&label=Last%20Updated"/>
-<img src="https://img.shields.io/github/languages/top/shahrishabh1513-jsk/Rishabh_shah-portfolio?style=flat-square&color=4A00E0"/>
-<img src="https://img.shields.io/badge/Status-Live%20✅-brightgreen?style=flat-square"/>
-<img src="https://img.shields.io/badge/Responsive-100%25-success?style=flat-square"/>
-<img src="https://img.shields.io/badge/License-MIT-yellow?style=flat-square"/>
+![Last Commit](https://img.shields.io/github/last-commit/shahrishabh1513-jsk/Rishabh_shah-portfolio?style=flat-square&color=06B6D4&labelColor=0B1220&label=Last%20Updated)
+![Top Language](https://img.shields.io/github/languages/top/shahrishabh1513-jsk/Rishabh_shah-portfolio?style=flat-square&color=14B8A6&labelColor=0B1220)
+![Repo Size](https://img.shields.io/github/repo-size/shahrishabh1513-jsk/Rishabh_shah-portfolio?style=flat-square&color=3B82F6&labelColor=0B1220)
+![Status](https://img.shields.io/badge/Status-Live-14B8A6?style=flat-square&labelColor=0B1220)
 
 </div>
 
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
+<br clear="both"/>
 
-## 📌 Table of Contents
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:14B8A6,100:3B82F6&height=3&section=header" width="100%" alt=""/>
+
+<!-- ───────────── TABLE OF CONTENTS ───────────── -->
 
 <div align="center">
 
-[![Preview](https://img.shields.io/badge/🔍_Preview-8E2DE2?style=for-the-badge)](#-live-preview)
-[![About](https://img.shields.io/badge/📖_About-7A1FD1?style=for-the-badge)](#-about-the-project)
-[![Features](https://img.shields.io/badge/✨_Features-6614C2?style=for-the-badge)](#-key-features)
-[![Sections](https://img.shields.io/badge/🧑‍💻_Sections-5209B3?style=for-the-badge)](#-portfolio-sections)
-[![Tech Stack](https://img.shields.io/badge/🛠️_Tech_Stack-4A00E0?style=for-the-badge)](#️-tech-stack)
-[![Structure](https://img.shields.io/badge/📂_Structure-5209B3?style=for-the-badge)](#-folder-structure)
-[![Setup](https://img.shields.io/badge/🚀_Setup-6614C2?style=for-the-badge)](#-getting-started)
-[![Gallery](https://img.shields.io/badge/🌟_Gallery-7A1FD1?style=for-the-badge)](#-screenshots)
-[![Roadmap](https://img.shields.io/badge/🧭_Roadmap-8E2DE2?style=for-the-badge)](#-roadmap)
-[![Contact](https://img.shields.io/badge/📬_Contact-9B2FE8?style=for-the-badge)](#-contact)
+## 📌 Table of Contents
+
+[![Preview](https://img.shields.io/badge/Live_Preview-14B8A6?style=for-the-badge)](#live-preview)
+[![About](https://img.shields.io/badge/About-06B6D4?style=for-the-badge)](#about)
+[![Features](https://img.shields.io/badge/Features-3B82F6?style=for-the-badge)](#features)
+[![Sections](https://img.shields.io/badge/Sections-14B8A6?style=for-the-badge)](#sections)
+[![Tech Stack](https://img.shields.io/badge/Tech_Stack-06B6D4?style=for-the-badge)](#tech-stack)
+[![Structure](https://img.shields.io/badge/Structure-3B82F6?style=for-the-badge)](#structure)
+[![Setup](https://img.shields.io/badge/Setup-14B8A6?style=for-the-badge)](#getting-started)
+[![Screenshots](https://img.shields.io/badge/Screenshots-06B6D4?style=for-the-badge)](#screenshots)
+[![Deployment](https://img.shields.io/badge/Deployment-3B82F6?style=for-the-badge)](#deployment)
+[![Roadmap](https://img.shields.io/badge/Roadmap-14B8A6?style=for-the-badge)](#roadmap)
+[![Contact](https://img.shields.io/badge/Contact-F59E0B?style=for-the-badge)](#contact)
 
 </div>
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:8E2DE2,100:4A00E0&height=3&section=header"/>
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:3B82F6,100:14B8A6&height=3&section=header" width="100%" alt=""/>
+
+<!-- ───────────── LIVE PREVIEW ───────────── -->
+
+<a id="live-preview"></a>
 
 ## 🔍 Live Preview
 
 <div align="center">
 
-<a href="https://rishabh-shah-portfolio.netlify.app/" target="_blank">
-  <img src="https://github.com/user-attachments/assets/ef1d22d9-94f8-4060-a1f8-91917a7ddba3" alt="Portfolio Website Preview" width="90%" style="border-radius:12px; box-shadow: 0 8px 24px rgba(0,0,0,0.25);"/>
+<a href="https://rishabh-shah-portfolio.netlify.app/">
+  <img src="https://github.com/user-attachments/assets/ef1d22d9-94f8-4060-a1f8-91917a7ddba3" alt="Rishabh Shah Portfolio — Live Preview" width="92%"/>
 </a>
 
-<sub>👆 Click the preview to explore the live portfolio</sub>
+**👆 Click the preview to explore the live portfolio**
 
-<br/><br/>
+[![Visit Live Portfolio](https://img.shields.io/badge/Visit-Live_Portfolio-F59E0B?style=for-the-badge&logo=googlechrome&logoColor=0B1220&labelColor=0B1220)](https://rishabh-shah-portfolio.netlify.app/)
+[![Download Resume](https://img.shields.io/badge/Download-Resume_PDF-06B6D4?style=for-the-badge&logo=adobeacrobatreader&logoColor=06B6D4&labelColor=0B1220)](https://rishabh-shah-portfolio.netlify.app/pdf/Rishabh%20Shah%20Resume.pdf)
 
-<a href="https://rishabh-shah-portfolio.netlify.app/" target="_blank">
-  <img src="https://img.shields.io/badge/🌐_Visit_Live_Portfolio-8E2DE2?style=for-the-badge&logoColor=white"/>
-</a>
+🌐 `https://rishabh-shah-portfolio.netlify.app`
 
 </div>
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:4A00E0,100:8E2DE2&height=3&section=header"/>
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:14B8A6,100:3B82F6&height=3&section=header" width="100%" alt=""/>
+
+<!-- ───────────── ABOUT ───────────── -->
+
+<a id="about"></a>
 
 ## 📖 About The Project
 
-This is my **personal developer portfolio** — a fully responsive, animated single-page website built to showcase who I am, what I build, and how I've grown as a developer. It highlights my **education, work experience, technical skills, featured projects, and certifications**, all wrapped in a clean, modern, dark-themed UI with smooth scroll and hover animations.
+This is my **personal developer portfolio** — a fully responsive, animated single-page website built to show who I am, what I build, and how I've grown as a developer. It brings together my **education, work experience, technical skills, featured projects, and certifications** in a clean, modern interface with smooth scrolling, hover effects, and a desktop-style file explorer for projects and certificates.
 
 > 💬 *"Designed with purpose & passion."*
 
-**A quick snapshot of me:**
+**A quick snapshot of me**
 
 | | |
 |---|---|
-| 🎓 **Currently Pursuing** | B.Sc. Information Technology, P. P. Savani University (CGPA: 8.00) |
-| 💼 **Experience** | Web Development Intern @ Rainbow IT Services, Bharuch, Gujarat |
+| 👨‍💻 **Name** | Rishabh Alpeshabhai Shah |
+| 🎯 **Role** | Full-Stack Developer (in the making) |
+| 🎓 **Education** | B.Sc. Information Technology — P. P. Savani University (2023 – Present, CGPA 8.00) |
+| 💼 **Experience** | Web Development Intern @ Rainbow IT Services, Bharuch, Gujarat (Dec 2025 – Jun 2026) |
 | 📈 **Journey** | 2+ Years Learning • 15+ Projects • ∞ Curiosity |
 | 🧠 **Core Skills** | HTML5, CSS3, JavaScript, PHP, Python, SQL, C++, MongoDB |
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:8E2DE2,100:4A00E0&height=3&section=header"/>
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:3B82F6,100:14B8A6&height=3&section=header" width="100%" alt=""/>
+
+<!-- ───────────── FEATURES ───────────── -->
+
+<a id="features"></a>
 
 ## ✨ Key Features
 
-<table>
-<tr>
-<td width="50%" valign="top">
+| 🎨 Design & UX | 🧩 Functionality |
+|:---|:---|
+| 📱 Fully **responsive** on every screen size<br/>🎞️ Smooth **scroll-triggered animations**<br/>🌙 Sleek, modern **dark-themed** UI<br/>🧭 Sticky **smooth-scroll navigation** with numbered sections<br/>♾️ Scrolling **skills ticker** & animated counters | 📄 **One-click resume** download<br/>📁 **Finder-style project explorer** — double-click a folder to open a project<br/>🏅 **Finder-style certificate viewer** — open a file to view a certificate<br/>✉️ Direct **WhatsApp / Email / LinkedIn / GitHub** links |
 
-### 🎨 Design & UX
-- 📱 Fully **responsive** across all devices
-- 🎞️ Smooth **scroll-triggered animations**
-- 🌙 Sleek **dark-themed**, modern UI
-- 🧭 Single-page **smooth-scroll navigation**
+| 🧑‍💻 Content | ⚙️ Engineering |
+|:---|:---|
+| 🎓 **Education** timeline<br/>💼 **Work experience** highlights<br/>🛠️ **Technical skills** breakdown<br/>🚀 **Featured projects** (JavaScript, Python, HTML, Pandas, MySQL)<br/>🏆 **Certificates** from IBM, Google, AWS & Canva | 🧱 Clean, modular **file structure**<br/>⚡ Lightweight & **fast-loading**<br/>🌐 Cross-browser compatible<br/>🚫 **Zero dependencies** — pure HTML, CSS & JS<br/>🚀 Hosted on **Netlify** |
 
-</td>
-<td width="50%" valign="top">
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:14B8A6,100:3B82F6&height=3&section=header" width="100%" alt=""/>
 
-### 🧩 Functionality
-- 📄 **One-click resume download**
-- 🖼️ Dynamic **featured projects** showcase
-- 🏆 **Certificates & achievements** section
-- ✉️ Direct **WhatsApp / Email / Social** contact links
+<!-- ───────────── PORTFOLIO SECTIONS ───────────── -->
 
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-### 🧑‍💻 Content
-- 🎓 **Education timeline**
-- 💼 **Work experience** highlights
-- 🛠️ **Technical skills** breakdown
-- 📊 Achievement counters (years, projects, curiosity 😄)
-
-</td>
-<td width="50%" valign="top">
-
-### ⚙️ Engineering
-- 🧱 Clean, modular **file structure**
-- ⚡ Lightweight & **fast-loading**
-- 🌐 Cross-browser compatible
-- 🚀 Deployed via **Netlify** with CI/CD
-
-</td>
-</tr>
-</table>
-
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:4A00E0,100:8E2DE2&height=3&section=header"/>
+<a id="sections"></a>
 
 ## 🧑‍💻 Portfolio Sections
 
-<div align="center">
+| # | Section | What's inside |
+|:---:|:---|:---|
+| **01** | 🏠 **Hero** | Introduction, role, *"Let's Work Together"* button, social links & resume download |
+| **02** | ℹ️ **About Me** | Bio, core skills, contact info, education & work experience, achievement counters |
+| **03** | 💼 **Featured Projects** | Finder-style project folders with tags and GitHub links |
+| **04** | ⚡ **Technical Skills** | Detailed breakdown of tools & technologies |
+| **05** | 🏆 **Certificates & Awards** | Finder-style certificate viewer (IBM, Google, AWS, Canva) |
+| **06** | 📞 **Get In Touch** | WhatsApp, Email, GitHub & LinkedIn |
 
-| Section | Description |
-|:---:|---|
-| 🏠 **Hero** | Introduction, role, resume download & social links |
-| ℹ️ **About Me** | Bio, education timeline & work experience |
-| 🧰 **Core Skills** | HTML5, CSS3, JavaScript, PHP, Python, SQL, C++, MongoDB |
-| 💼 **Featured Projects** | Showcase of top personal & academic projects |
-| ⚡ **Technical Skills** | Detailed breakdown of tools & technologies |
-| 🏆 **Certificates & Awards** | Achievements and recognitions |
-| 📞 **Get In Touch** | WhatsApp, Email, GitHub & LinkedIn contact links |
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:3B82F6,100:14B8A6&height=3&section=header" width="100%" alt=""/>
 
-</div>
+<!-- ───────────── TECH STACK ───────────── -->
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:8E2DE2,100:4A00E0&height=3&section=header"/>
+<a id="tech-stack"></a>
 
 ## 🛠️ Tech Stack
 
-<div align="center">
+| Layer | Technologies |
+|:---|:---|
+| 🧩 **Built with** | ![HTML5](https://img.shields.io/badge/HTML5-14B8A6?style=for-the-badge&logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/CSS3-14B8A6?style=for-the-badge&logo=css3&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-14B8A6?style=for-the-badge&logo=javascript&logoColor=white) |
+| 🧠 **Skills showcased** | ![Python](https://img.shields.io/badge/Python-06B6D4?style=for-the-badge&logo=python&logoColor=white) ![PHP](https://img.shields.io/badge/PHP-06B6D4?style=for-the-badge&logo=php&logoColor=white) ![MySQL](https://img.shields.io/badge/SQL-06B6D4?style=for-the-badge&logo=mysql&logoColor=white) ![MongoDB](https://img.shields.io/badge/MongoDB-06B6D4?style=for-the-badge&logo=mongodb&logoColor=white) ![C++](https://img.shields.io/badge/C++-06B6D4?style=for-the-badge&logo=cplusplus&logoColor=white) ![Pandas](https://img.shields.io/badge/Pandas-06B6D4?style=for-the-badge&logo=pandas&logoColor=white) |
+| 🔧 **Tooling** | ![VS Code](https://img.shields.io/badge/VS_Code-3B82F6?style=for-the-badge&logo=visualstudiocode&logoColor=white) ![Git](https://img.shields.io/badge/Git-3B82F6?style=for-the-badge&logo=git&logoColor=white) ![GitHub](https://img.shields.io/badge/GitHub-3B82F6?style=for-the-badge&logo=github&logoColor=white) |
+| 🚀 **Hosting** | ![Netlify](https://img.shields.io/badge/Netlify-F59E0B?style=for-the-badge&logo=netlify&logoColor=0B1220) |
 
-| 🧩 Category | 🚀 Technology | 📝 Purpose | 🏷️ Badge |
-|:---:|:---:|:---|:---:|
-| **Markup** | HTML5 | Semantic page structure & accessibility | ![HTML5](https://img.shields.io/badge/-E34F26?style=flat-square&logo=html5&logoColor=white) |
-| **Styling** | CSS3 | Flexbox, Grid, animations & media queries | ![CSS3](https://img.shields.io/badge/-1572B6?style=flat-square&logo=css3&logoColor=white) |
-| **Interactivity** | JavaScript | Scroll effects, interactions & logic | ![JavaScript](https://img.shields.io/badge/-F7DF1E?style=flat-square&logo=javascript&logoColor=black) |
-| **Backend Skill** | Python | Scripting & problem solving | ![Python](https://img.shields.io/badge/-3776AB?style=flat-square&logo=python&logoColor=white) |
-| **Database Skill** | MongoDB | NoSQL database familiarity | ![MongoDB](https://img.shields.io/badge/-47A248?style=flat-square&logo=mongodb&logoColor=white) |
-| **Editor** | VS Code | Development environment | ![VSCode](https://img.shields.io/badge/-007ACC?style=flat-square&logo=visualstudiocode&logoColor=white) |
-| **Version Control** | Git & GitHub | Source control & collaboration | ![Git](https://img.shields.io/badge/-F05032?style=flat-square&logo=git&logoColor=white) ![GitHub](https://img.shields.io/badge/-181717?style=flat-square&logo=github&logoColor=white) |
-| **Deployment** | Netlify | Continuous deployment & hosting | ![Netlify](https://img.shields.io/badge/-00C7B7?style=flat-square&logo=netlify&logoColor=white) |
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:14B8A6,100:3B82F6&height=3&section=header" width="100%" alt=""/>
 
-</div>
+<!-- ───────────── FOLDER STRUCTURE ───────────── -->
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:4A00E0,100:8E2DE2&height=3&section=header"/>
+<a id="structure"></a>
 
 ## 📂 Folder Structure
 
-```bash
+```
 Rishabh_shah-portfolio/
 │
-├── img/                 # Profile & project images
-├── pdf/                  # Resume (Rishabh Shah Resume.pdf)
+├── .vscode/          # Editor settings
+├── img/              # Profile, logo & project images
+├── pdf/              # Resume (Rishabh Shah Resume.pdf)
 │
-├── index.html             # Main single-page portfolio
-├── css/                     # Stylesheets
-├── js/                       # JavaScript (animations, interactions)
+├── index.html        # Single-page portfolio markup
+├── style.css         # Styles, layout, responsive rules & animations
+├── script.js         # Scroll effects, interactions & explorer windows
 │
-└── README.md                  # Project documentation
+└── README.md         # Project documentation
 ```
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:8E2DE2,100:4A00E0&height=3&section=header"/>
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:3B82F6,100:14B8A6&height=3&section=header" width="100%" alt=""/>
+
+<!-- ───────────── GETTING STARTED ───────────── -->
+
+<a id="getting-started"></a>
 
 ## 🚀 Getting Started
 
-Run this project locally in a few simple steps:
+Run the project locally in three quick steps:
 
 ```bash
-# 1️⃣ Clone the repository
+# 1️⃣  Clone the repository
 git clone https://github.com/shahrishabh1513-jsk/Rishabh_shah-portfolio.git
 
-# 2️⃣ Navigate into the project directory
+# 2️⃣  Move into the project folder
 cd Rishabh_shah-portfolio
 
-# 3️⃣ Open index.html in your browser
-#    (or use the Live Server extension in VS Code)
+# 3️⃣  Open index.html in your browser
+#     …or use the "Live Server" extension in VS Code
+#     …or run a tiny local server:
+python -m http.server 5500      # then visit http://localhost:5500
 ```
 
-✅ No build tools, dependencies, or installations required — it's a pure **HTML/CSS/JS** project. Just open and explore!
+✅ No build tools, packages, or installs needed — it's a pure **HTML / CSS / JS** project.
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:4A00E0,100:8E2DE2&height=3&section=header"/>
+**🎨 Make it your own**
+
+| To change… | Edit… |
+|:---|:---|
+| Text, links & sections | `index.html` |
+| Colors, fonts & layout | `style.css` |
+| Animations & interactions | `script.js` |
+| Photos & logos | `img/` |
+| Resume | `pdf/` (keep the file name or update the link in `index.html`) |
+
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:14B8A6,100:3B82F6&height=3&section=header" width="100%" alt=""/>
+
+<!-- ───────────── SCREENSHOTS ───────────── -->
+
+<a id="screenshots"></a>
 
 ## 🌟 Screenshots
 
 <div align="center">
-<img src="https://github.com/user-attachments/assets/bc770447-1e8b-4bda-a5f9-6dbe0bf19f72" hight="45%" width="45%" style="border-radius:10px;"/>
-<img src="https://github.com/user-attachments/assets/0510d722-19bc-42d3-b2ab-c9992c0f29c8" hight="55%" width="45%" style="border-radius:10px;"/>
+
+<img src="https://github.com/user-attachments/assets/bc770447-1e8b-4bda-a5f9-6dbe0bf19f72" width="49%" alt="Portfolio screenshot 1"/>
+<img src="https://github.com/user-attachments/assets/0510d722-19bc-42d3-b2ab-c9992c0f29c8" width="49%" alt="Portfolio screenshot 2"/>
 
 </div>
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:8E2DE2,100:4A00E0&height=3&section=header"/>
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:3B82F6,100:14B8A6&height=3&section=header" width="100%" alt=""/>
+
+<!-- ───────────── DEPLOYMENT ───────────── -->
+
+<a id="deployment"></a>
+
+## ☁️ Deployment
+
+This site is a static project, so deploying is simple:
+
+1. Push the repository to GitHub.
+2. In **Netlify**, choose **Add new site → Import an existing project** and select this repo.
+3. Leave the **build command** empty and set the **publish directory** to `/` (the project root).
+4. Click **Deploy** — every new push to `main` redeploys automatically.
+
+> 💡 You can also drag & drop the project folder into Netlify, or enable **GitHub Pages** from the repo settings.
+
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:14B8A6,100:3B82F6&height=3&section=header" width="100%" alt=""/>
+
+<!-- ───────────── ROADMAP ───────────── -->
+
+<a id="roadmap"></a>
 
 ## 🧭 Roadmap
 
 - [x] Responsive single-page layout
 - [x] Animated hero & about sections
-- [x] Featured projects showcase
+- [x] Finder-style projects & certificates explorer
 - [x] Resume download integration
-- [ ] 🌐 Blog / articles section
+- [ ] 📝 Blog / articles section
 - [ ] 🌗 Light mode toggle
 - [ ] 🗣️ Testimonials section
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:4A00E0,100:8E2DE2&height=3&section=header"/>
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:3B82F6,100:14B8A6&height=3&section=header" width="100%" alt=""/>
+
+<!-- ───────────── CONTRIBUTING ───────────── -->
 
 ## 🤝 Contributing
 
@@ -228,11 +262,15 @@ This is a personal portfolio, but suggestions and feedback are always welcome!
 
 1. 🍴 Fork the project
 2. 🌿 Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. 💾 Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+3. 💾 Commit your changes (`git commit -m "Add some AmazingFeature"`)
 4. 📤 Push to the branch (`git push origin feature/AmazingFeature`)
 5. 🔁 Open a Pull Request
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:8E2DE2,100:4A00E0&height=3&section=header"/>
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:14B8A6,100:3B82F6&height=3&section=header" width="100%" alt=""/>
+
+<!-- ───────────── CONTACT ───────────── -->
+
+<a id="contact"></a>
 
 ## 📬 Contact
 
@@ -240,25 +278,26 @@ This is a personal portfolio, but suggestions and feedback are always welcome!
 
 **Rishabh Alpeshabhai Shah**
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-8E2DE2?style=for-the-badge&logo=netlify&logoColor=white)](https://rishabh-shah-portfolio.netlify.app/)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/rishabh-alpeshabhai-shah-91b9072a6/)
-[![Gmail](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:shahrishu1515@gmail.com)
-[![WhatsApp](https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://wa.me/917861976128)
+[![Portfolio](https://img.shields.io/badge/Portfolio-F59E0B?style=for-the-badge&logo=netlify&logoColor=0B1220)](https://rishabh-shah-portfolio.netlify.app/)
+[![GitHub](https://img.shields.io/badge/GitHub-14B8A6?style=for-the-badge&logo=github&logoColor=white)](https://github.com/shahrishabh1513-jsk)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-3B82F6?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/rishabh-alpeshabhai-shah-91b9072a6/)
+[![Email](https://img.shields.io/badge/Email-06B6D4?style=for-the-badge&logo=gmail&logoColor=white)](mailto:shahrishu1515@gmail.com)
+[![WhatsApp](https://img.shields.io/badge/WhatsApp-14B8A6?style=for-the-badge&logo=whatsapp&logoColor=white)](https://wa.me/917861976128)
 
 </div>
 
----
+<br/>
 
 <div align="center">
 
 ### ⭐ If you like this project, give it a star — it helps a lot!
 
-<img src="https://komarev.com/ghpvc/?username=rishabh-shah-portfolio&label=Repo%20Views&color=8E2DE2&style=for-the-badge" alt="Repo Views" />
+![Repo Views](https://komarev.com/ghpvc/?username=shahrishabh1513-jsk-portfolio&label=Repo%20Views&color=14B8A6&style=for-the-badge)
 
-<br/>
+**Made with 💻 & 💙 by Rishabh Shah**
 
-**Made with 💻 & 💜 by Rishabh Shah**
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:4A00E0,100:8E2DE2&height=120&section=footer"/>
+*✧ Designed with purpose & passion ✧*
 
 </div>
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:3B82F6,100:14B8A6&height=120&section=footer" width="100%" alt="Footer wave"/>
