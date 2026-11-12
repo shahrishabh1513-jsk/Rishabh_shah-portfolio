@@ -192,8 +192,9 @@ python -m http.server 5500      # then visit http://localhost:5500
 
 <div align="center">
 
-<img src="https://github.com/user-attachments/assets/bc770447-1e8b-4bda-a5f9-6dbe0bf19f72" width="49%" alt="Portfolio screenshot 1"/>
-<img src="https://github.com/user-attachments/assets/0510d722-19bc-42d3-b2ab-c9992c0f29c8" width="49%" alt="Portfolio screenshot 2"/>
+<img width="1630" height="698" alt="image" src="https://github.com/user-attachments/assets/c43634b3-2a9c-444b-94df-eaf405257a37" />
+<img width="1592" height="682" alt="image" src="https://github.com/user-attachments/assets/66d43fb4-7c10-4059-b578-53671d90ab61" />
+<img width="1421" height="650" alt="image" src="https://github.com/user-attachments/assets/25613f0c-4092-4188-9ffd-b2690dfb4e8a" />
 
 </div>
 
