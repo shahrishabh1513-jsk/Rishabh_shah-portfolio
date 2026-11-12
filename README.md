@@ -54,7 +54,7 @@
 <div align="center">
 
 <a href="https://rishabh-shah-portfolio.netlify.app/">
-  <img src="https://github.com/user-attachments/assets/ef1d22d9-94f8-4060-a1f8-91917a7ddba3" alt="Rishabh Shah Portfolio — Live Preview" width="92%"/>
+  <img src="https://github.com/user-attachments/assets/c5397a5f-38a6-473a-a8d3-7cc828af8938" alt="Rishabh Shah Portfolio — Live Preview" width="92%"/>
 </a>
 
 **👆 Click the preview to explore the live portfolio**
