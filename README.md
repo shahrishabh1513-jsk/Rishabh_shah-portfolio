@@ -68,6 +68,22 @@
 
 <img src="https://capsule-render.vercel.app/api?type=rect&color=0:14B8A6,100:3B82F6&height=3&section=header" width="100%" alt=""/>
 
+## 🎬 Portfolio Website Demo
+
+<div align="center">
+
+https://github.com/user-attachments/assets/9f36767a-9fac-4306-8db1-61ed7c7ec4b9
+
+**👆 Watch my complete portfolio website walkthrough**
+
+[![Visit Live Portfolio](https://img.shields.io/badge/🌐_VISIT_LIVE_PORTFOLIO-14B8A6?style=for-the-badge)](https://rishabh-shah-portfolio.netlify.app/)
+
+</div>
+
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:3B82F6,100:14B8A6&height=3&section=header" width="100%" alt=""/>
+
+
+
 <a id="about"></a>
 
 ## 📖 About The Project
