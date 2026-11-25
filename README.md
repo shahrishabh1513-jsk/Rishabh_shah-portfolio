@@ -72,7 +72,7 @@
 
 <div align="center">
 
-https://github.com/user-attachments/assets/9f36767a-9fac-4306-8db1-61ed7c7ec4b9
+https://github.com/user-attachments/assets/e68c4dba-3fcc-44cf-b1c3-50506f228da4
 
 **👆 Watch my complete portfolio website walkthrough**
 
@@ -81,8 +81,6 @@ https://github.com/user-attachments/assets/9f36767a-9fac-4306-8db1-61ed7c7ec4b9
 </div>
 
 <img src="https://capsule-render.vercel.app/api?type=rect&color=0:3B82F6,100:14B8A6&height=3&section=header" width="100%" alt=""/>
-
-
 
 <a id="about"></a>
 
