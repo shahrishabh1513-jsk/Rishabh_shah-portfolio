@@ -53,31 +53,12 @@
 
 <div align="center">
 
-<a href="https://rishabh-shah-portfolio.netlify.app/">
-  <img src="https://github.com/user-attachments/assets/c5397a5f-38a6-473a-a8d3-7cc828af8938" alt="Rishabh Shah Portfolio — Live Preview" width="92%"/>
-</a>
-
-**👆 Click the preview to explore the live portfolio**
-
-[![Visit Live Portfolio](https://img.shields.io/badge/Visit-Live_Portfolio-F59E0B?style=for-the-badge&logo=googlechrome&logoColor=0B1220&labelColor=0B1220)](https://rishabh-shah-portfolio.netlify.app/)
-[![Download Resume](https://img.shields.io/badge/Download-Resume_PDF-06B6D4?style=for-the-badge&logo=adobeacrobatreader&logoColor=06B6D4&labelColor=0B1220)](https://rishabh-shah-portfolio.netlify.app/pdf/Rishabh%20Shah%20Resume.pdf)
-
-🌐 `https://rishabh-shah-portfolio.netlify.app`
-
-</div>
-
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:14B8A6,100:3B82F6&height=3&section=header" width="100%" alt=""/>
-
-## 🎬 Portfolio Website Demo
-
-<div align="center">
-
 https://github.com/user-attachments/assets/e68c4dba-3fcc-44cf-b1c3-50506f228da4
 
 **👆 Watch my complete portfolio website walkthrough**
-
+<a href="https://rishabh-shah-portfolio.netlify.app/">
 [![Visit Live Portfolio](https://img.shields.io/badge/🌐_VISIT_LIVE_PORTFOLIO-14B8A6?style=for-the-badge)](https://rishabh-shah-portfolio.netlify.app/)
-
+</a>
 </div>
 
 <img src="https://capsule-render.vercel.app/api?type=rect&color=0:3B82F6,100:14B8A6&height=3&section=header" width="100%" alt=""/>
